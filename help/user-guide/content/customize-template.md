@@ -3,9 +3,9 @@ title: Personalizar plantillas
 description: Obtenga información sobre cómo crear una plantilla personalizada para GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 423956d6fdbf5b31041d44eb434f90d55a87d7c0
+source-git-commit: 6870f1b7056219d03cabbcc4e5ddbfa436b1a56d
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,8 @@ ht-degree: 0%
 
 Puede adaptar las plantillas de HTML para GenStudio mediante el lenguaje de plantilla _Handlebars_. La sintaxis de Handlebars utiliza texto normal con llaves dobles como marcadores de posición de contenido. Consulte [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) en la _Guía de idioma de Handlebars_ para aprender a preparar la plantilla.
 
-## Estructura de plantilla
-
 <!-- This is for email. In the future, maybe use tabs to provide guidance for other template types.
--->
-
-Si no tiene una plantilla de HTML lista para usar en GenStudio, puede empezar por definir la estructura del correo electrónico con las etiquetas de HTML: `DOCTYPE`, `html`, `head` y `body`. Puede incluir estilos CSS para personalizar el aspecto del correo electrónico.
+-->If you do not have an HTML template ready to use in GenStudio, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
 
 ```html
 <!DOCTYPE html>
@@ -35,13 +31,15 @@ Si no tiene una plantilla de HTML lista para usar en GenStudio, puede empezar po
 </html>
 ```
 
+Ver [ejemplos de plantillas](#template-examples).
+
 >[!TIP]
 >
->En las siguientes secciones, añada marcadores de posición de contenido para campos de correo electrónico, oculte elementos innecesarios de la vista previa y administre vínculos a contenido estático. Una vez que la plantilla esté lista, puedes [cargarla en GenStudio](use-templates.md#upload-a-template) y empezar a generar correos electrónicos personalizados basados en la plantilla personalizada.
+>En las siguientes secciones, añada marcadores de posición de contenido para campos de correo electrónico, consulte plantillas de ejemplo, ocultar elementos innecesarios de la vista previa y administrar vínculos a contenido estático. Una vez que la plantilla esté lista, puedes [cargarla en GenStudio](use-templates.md#upload-a-template) y empezar a generar correos electrónicos personalizados basados en la plantilla personalizada.
 
 ## Marcadores de contenido
 
-Dentro del encabezado o del cuerpo de la plantilla, puede utilizar la sintaxis de Handlebars para insertar marcadores de posición de contenido donde requiera que GenStudio rellene el correo electrónico con contenido real. GenStudio reconoce e interpreta los marcadores de posición de contenido automáticamente en función del nombre del campo.
+Dentro del encabezado o del cuerpo de una plantilla, puede utilizar la sintaxis de Handlebars para insertar marcadores de posición de contenido donde necesite que GenStudio rellene la plantilla con contenido real. GenStudio reconoce e interpreta los marcadores de posición de contenido automáticamente en función del nombre del campo.
 
 Por ejemplo, puede usar `{{ headline }}` para indicar dónde se debe colocar el titular del correo electrónico:
 
@@ -49,27 +47,68 @@ Por ejemplo, puede usar `{{ headline }}` para indicar dónde se debe colocar el 
 <div>{{ headline }}</div>
 ```
 
+### Nombres de campo
+
 El número máximo de campos permitidos en una plantilla personalizada es de veinte.
 
-**Nombres de campo reconocidos**:
+#### Nombres de campo reconocidos
+
+En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio para su rellenado en plantillas.
 
 | Campo | Función | Plantilla de canal |
 | -------------- | ---------------------- | -------------------- |
-| `pre_header` | Encabezado previo | email |
-| `headline` | Titular | correo electrónico<br>anuncio social |
-| `body` | Copia de cuerpo | correo electrónico<br>anuncio social |
-| `cta` | Llamada a la acción | correo electrónico<br>anuncio social |
-| `on_image_text` | En texto de imagen | anuncio social |
-| `image` | Imagen | correo electrónico<br>anuncio social |
-| `brand_logo` | Logotipo de la marca seleccionada | anuncio social |
+| `pre_header` | Encabezado previo | correo electrónico (recomendado) |
+| `headline` | Titular | correo electrónico (recomendado)<br>Meta ad |
+| `body` | Copia de cuerpo | correo electrónico (recomendado)<br>Meta ad |
+| `cta` | Llamada a la acción | correo electrónico (recomendado)<br>Meta ad |
+| `on_image_text` | En texto de imagen | Meta anuncio (recomendado) |
+| `image` | Imagen | correo electrónico (recomendado)<br>Meta ad (recomendado) |
+| `brand_logo` | Logotipo de la marca seleccionada | Meta anuncio |
 
->[!IMPORTANT]
+GenStudio rellena automáticamente ciertos campos en las plantillas, por lo que no es necesario incluirlos en sus diseños de plantilla:
+
+* Campo `subject` (plantilla de correo electrónico)
+* Campos de `headline`, `body` y `CTA` (plantilla de anuncio meta)
+
+>[!WARNING]
 >
->GenStudio proporciona automáticamente a la plantilla de correo electrónico un campo `subject` durante el proceso [!DNL Create], por lo que no es necesario incluir el campo de asunto en la plantilla.
+>En el caso de los anuncios de Instagram, el titular generado no aparece en la experiencia final.
 
-+++Ejemplo: Plantilla básica
+#### Nombres de campo manuales
 
-El siguiente es un ejemplo básico de una plantilla de HTML para correo electrónico. El encabezado contiene CSS en línea simple para el estilo. El cuerpo contiene un marcador de posición `pre-header`, `headline` y `image` que GenStudio usará para insertar contenido durante el proceso de generación de correo electrónico.
+Todos los demás nombres de campo se tratan como campos rellenados manualmente. Si desea que una sección pueda editarse, agregue corchetes dobles alrededor de la sección que desee editar.
+
+> Ejemplo: ``{{customVariable}}`` (customVariable es la sección editable manualmente)
+
+## Secciones o grupos
+
+_Las secciones_ informan a GenStudio de que los campos de esta sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección.
+
+Utilice un prefijo de su elección en el nombre del campo para indicar que un campo forma parte de una sección o grupo.
+
+Por ejemplo, es posible que desee resaltar el contenido que aparece en un área resaltada:
+
+* `spotlight_headline`
+* `spotlight_body`
+
+Cada sección solo puede tener uno de cada tipo de campo. En el ejemplo anterior, el prefijo `spotlight` solo puede tener un campo `spotlight_headline`.
+
+Una plantilla puede incluir hasta tres secciones:
+
+* `headline`
+* `body`
+* `spotlight_headline`
+* `spotlight_body`
+* `news_headline`
+* `news_body`
+
+GenStudio entiende que `spotlight_headline` está más relacionado con `spotlight_body` que con `news_body`.
+
+## Ejemplos de plantillas
+
++++Ejemplo: Plantilla de correo electrónico con una sección
+
+El siguiente es un ejemplo básico de una plantilla de HTML para un correo electrónico que contiene una sección. El encabezado contiene CSS en línea simple para el estilo. El cuerpo contiene `pre-header`, `headline` y `image` [marcador de posición](#content-placeholders) que GenStudio usará para insertar contenido durante el proceso de generación de correo electrónico.
 
 ```handlebars {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
@@ -99,35 +138,9 @@ El siguiente es un ejemplo básico de una plantilla de HTML para correo electró
 
 +++
 
-### Imagen de fondo
++++Ejemplo: Plantilla de correo electrónico con varias secciones
 
-Al diseñar un anuncio para Meta, es importante utilizar una imagen de fondo complementada por texto y una superposición de logotipo de marca. Para garantizar la escala adecuada de la imagen, las plantillas de publicidad Meta requieren que se especifique un `aspect ratio`. En este contexto, solo se puede proporcionar un campo de imagen.
-
-## Secciones o grupos
-
-_Las secciones_ proporcionan una forma de informar a GenStudio de que los campos que pertenecen a una sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección. Una plantilla puede incluir hasta tres secciones.
-
-Utilice un prefijo de su elección en el nombre del campo para indicar que este campo forma parte de una sección o grupo. Por ejemplo, es posible que desee resaltar el contenido que aparece en un área resaltada. Puede elegir identificar el contenido de esta área con un prefijo común:
-
-- `spotlight_headline`
-- `spotlight_body`
-
-Cada sección solo puede tener una de un tipo de campo. Por ejemplo, el grupo de ejemplo anterior con el prefijo `spotlight` solo puede tener un campo `spotlight_headline`.
-
-Cuando tiene varias secciones (tres como máximo):
-
-- `headline`
-- `body`
-- `spotlight_headline`
-- `spotlight_body`
-- `news_headline`
-- `news_body`
-
-GenStudio entiende que `spotlight_headline` está más relacionado con `spotlight_body` que con `news_body`.
-
-+++Ejemplo: Plantilla con varias secciones
-
-La siguiente es la misma plantilla de HTML en el ejemplo anterior, pero con dos secciones más. El encabezado contiene CSS en línea para aplicar estilo a un pod. El cuerpo utiliza dos pods con marcadores de posición de contenido con un prefijo.
+La siguiente es la misma plantilla de HTML en el ejemplo anterior, pero con dos secciones más. El encabezado contiene CSS en línea para aplicar estilo a un grupo. El cuerpo usa dos grupos con [marcadores de posición de contenido](#content-placeholders) con un prefijo.
 
 ```handlebars {line-numbers="true" highlight="33"}
 <!DOCTYPE html>
@@ -177,11 +190,67 @@ La siguiente es la misma plantilla de HTML en el ejemplo anterior, pero con dos 
 
 +++
 
++++Ejemplo: plantilla de meta-anuncio
+
+El siguiente es un ejemplo básico de una plantilla de publicidad Meta. El encabezado contiene CSS en línea para el estilo. El cuerpo usa [marcadores de posición de contenido](#content-placeholders) con un prefijo.
+
+```handlebars {line-numbers="true" highlight="33"}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe</title>
+    <style>
+        .ad-container {
+            width: 300px;
+            border: 1px solid #ddd;
+            padding: 16px;
+            font-family: Arial, sans-serif;
+        }
+        .ad-image {
+            width: 100%;
+            height: auto;
+        }
+        .ad-headline {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 12px 0;
+        }
+        .ad-body {
+            font-size: 14px;
+            margin: 12px 0;
+        }
+        .ad-cta {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="ad-container">
+    <img src="{{ image }}" alt="Ad Image" class="ad-image">
+    <div class="ad-headline">"{{ headline }}"</div>
+    <div class="ad-body">"{{ body }}"</div>
+    <a href="(https://example.com)" class="ad-cta">"{{ CTA }}"</a>
+</div>
+
+</body>
+</html>
+```
+
++++
+
 ## Previsualización de plantilla
 
-Las plantillas de correo electrónico a veces contienen contenido especial que no es necesario para la vista previa en GenStudio. Puede controlar la visibilidad de este contenido mediante los Ayudantes integrados, que son expresiones especiales en el lenguaje de plantilla Handlebars que ayudan a realizar determinadas acciones.
+Controle la visibilidad del contenido especial mediante los Ayudantes integrados (expresiones especiales en el lenguaje de plantilla Handlebars que realizan determinadas acciones). Por ejemplo, puede añadir parámetros de seguimiento a los vínculos en la plantilla exportada mientras mantiene limpios los vínculos de vista previa.
 
-El valor `_genStudio.browser` se establece al procesar una plantilla y el valor `genStudio.export` se establece al exportar una plantilla. Puede decidir incluir cierto contenido en la parte superior de los correos electrónicos mediante un envoltorio condicional, por ejemplo, cuando la plantilla se utiliza para la exportación:
+El valor `_genStudio.browser` se establece al procesar una plantilla y el valor `genStudio.export` se establece al exportar una plantilla. Puede decidir incluir cierto contenido en la parte superior de un correo electrónico mediante un envoltorio condicional, por ejemplo, cuando la plantilla se utiliza para la exportación:
 
 ```handlebars
 {{#if _genStudio.export}}
@@ -189,7 +258,7 @@ El valor `_genStudio.browser` se establece al procesar una plantilla y el valor 
 {{/if}}
 ```
 
-Otro ejemplo puede ser evitar el uso de códigos de seguimiento al obtener una vista previa de una plantilla de correo electrónico en GenStudio. Este ejemplo muestra cómo añadir parámetros de seguimiento a los vínculos en la plantilla exportada, manteniendo limpios los vínculos de vista previa:
+Otro ejemplo puede ser evitar el uso de códigos de seguimiento al obtener una vista previa de una plantilla en GenStudio. Este ejemplo muestra cómo añadir parámetros de seguimiento a los vínculos en la plantilla exportada, manteniendo limpios los vínculos de vista previa:
 
 ```handlebars
 <a class="button" {{#if _genStudio.browser }}
