@@ -2,7 +2,7 @@
 title: Contenido aprobado por Publish
 description: Obtenga información sobre cómo publicar contenido aprobado.
 feature: Approval, Content
-source-git-commit: 6da5eb91db34e3b91430d513f3af5de1cd380222
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

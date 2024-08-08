@@ -2,7 +2,7 @@
 title: Validación de marca en GenStudio
 description: Descubra cómo funciona el sistema de validación de marca integrado en GenStudio.
 feature: Brands Service, Guidelines
-source-git-commit: 12af1741c368666a56ff8663b8b3dfe2087d7e54
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -32,9 +32,9 @@ Ver [Mejorar la alineación de la marca](#improve-brand-alignment).
 
 ## Panel de validación de marca
 
-El _panel Validación de marca_ proporciona información detallada sobre la validación de marca e ilustra las oportunidades de mejora para cada fragmento de variante.
+El _panel de validación de marca_ proporciona información detallada sobre la validación de marca e ilustra las oportunidades de mejora para cada fragmento de variante.
 
-El _panel Validación de marca_ muestra información para:
+El _panel de validación de marca_ muestra información para:
 
 * **Correo electrónico**:
    * Fragmento de línea de asunto
@@ -53,13 +53,13 @@ Ver [Mejorar la alineación de la marca](#improve-brand-alignment).
 
 ### Filter
 
-En el _panel Validación de marca_ puede filtrar qué directrices se muestran. Haga clic en el icono de filtro en la parte superior del panel para ver:
+En el _panel de validación de marca_ puede filtrar qué directrices se muestran. Haga clic en el icono de filtro en la parte superior del panel para ver:
 
 * **Directrices con errores**—_Mostrar directrices con errores_ solo muestra las directrices que no superaron la validación de marca.
 * **Todas las directrices**—_Se han producido errores al mostrar y se han aprobado las directrices_. Muestra todas las directrices para las que se miden las variantes.
 * **Directrices aprobadas**—_Mostrar las directrices aprobadas_ solo muestra las directrices que han superado la validación de marca.
 
-<!-- The _Brand Validation panel_ has different areas of focus for each content channel:
+<!-- The _Brand validation panel_ has different areas of focus for each content channel:
 
 * Email - brand voice and channel compliance
 * Images - application photography restrictions and other considerations -->

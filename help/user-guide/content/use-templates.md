@@ -2,7 +2,7 @@
 title: Trabajo con plantillas
 description: Aprenda a utilizar las plantillas para crear experiencias atractivas en GenStudio.
 feature: Templates, Content
-source-git-commit: 6870f1b7056219d03cabbcc4e5ddbfa436b1a56d
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 2%
@@ -73,7 +73,7 @@ Busque y utilice una plantilla existente para crear experiencias.
 
 1. En _[!DNL Content]_, seleccione la sección **[!UICONTROL Plantillas]**.
 
-   ![Lista de plantillas de contenido](../../assets/content-templates.png)
+   ![Lista de plantillas de contenido](../../assets/content-templates.png){width="650" zoomable="yes"}
 
 1. Seleccione una plantilla para una vista completa y una lista de detalles.
 

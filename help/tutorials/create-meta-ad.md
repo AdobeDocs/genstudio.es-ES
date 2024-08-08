@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: 12af1741c368666a56ff8663b8b3dfe2087d7e54
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,8 @@ Para empezar a generar una nueva experiencia de publicidad de metadatos, utilice
 **Para elegir una plantilla Meta ad**:
 
 1. En _[!DNL Create]_, haga clic en **[!UICONTROL Meta ads]**en_ &quot;¿Qué desea crear hoy?&quot;_sección.
-1. En la vista _Seleccionar plantilla_, cambie el filtro _Canales_ a **[!UICONTROL Metadatos]**.
 1. Utilice la opción de búsqueda, adyacente a _Filter_, para encontrar una plantilla de anuncio Meta específica.
-1. Haga clic para seleccionar una plantilla, o bien, seleccione varias plantillas y haga clic en **[!UICONTROL Usar]**. Si selecciona varias plantillas, cuando se generen las variantes, se utilizarán todas las plantillas seleccionadas para proporcionarle opciones.
+1. Haga clic para seleccionar una plantilla y luego haga clic en **[!UICONTROL Usar]**.
 
    Esta acción abre el lienzo, que es el centro de trabajo para la creación de contenido.
 
@@ -53,7 +52,7 @@ Cuando haya terminado de agregar parámetros, puede contraer el área de solicit
 
 ## Introduzca una solicitud
 
-Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de publicidad de Meta.
+Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de publicidad de Meta. Las indicaciones detalladas generan un resultado de mayor calidad que las indicaciones vagas o indescriptivas.
 
 Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) para obtener más información sobre cómo escribir mensajes.
 
@@ -62,7 +61,7 @@ Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) pa
 1. Escriba una solicitud en el cuadro de solicitud _&quot;Describa las experiencias que desea generar&quot;_.
 1. Haga clic en **[!UICONTROL Generar]**.
 
-De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones generadas, todas alimentadas por el mensaje, las directrices y el contenido añadido.
+De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones (todas alimentadas por el mensaje, las directrices y el contenido añadido).
 
 ## Elija el canal Meta ads
 
@@ -76,6 +75,7 @@ Antes de seleccionar qué enviar para su aprobación o publicación a [!DNL Cont
 
 **Para revisar las variantes generadas**:
 
+* **Para editar el nombre del borrador del anuncio Meta**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
 * **Para editar manualmente un Meta ad**, haga doble clic en cualquiera de los fragmentos de anuncios (como la línea de asunto, el encabezado o la copia del cuerpo) y edítelo según sea necesario.
 
   La línea de asunto y el preencabezado solo requieren un solo clic para editar, mientras que el encabezado y la copia del cuerpo requieren un doble clic.
@@ -93,7 +93,7 @@ Para optimizar los anuncios generados y garantizar el cumplimiento estricto de l
 1. Para obtener los detalles de los fragmentos y las directrices que deben mejorarse, haga clic en **[!UICONTROL Revisar]** _o_ haga clic en el icono Validación de marca en la barra de menú superior para abrir el [_Panel de validación de marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Desplácese por cada anuncio para ver cómo puede mejorar el contenido generado y alinearlo mejor con la marca.
-1. [Revisa manualmente los correos electrónicos](#revise-generated-emails) para asegurarte de que los anuncios estén alineados con tu marca.
+1. [Revisa manualmente los anuncios](#revise-generated-meta-ads) para asegurarte de que tus anuncios estén alineados con tu marca.
 
 Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md).
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: 31f02218e02b1400ca9f32472acdecae03dbd304
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Para empezar a crear una nueva experiencia de correo electrónico, utilice una p
 **Para elegir una plantilla de correo electrónico**:
 
 1. En _[!DNL Create]_, haga clic en **[!UICONTROL Correo electrónico]**en_&quot;¿Qué desea crear hoy?&quot;_sección.
-1. En la vista _Seleccionar plantilla_, cambie el filtro _Canales_ a **[!UICONTROL Correo electrónico]**.
 1. Utilice la opción de búsqueda, adyacente a _Filter_, para encontrar una plantilla de correo electrónico específica.
 1. Haga clic para seleccionar una plantilla de correo electrónico y haga clic en **[!UICONTROL Usar]**.
 
@@ -53,7 +52,7 @@ Cuando haya terminado de agregar parámetros, puede contraer el área de solicit
 
 ## Introduzca una solicitud
 
-Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de correo electrónico.
+Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de correo electrónico. Las indicaciones detalladas generan un resultado de mayor calidad que las indicaciones vagas o indescriptivas.
 
 Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) para obtener más información sobre cómo escribir mensajes.
 
@@ -62,7 +61,7 @@ Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) pa
 1. Escriba una solicitud en el cuadro de solicitud _&quot;Describa las experiencias que desea generar&quot;_.
 1. Haga clic en **[!UICONTROL Generar]**.
 
-De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones generadas, todas alimentadas por el mensaje, las directrices y el contenido añadido.
+De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones (todas alimentadas por el mensaje, las directrices y el contenido añadido).
 
 ## Revisar correos electrónicos generados
 
@@ -70,6 +69,7 @@ Antes de seleccionar qué enviar para su aprobación o publicación en [!DNL Con
 
 **Para revisar las variantes generadas**:
 
+* **Para editar el nombre del borrador del correo electrónico**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
 * **Para editar manualmente un correo electrónico**, haga doble clic en cualquiera de los fragmentos de correo electrónico (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario.
 
   La línea de asunto y el preencabezado solo requieren un solo clic para editar, mientras que el encabezado, la copia del cuerpo y la llamada a la acción requieren un doble clic.

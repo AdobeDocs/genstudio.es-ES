@@ -3,9 +3,9 @@ title: Introducción a GenStudio
 description: Aprenda a configurar su GenStudio para generar nuevo contenido de marketing alineado con la marca.
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
-source-git-commit: 2501d1e36f76d1534a735b9147fb42f762a665e8
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ En la tabla siguiente se muestran los permisos de colaborador predeterminados de
 
 ### Administradores
 
-Los usuarios administradores crean y asignan usuarios a cualquiera de las funciones compatibles con GenStudio. Pueden asignar nuevos permisos a creadores o colaboradores individuales según sea necesario. Su trabajo más crítico es completar las tareas de incorporación iniciales que preparan a su organización para implementar GenStudio.
+**Administradores** crean y asignan usuarios a cualquiera de los roles compatibles con GenStudio. Pueden asignar nuevos permisos a creadores o colaboradores individuales según sea necesario. Su trabajo más crítico es completar las tareas de incorporación iniciales que preparan a su organización para implementar GenStudio.
 
 La siguiente tabla muestra los permisos predeterminados de administrador del sistema de GenStudio:
 
@@ -91,9 +91,9 @@ La siguiente tabla muestra los permisos predeterminados de administrador del sis
 
 ## Preparación de GenStudio para generar contenido
 
-Los administradores de sistemas preparan el entorno de GenStudio de su organización para que los creadores y colaboradores creen recursos de campaña. Estas tareas preliminares de configuración incluyen:
+Los administradores del sistema preparan el entorno de GenStudio de su organización para que los creadores y colaboradores creen recursos de campaña. Estas tareas preliminares de configuración incluyen:
 
-1. [Configurar directrices](./guidelines/overview.md) para [!DNL Brands], [!DNL Products] y [!DNL Personas]. Configurando los componentes clave de la marca **[Agregar directrices](./guidelines/overview.md)** ([!DNL Brands], [!DNL Products] y [!DNL Personas]) de su organización a GenStudio. La configuración de los componentes clave de la identidad de marca de su organización es un requisito previo esencial para el trabajo de los creadores y colaboradores de GenStudio. Puede cargar documentos de directrices de marca o introducir manualmente información de marca.
+1. [Agregar directrices](./guidelines/overview.md) para [!DNL Brands], [!DNL Products] y [!DNL Personas]. La configuración de los componentes clave de la identidad de marca de su organización es un requisito previo esencial para el trabajo de los creadores y colaboradores de GenStudio. Puede cargar documentos de directrices de marca o introducir manualmente información de marca.
    * **Prepare sus documentos de directrices**. Cuanto más descriptivas y completas sean las directrices de marca, mejor será el resultado de GenStudio. Incluya ejemplos breves de las funciones que considera esenciales para su marca y agregue descripciones del comportamiento que desea excluir de la creación de contenido de GenStudio. GenStudio extrae información de estos documentos cargados y comienza a crear su marca. La información, como las directrices de voz, canal e imagen de la marca, se rellenan a medida que GenStudio organiza cada directriz a partir de los documentos cargados.
    * **Edite o complete los campos de las directrices de marca según sea necesario**. Las directrices de marca completas forman la base de la comprensión por parte de GenStudio de la marca de su organización. Una vez que GenStudio ha extraído la información que necesita de los documentos de directrices de marca, se le pedirá que edite o complete manualmente los campos de información extraída. Especifique áreas de enfoque de producto individuales para la creación de contenido agregando [!DNL Product]. Las directrices de [!DNL Personas] ayudan a adaptar la creación de contenido para segmentos de clientes definidos.
 

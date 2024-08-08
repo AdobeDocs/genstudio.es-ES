@@ -2,7 +2,7 @@
 title: Revisar y editar contenido
 description: Aprenda a revisar y editar contenido de forma iterativa.
 feature: Approval
-source-git-commit: bb06f20c436c0d2d426c8a07a419536716665a03
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Puede aprobar el contenido si ha recibido un correo electrónico de solicitud de
 
 1. Utilice el vínculo de la notificación en producción o solicite un correo electrónico para ir al contenido y revisarlo. GenStudio muestra el lienzo de contenido.
 
-1. El lienzo de recursos incluye el botón **[!UICONTROL Revisar y aprobar]** en la esquina superior derecha. Haga clic en este botón para abrir el panel _Aprobaciones_ de este recurso.
+1. El lienzo de recursos incluye el botón **[!UICONTROL Revisar y aprobar]** en la esquina superior derecha. Haga clic en este botón para abrir el panel _Aprobaciones_ para este recurso.
 
 ## Solicitar cambios
 

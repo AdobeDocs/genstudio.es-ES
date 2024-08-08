@@ -1,7 +1,7 @@
 ---
 title: Solicitar revisiones y aprobaciones
 description: Solicitar una revisión.
-source-git-commit: c9bd8bf434e493696e674900f403307260a65b02
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Opcional: agregue comentarios para guiar el enfoque del aprobador a determinadas
 
 Si usted es el creador del contenido, el lienzo de borrador mostrará el botón **[!UICONTROL Administrar aprobaciones]**. Utilice este botón para abrir una ventana emergente desde la que puede eliminar o añadir aprobadores durante todo el proceso de revisión y aprobación.
 
-Los nombres de los aprobadores se muestran en este panel con un estado [!DNL Notified] después de que se hayan iniciado las solicitudes de aprobación. Consulte [Aprobar contenido](./approve-content.md) para obtener una descripción general de las tareas de aprobación de GenStudio.
+Los nombres de los aprobadores se muestran en esta vista con un estado [!DNL Notified] después de que se hayan iniciado las solicitudes de aprobación. Consulte [Aprobar contenido](./approve-content.md) para obtener una descripción general de las tareas de aprobación de GenStudio.
 
 
 
