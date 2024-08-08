@@ -2,9 +2,9 @@
 title: GenStudio [!DNL Personas]
 description: GenStudio [!DNL Personas]  representa fielmente sus segmentos de clientes y captura sus intereses, puntos problemáticos, preferencias y características de comportamiento.
 feature: Personas Service, Guidelines
-source-git-commit: 423956d6fdbf5b31041d44eb434f90d55a87d7c0
+source-git-commit: 21d0c7c6aab6f4d81fc4376251e85eb2d4be3f25
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Estas directrices detallan cada categoría de directrices y ejemplos relacionado
 
 En la tabla siguiente se muestra cada categoría de [!DNL Personas] directrices y ejemplos asociados.
 
-| Categoría de directriz | Ejemplos de directrices |
-| ------------------| :---------- |
-| Descripción | `Brand Uno's Curious Jobseekers are curious about finding a job within their immediate area and need assistance with learning how to find applicable positions, interviewing successfully, and researching transportation options. This prep work will prepare the Curious Jobseeker to take the next step in applying to fitting job opportunities and entering the interview process with confidence.` |
-| Preferencias de mensajería | `Curious Jobseekers respond to communications and marketing messaging when they feel the Empower Outreach program's capabilities are affordable and successful in helping them obtain the job they desire. They enjoy visuals/graphics and short punchy headlines crafted to get their attention.` |
+| Categoría de directriz | Ejemplos de directrices | Prácticas recomendadas |
+| ------------------| :---------- |-------------|
+| Nombre del usuario | Representa un segmento de audiencia específico para el cual se personalizan los materiales de marketing generados | Añada un nombre de persona claro y conciso.<br><br>_Ejemplos_: &quot;CMOs of Retail&quot;, &quot;Prospective Nursing Students&quot;, &quot;New Savings Acct Clients&quot; |
+| Descripción | Resumen breve que define las características, necesidades y comportamientos clave | Utilice un lenguaje uniforme para describir claramente la segmentación de audiencia personal y única (de 1 a 2 frases).<br><br>Céntrese en lo que impulsa este segmento de audiencia (necesidades, rasgos principales, etc.)<br><br>Mantenga la descripción concisa y sin datos demográficos profundos ni información adicional. |
+| Preferencias de mensajería | Borrar un resumen de los estilos de comunicación preferidos que resuenan en un perfil específico | Defina los requisitos de mensajería únicos y las motivaciones de persona, centrándose en cómo persona prefiere recibir e interactuar con las comunicaciones.<br><br>Proporcione preferencias de mensajería específicas en la lista (cada elemento de la lista 1-2 frases).<br><br>Limite la lista a un total de 10 frases o menos para garantizar que se resalte la información más importante.<br><br>_Ejemplo_: &quot;Preferencias de mensajería para un profesional experto en tecnología:<li>Prefiere una comunicación concisa y sin jergas.</li><li>Responde positivamente a perspectivas basadas en datos y consejos útiles.</li><li>Prefiere elementos visuales como infografías y gráficos para captar rápidamente información compleja.<li><li>Valora la transparencia con un enfoque honesto y directo.</li>” |
+| Detalles adicionales | Captura información crucial importante para la generación de contenido personalizado | Proporcione detalles adicionales (de 1 a 3 frases) vitales para la personalización del contenido y garantice que la información contribuya directamente a la eficacia del contenido.<br><br>Céntrese en la claridad y la brevedad. |

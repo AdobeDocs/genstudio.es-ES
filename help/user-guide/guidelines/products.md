@@ -2,9 +2,9 @@
 title: GenStudio [!DNL Products]
 description: GenStudio [!DNL Products] incorpora todos los aspectos de tu producto (imágenes, descripciones y propuestas de valor) para crear contenido relevante que resalte las fortalezas del producto y mantenga la coherencia en la mensajería del producto.
 feature: Products Service, Guidelines
-source-git-commit: 423956d6fdbf5b31041d44eb434f90d55a87d7c0
+source-git-commit: 21d0c7c6aab6f4d81fc4376251e85eb2d4be3f25
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Estas directrices detallan cada categoría de directrices y ejemplos relacionado
 
 En la tabla siguiente se muestra cada categoría de [!DNL Products] directrices y ejemplos asociados.
 
-| Categoría de directriz | Ejemplos de directrices |
-| ------------------| :---------- |
-| Descripción | `Brand Uno's Empower Outreach is a product/service that enables under-supported youth to apply for, obtain transportation for, and retain employment in "transport-desert" inner-city areas of McBellville.` |
-| Propuesta de valor | `Comprehensive and knowledgeable assistance to support youth in surmounting obstacles to securing long term employment.` |
+| Categoría de directriz | Descripción | Prácticas recomendadas |
+| ------------------| ----------------| :---------- |
+| Nombre del producto | Se refiere a los servicios, soluciones o bienes tangibles que una empresa ofrece a los clientes | Asegúrese de que el nombre del producto sea claro y de que permita al usuario comprender fácilmente las ofertas de productos <br><br>_Ejemplos_: &quot;Photoshop&quot; (empresa SaaS)<br>&quot;Masters of Business Administration&quot; (institución educativa)<br>&quot;Wealth Management Plan&quot; (empresa financiera)<br>&quot;Home Essentials Decor&quot; (comercio minorista) |
+| Descripción | Resumen breve y claro que resalta el producto y su propósito | Utilice un lenguaje conciso para describir con claridad el producto (1-2 frases), proporcionando un contexto claro para los usuarios potenciales. No incluya información detallada sobre las características o especificaciones.<br><br>_Ejemplo_: &quot;El producto XYZ es una herramienta de administración de proyectos versátil y basada en la nube diseñada para ayudar a los equipos a organizar tareas, realizar un seguimiento del progreso y colaborar sin problemas. Ideal para pequeñas y grandes empresas, XYZ proporciona una interfaz sencilla y fácil de usar para administrar proyectos de principio a fin&quot;. |
+| Propuesta de valor | Resumen claro (menos de 10 frases) que explica cómo el producto resuelve un problema, ofrece beneficios específicos y proporciona valor | Defina claramente los beneficios y las ventajas del producto, haciendo hincapié en la diferenciación de la competencia en un lenguaje convincente.<br><br>Proporcione propuestas de valor en formato de lista con la propiedad de valor más significativa al principio de la lista.<br><br>_Ejemplos_: &quot;Propuestas de valor para XYZ:<br><li>Centraliza las tareas de administración de proyectos en una plataforma intuitiva, lo que elimina la necesidad de varias herramientas</li><li>Aumenta la productividad del equipo hasta en un 30%</li><li>Se integra sin problemas con sus herramientas favoritas, lo que garantiza un flujo de trabajo fluido</li><li>Proporciona actualizaciones en tiempo real y funciones de colaboración, lo que permite a los equipos mantenerse alineados&quot;</li> |
+| Detalles adicionales | Captura información crucial importante para la generación de contenido personalizado | Proporcione detalles adicionales (de 1 a 3 frases) vitales para la personalización del contenido y garantice que la información contribuya directamente a la eficacia del contenido.<br><br>Céntrese en la claridad y la brevedad. |

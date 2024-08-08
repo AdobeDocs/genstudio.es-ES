@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo agregar las directrices [!DNL Bran
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
-source-git-commit: fa89422db3e1679516a377c9bfd9f05ab6e63428
+source-git-commit: 121a567a6a45f6d17caa621e323cdc3a4aa3dcb4
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,6 @@ Puede agregar manualmente los detalles de la marca, en lugar de cargar documento
 
    Si lo desea, haga clic en **[!UICONTROL Agregar categoría]** para agregar una categoría de directrices personalizadas, como Fotografías o Ilustraciones.
 
-1. Agregue logotipos en la sección _Logotipos_.
 1. Haz clic en el título de _Nueva marca_ e introduce un nombre de marca descriptivo.
 
 Para ver su [!DNL Brands] creado, haga clic en la flecha hacia atrás cerca de la parte superior del panel _Marca_ para volver a la página de inicio de _[!DNL Brands]_.
@@ -105,6 +104,7 @@ Ver [[!DNL Products]](products.md).
 1. Haga clic en **[!UICONTROL Sin título]** e introduzca un nombre para [!DNL Product].
 1. Haga clic en _Descripción_ e introduzca una descripción de este(a) [!DNL Product].
 1. Haga clic en _Propuesta de valor_ e introduzca detalles sobre el valor del producto.
+1. Haga clic en _Detalles adicionales_ e introduzca detalles cruciales para la generación de contenido personalizado.
 1. Para editar la miniatura, pasa el ratón sobre la miniatura y, en el menú de acciones Miniaturas, selecciona **[!UICONTROL Editar miniatura]**.
    1. Cargue una imagen nueva o quite la ya cargada en la ficha _Cargar_.
    1. Elija una imagen de la galería en la ficha _Galería_.
@@ -131,6 +131,7 @@ Ver [[!DNL Personas]](personas.md).
 1. Haga clic en **[!UICONTROL Sin título]** e introduzca un nombre para [!DNL Persona].
 1. Haga clic en _Descripción_ e introduzca una descripción de este(a) [!DNL Persona].
 1. Haz clic en _Preferencias de mensajería_ e introduce los detalles de mensajería para [!DNL Persona].
+1. Haga clic en _Detalles adicionales_ e introduzca detalles cruciales para la generación de contenido personalizado.
 1. Para editar la miniatura, pasa el ratón sobre ella y, en el menú _Acciones de miniatura_, selecciona **[!UICONTROL Editar miniatura]**.
    1. Cargue una imagen nueva o quite la ya cargada en la ficha _Cargar_.
    1. Elija una imagen de la galería en la ficha _Galería_.
