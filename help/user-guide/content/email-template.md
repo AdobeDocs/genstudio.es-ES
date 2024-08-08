@@ -3,9 +3,9 @@ title: Preparar una plantilla de correo electrónico para GenStudio
 description: Obtenga información sobre cómo crear una plantilla de correo electrónico personalizada para GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 6870f1b7056219d03cabbcc4e5ddbfa436b1a56d
+source-git-commit: 31f02218e02b1400ca9f32472acdecae03dbd304
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Ver [Estructura de una plantilla](/help/user-guide/content/use-templates.md#anat
 
 Antes de preparar una plantilla de anuncio Meta, asegúrese de haber agregado [directrices](/help/user-guide/guidelines/overview.md) a su GenStudio y de haberlas rellenado con información exhaustiva de las marcas relevantes. Las [directrices de marca](/help/user-guide/guidelines/brands.md) influyen directamente en el contenido generado.
 
-> **Ejemplo**: Si desea que el cuerpo de una plantilla de correo electrónico no tenga más de 500 caracteres, agregue ese requisito a las [directrices de canal](/help/user-guide/guidelines/brands.md#channel-guidelines) para el campo &quot;cuerpo&quot;.
+**Ejemplo**: Si desea que el cuerpo de una plantilla de correo electrónico no tenga más de 500 caracteres, agregue ese requisito a las [directrices de canal](/help/user-guide/guidelines/brands.md#channel-guidelines) para el campo &quot;cuerpo&quot;.
+
+Si no se añaden directrices a GenStudio, se utilizan valores predeterminados.
 
 ## Codifique una plantilla de correo electrónico
 

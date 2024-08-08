@@ -3,10 +3,10 @@ title: Columnas de datos de  [!DNL Insights]
 description: Comprenda lo que representa cada columna en una  [!DNL Insights] cuadrícula.
 feature: Attributes, Insights
 recommendations: noDisplay
-source-git-commit: 52a37b83b6f13b16a2234e50827c8d08b9a86680
+source-git-commit: 4d5de6fc053297c823be9005c628dafcecc3f7a7
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '254'
+ht-degree: 3%
 
 ---
 
@@ -34,4 +34,3 @@ Las columnas disponibles incluyen:
 | Impresiones | La cantidad de veces que se mostraron anuncios de campaña a los espectadores a través de impresiones registradas. |
 | Objetivo | El objetivo de una campaña o proyecto. Establezca el objetivo al crear la campaña o el proyecto.<br>Los tipos de objetivos incluyen: `Awareness`, `Traffic`, `Engagement`, `Leads`, `App promotion`, `Sales` |
 | Gasto | Cantidad total de dinero gastado en USD para todos los anuncios de una campaña. |
-| Reproducciones de vídeo | El número de veces que comenzó a reproducirse un vídeo. Se puede producir una reproducción de vídeo cuando un vídeo empieza a reproducirse automáticamente o cuando alguien hace clic para reproducir el vídeo. |

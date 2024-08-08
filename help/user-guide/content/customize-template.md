@@ -3,9 +3,9 @@ title: Personalizar plantillas
 description: Obtenga información sobre cómo crear una plantilla personalizada para GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 6870f1b7056219d03cabbcc4e5ddbfa436b1a56d
+source-git-commit: 1b5b12615c52823aa2f1c10ad704e3fc0dabb1e9
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,12 @@ GenStudio rellena automáticamente ciertos campos en las plantillas, por lo que 
 >[!WARNING]
 >
 >En el caso de los anuncios de Instagram, el titular generado no aparece en la experiencia final.
+
+#### Nombre del campo del logotipo de marca
+
+Para añadir un logotipo de marca a la plantilla, utilice el siguiente código para representar el logotipo predeterminado:
+
+```{{#if brand_logo}}{{brand_logo}}{{else}} encoded inline logo {{/if}}```
 
 #### Nombres de campo manuales
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: fa89422db3e1679516a377c9bfd9f05ab6e63428
+source-git-commit: 12af1741c368666a56ff8663b8b3dfe2087d7e54
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -35,39 +35,34 @@ Para empezar a generar una nueva experiencia de publicidad de metadatos, utilice
 
 ## Añadir parámetros
 
-Añadir parámetros de directrices mejora el proceso de generación de contenido y es un paso crucial en la preparación para generar un anuncio Meta.
+Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Parámetros_ en el área de solicitud mejora el proceso de generación de contenido y es un paso crucial en la preparación para generar un anuncio Meta.
 
 **Para agregar parámetros y recursos**:
 
-1. Haga clic en el icono _Parámetros_ para expandir las opciones de parámetros y agregar referencias de parámetros y recursos.
+1. Haga clic en el icono _Parameters_ para expandir el área de solicitud.
 1. En la sección _Parameters_, seleccione las directrices—[!DNL Brands], [!DNL Personas] y [!DNL Products]—para informar sobre la creación de contenido.
 
    Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio](/help/user-guide/guidelines/add-guidelines.md).
 
-1. En la sección _Contenido_, agregue contenido para utilizarlo en la experiencia *y* para influir en la generación de contenido. Existen tres formas de añadir recursos:
-   * Haga clic en **[!UICONTROL Seleccionar del contenido]** para seleccionar los recursos (imágenes o vídeo) ya publicados en [!DNL Content]. Utilice los filtros para restringir aún más los resultados de búsqueda.
+1. Haga clic en **[!UICONTROL Seleccionar contenido]** para agregar contenido que se utilizará en la experiencia *y* para influir en la generación de contenido.
+   * Haga clic en **[!UICONTROL Seleccionar del contenido]** para seleccionar los recursos (imágenes) ya publicados en [!DNL Content]. Utilice los filtros para restringir aún más los resultados de búsqueda.
    * Haga clic en **[!UICONTROL Cargar]** para examinar los archivos y elegir los recursos que desea utilizar. Además de explorar el dispositivo, también puede importar desde Microsoft OneDrive o Dropbox.
-   * Arrastre y suelte archivos de imagen en la sección _Contenido_.
+   * Arrastre y suelte los recursos en la sección _Contenido_.
 
-   Al seleccionar recursos del contenido de GenStudio, elige entre los recursos ya guardados en [[!DNL Content]](/help/user-guide/content/overview.md). Puede filtrar por canal, producto, idioma y mucho más para encontrar los recursos necesarios rápidamente.
+Cuando haya terminado de agregar parámetros, puede contraer el área de solicitud si vuelve a hacer clic en el icono _Parámetros_.
 
-Cuando haya terminado de agregar parámetros, puede contraer las secciones *Parameters* y *Content* haciendo clic de nuevo en el icono _Parameters_.
-
-## Usar un indicador
+## Introduzca una solicitud
 
 Una vez seleccionadas las directrices, cree un mensaje con lenguaje natural para empezar a generar contenido para la nueva experiencia de publicidad de Meta.
 
 Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) para obtener más información sobre cómo escribir mensajes.
 
-**Para usar un indicador**:
+**Para escribir un mensaje**:
 
 1. Escriba una solicitud en el cuadro de solicitud _&quot;Describa las experiencias que desea generar&quot;_.
-   <!-- If the prompt box is not visible, click **[!UICONTROL Open to prompt]** to expand it. -->
-
-<!-- 1. Optionally, click one of the prompt suggestions visible just above the prompt text box. Clicking a suggestion auto-fills the suggested prompt in the prompt box. -->
 1. Haga clic en **[!UICONTROL Generar]**.
 
-De forma predeterminada, en el lienzo se muestran cuatro variaciones generadas, todas alimentadas por el mensaje, las directrices y el contenido que ha agregado.
+De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones generadas, todas alimentadas por el mensaje, las directrices y el contenido añadido.
 
 ## Elija el canal Meta ads
 
@@ -92,15 +87,13 @@ Antes de seleccionar qué enviar para su aprobación o publicación a [!DNL Cont
 
 Para optimizar los anuncios generados y garantizar el cumplimiento estricto de la identidad de marca, aproveche la potencia de la [_comprobación de directrices de marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) (que proporciona un resumen de la alineación de marca para una variante) y del [_panel de validación de marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) (que muestra detalles completos de validación de marca y áreas de mejora ilustrativas).
 
-Puede editar manualmente fragmentos de anuncios individuales o [generar variantes refinadas](/help/user-guide/create/generate-variants.md) del resultado inicial para lograr la alineación con su marca.
-
 **Para comprobar la alineación de marca**:
 
 1. Haga clic en el icono [**[!UICONTROL [!DNL Brand] directrices para buscar una variante ]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) y vea un resumen del rendimiento de esa variante cuando se compara con su marca.
 1. Para obtener los detalles de los fragmentos y las directrices que deben mejorarse, haga clic en **[!UICONTROL Revisar]** _o_ haga clic en el icono Validación de marca en la barra de menú superior para abrir el [_Panel de validación de marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Desplácese por cada anuncio para ver cómo puede mejorar el contenido generado y alinearlo mejor con la marca.
-1. [Revisa manualmente los correos electrónicos](#revise-generated-emails) o [genera variantes](/help/user-guide/create/generate-variants.md) para asegurarte de que tus anuncios estén alineados con tu marca.
+1. [Revisa manualmente los correos electrónicos](#revise-generated-emails) para asegurarte de que los anuncios estén alineados con tu marca.
 
 Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md).
 

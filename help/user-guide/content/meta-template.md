@@ -3,9 +3,9 @@ title: Preparación de una plantilla de Meta ad para GenStudio
 description: Aprenda a crear una plantilla de anuncio Meta personalizada para GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 6870f1b7056219d03cabbcc4e5ddbfa436b1a56d
+source-git-commit: 31f02218e02b1400ca9f32472acdecae03dbd304
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Antes de preparar una plantilla de anuncio Meta, asegúrese de haber agregado [d
 
 **Ejemplo**: Si desea que el cuerpo de una plantilla de Meta ad no tenga más de 500 caracteres, agregue ese requisito a las [directrices de canal](/help/user-guide/guidelines/brands.md#channel-guidelines) para el campo &quot;cuerpo&quot;.
 
-Si no se añaden directrices a GenStudio, se utilizarán los valores predeterminados.
+Si no se añaden directrices a GenStudio, se utilizan valores predeterminados.
 
 ## Diseño de una plantilla
 
