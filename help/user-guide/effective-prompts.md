@@ -2,9 +2,9 @@
 title: Escribir indicadores efectivos
 description: Aprenda a escribir mensajes efectivos para GenStudio.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
-source-git-commit: d7de679ce310dcdcec4a1b5ea814b2ca8b1fc413
+source-git-commit: 5e17996ee3a86cf664ee468d6b9cf178c8853992
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 La comunicación con la IA generativa es esencial para trabajar de forma eficaz en GenStudio.
 
-GenStudio proporciona un aviso de IA generativo cada vez que se ofrece la oportunidad de crear o modificar un recurso. Los componentes de un mensaje eficaz deben incluir lenguaje descriptivo, ejemplos e información que no se proporciona a través de las directrices configuradas.
+GenStudio proporciona un aviso de IA generativo cada vez que se ofrece la oportunidad de modificar un recurso. Los componentes de un mensaje eficaz deben incluir lenguaje descriptivo, ejemplos e información que no se proporciona a través de las directrices configuradas.
 
-Como práctica recomendada, proporcione a GenStudio su información de marca mediante [directrices](/help/user-guide/guidelines/overview.md) para que pueda aprovechar al máximo la IA generativa a fin de producir contenido alineado con la marca.
+Como práctica recomendada, proporcione a GenStudio su información de marca mediante [directrices](/help/user-guide/guidelines/overview.md) para que pueda aprovechar al máximo la IA generativa a fin de producir experiencias de contenido alineadas con la marca.
 
 ## Lenguaje descriptivo
 
