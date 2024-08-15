@@ -3,9 +3,9 @@ title: Personalizar plantillas
 description: Obtenga información sobre cómo crear una plantilla personalizada para GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: d7d11077d35a4c1924e4be456c00b1fae24e0a1b
+source-git-commit: 5c43cf2014c1f93bdb9988ddefb503630714e522
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio
 | `cta` | Llamada a la acción | correo electrónico (recomendado)<br>Meta ad |
 | `on_image_text` | En texto de imagen | Meta anuncio (recomendado) |
 | `image` | Imagen | correo electrónico (recomendado)<br>Meta ad (recomendado) |
-| `brand_logo` | Logotipo de la marca seleccionada | Meta anuncio |
+| `brand_logo` | Logotipo de la marca seleccionada | correo electrónico<br>Meta anuncio |
 
 GenStudio rellena automáticamente ciertos campos en las plantillas, por lo que no es necesario incluirlos en sus diseños de plantilla:
 
@@ -76,15 +76,33 @@ GenStudio rellena automáticamente ciertos campos en las plantillas, por lo que 
 
 #### Nombre del campo del logotipo de marca
 
-Para añadir un logotipo de marca a la plantilla, utilice el siguiente código para representar el logotipo predeterminado:
+Para añadir un logotipo de marca a la plantilla, utilice uno de los siguientes métodos para representar el logotipo predeterminado.
 
-```{{#if brand_logo}}{{brand_logo}}{{else}} encoded inline logo {{/if}}```
+_Ejemplo_:
+
+```bash
+<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default image>{{/if}}" alt="WKND" style="max-width: 88px; margin: 10px auto; display: block;"> 
+```
+
+_Ejemplo_:
+
+```bash
+{{#if brand_logo}}
+
+                    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+
+                {{else}}
+
+                    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+
+                {{/if}}
+```
 
 #### Nombres de campo manuales
 
 Todos los demás nombres de campo se tratan como campos rellenados manualmente. Si desea que una sección pueda editarse, agregue corchetes dobles alrededor de la sección que desee editar.
 
-> Ejemplo: ``{{customVariable}}`` (customVariable es la sección editable manualmente)
+_Ejemplo_: ``{{customVariable}}`` (`customVariable` es la sección editable manualmente)
 
 ## Secciones o grupos
 
