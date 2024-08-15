@@ -3,9 +3,9 @@ title: Personalizar plantillas
 description: Obtenga información sobre cómo crear una plantilla personalizada para GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 5c43cf2014c1f93bdb9988ddefb503630714e522
+source-git-commit: c9cf7da078e84cf7696f32ca2278aa71b7b1b7cc
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Personalizar plantillas
 
-Puede adaptar las plantillas de HTML para GenStudio mediante el lenguaje de plantilla _Handlebars_. La sintaxis de Handlebars utiliza texto normal con llaves dobles como marcadores de posición de contenido. Consulte [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) en la _Guía de idioma de Handlebars_ para aprender a preparar la plantilla.
+Adapte las plantillas de HTML para GenStudio usando el lenguaje de plantilla _Handlebars_. La sintaxis de Handlebars utiliza texto normal con llaves dobles como marcadores de posición de contenido. Consulte [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) en la _Guía de idioma de Handlebars_ para aprender a preparar la plantilla.
 
 <!-- This is for email. In the future, maybe use tabs to provide guidance for other template types.
 -->If you do not have an HTML template ready to use in GenStudio, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
