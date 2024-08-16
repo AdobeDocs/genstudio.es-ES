@@ -1,10 +1,10 @@
 ---
 title: Notas de la versión de Adobe GenStudio for Performance Marketers Beta
-description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio.
-source-git-commit: 5505e3fdc78e217dd1eb73ed5bffa5e43d4f3084
+description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio para especialistas en marketing de rendimiento.
+source-git-commit: cbae3aeb1b8282fb64f2a6405a7ad9e07a48dbbd
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 2%
+source-wordcount: '347'
+ht-degree: 0%
 
 ---
 
@@ -15,27 +15,27 @@ Estas notas destacan las correcciones y mejoras significativas de los Adobes Gen
 
 ## Características destacadas
 
-El desarrollo de funciones de GenStudio es rápido y continuo. Entre las nuevas funciones destacables se incluyen:
+El desarrollo de funciones es rápido y continuo. Entre las nuevas funciones destacables se incluyen:
 
-### Marca
+### [!DNL Brands]
 
-El panel de validación de marca se mejoró para mejorar la experiencia del usuario, incluidos estos cambios:
+El panel de validación [!DNL Brand] se mejoró para mejorar la experiencia del usuario, incluidos estos cambios:
 
-* _Puntuación de validación basada en porcentajes_: La validación de marca ahora muestra la puntuación de validación de marca como un porcentaje en lugar de un valor de aprobado/suspenso.
+* **Puntuación de validación basada en porcentajes**: La validación de marca ahora muestra la puntuación de validación de marca como un porcentaje en lugar de un valor de aprobado/suspenso.
 
-* _Interfaz de extracción de marca actualizada_: La extracción de marca ahora muestra la finalización del proceso de extracción como porcentaje.
+* **Interfaz de extracción de marca actualizada**: La extracción de marca ahora muestra la finalización del proceso de extracción como porcentaje.
 
-* _Carga incremental de la marca durante la extracción_: Las directrices de marca ahora se cargan gradualmente en la interfaz de usuario.
+* **Carga incremental de la marca durante la extracción**: Las directrices de marca ahora se cargan gradualmente en la interfaz de usuario.
 
-* _Simplificación del esquema de copia de directrices_: los campos `unique attributes` y `frequent keywords` se han eliminado del esquema de copia de directrices, lo que simplifica el proceso de configuración de las directrices.
+* **Simplificación del esquema de copia de directrices**: los campos `unique attributes` y `frequent keywords` se han eliminado del esquema de copia de directrices, lo que simplifica el proceso de configuración de las directrices.
 
-### Crear
+### [!DNL Create]
 
 * **Creación de correo electrónico de varias secciones**: los usuarios ahora pueden crear correos electrónicos compuestos por titulares, imágenes, cuerpos y elementos de CTA independientes.
 
 * **Cambio de tamaño de metadatos de anuncios**: los creadores pueden cambiar el tamaño de las proporciones de aspecto de metadatos de anuncios.
 
-### Perspectivas
+### [!DNL Insights]
 
 * **Cuentas de inicio de sesión con información limitada**: el inicio de sesión con información ahora solo admite una cuenta por cliente.
 
@@ -43,7 +43,7 @@ El panel de validación de marca se mejoró para mejorar la experiencia del usua
 
 Esta versión incluye las siguientes correcciones adicionales.
 
-### Perspectivas
+### [!DNL Insights]
 
 * El nombre de la ubicación de la fuente de página _Detalles de experiencia_ ahora especifica la fuente de Facebook o Instagram.
 
@@ -51,7 +51,7 @@ Esta versión incluye las siguientes correcciones adicionales.
 
 * El recuento de resultados de búsqueda de la pantalla Atributos ya no muestra `0 of` antes de que un usuario inicie sesión. <!-- GS- 3665 -->
 
-* Al hacer clic en el campo de recuento **[!UICONTROL Insight]** > **[!UICONTROL Asset]**, ya no se borra la configuración de búsqueda y filtrado. <!-- GS-3476 -->
+* Al hacer clic en el campo de recuento **[!UICONTROL [!DNL Insights]]** > **[!UICONTROL Recurso]**, ya no se borra la configuración de búsqueda y filtrado. <!-- GS-3476 -->
 
 ## Problemas conocidos
 
@@ -61,15 +61,15 @@ Los siguientes problemas conocidos se resolverán en la versión de GenStudio fo
 
 * Las acciones activadas por los botones **[!UICONTROL Agregar plantillas]** y **[!UICONTROL Cargar]** no se rastrean actualmente. <!-- GS-3505 -->
 
-### Perspectivas
+### [!DNL Insights]
 
 * No se pueden reproducir vídeos de _Assets_. <!-- GS-3846 -->
 
-* Los usuarios deben iniciar sesión dos veces cuando también hayan iniciado sesión en Facebook. **Solución alternativa**: cierre la sesión de Facebook antes de iniciar sesión en Insights.
+* Los usuarios deben iniciar sesión dos veces cuando también hayan iniciado sesión en Facebook. **Solución alternativa**: cierre la sesión de Facebook antes de iniciar sesión en [!DNL Insights].
 
 * **Los valores de gasto a nivel de campaña** no son precisos. Actualmente, los datos no son coherentes entre el Administrador de Facebook Ads y el lago de datos. <!-- GS-3202 -->
 
-### Revisiones y aprobaciones
+### [!DNL Reviews and Approvals]
 
 * Los creadores pueden cambiar los recursos después de aprobarlos antes de publicarlos. Estos cambios no se notifican a los aprobadores.
 
