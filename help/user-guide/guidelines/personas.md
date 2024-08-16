@@ -1,22 +1,22 @@
 ---
-title: GenStudio [!DNL Personas]
-description: GenStudio [!DNL Personas]  representa fielmente sus segmentos de clientes y captura sus intereses, puntos problemáticos, preferencias y características de comportamiento.
+title: GenStudio para especialistas en marketing de rendimiento [!DNL Personas]
+description: GenStudio para especialistas en marketing de rendimiento [!DNL Personas] son una verdadera representación de los segmentos de sus clientes, y capturan sus intereses, puntos problemáticos, preferencias y rasgos de comportamiento.
 feature: Personas Service, Guidelines
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
 
-# GenStudio [!DNL Personas]
+# GenStudio para especialistas en marketing de rendimiento [!DNL Personas]
 
 [!DNL Personas] proporciona una representación auténtica de los segmentos de sus clientes, incluida su información, intereses, puntos problemáticos, preferencias y características de comportamiento.
 
-GenStudio aprovecha el poder de las directrices [[!DNL Brands],  [!DNL Products] y  [!DNL Personas]](overview.md), así como la tecnología de IA generativa de Adobe para depurar contenido de marketing personalizado para los clientes de destino&#x200B;
+GenStudio para especialistas en marketing de rendimiento aprovecha el poder de las directrices ([[!DNL Brands], [!DNL Products] y [!DNL Personas]](overview.md)) y la tecnología de IA generativa de Adobe para depurar contenido de marketing personalizado para los clientes de destino&#x200B;
 
-![[!DNL Personas] directrices en GenStudio](/help/assets/personas-guidelines.png){width="650" zoomable="yes"}
+Directrices de ![[!DNL Personas] en GenStudio para especialistas en marketing de rendimiento](/help/assets/personas-guidelines.png){width="650" zoomable="yes"}
 
 **Para ver o modificar un perfil**:
 
@@ -24,11 +24,11 @@ GenStudio aprovecha el poder de las directrices [[!DNL Brands],  [!DNL Products]
 1. Para [ver detalles individuales o modificar una persona](add-guidelines.md#manage-personas), haz clic en el menú de acción _[!DNL Personas]_y selecciona **Abrir**.
 1. Revise las directrices de perfiles haciendo clic en un campo de texto de categoría de directrices.
 
-Consulte [Agregar directrices](add-guidelines.md) para obtener información sobre cómo agregar o modificar un perfil en GenStudio.
+Consulte [Agregar directrices](add-guidelines.md) para obtener información sobre cómo agregar o modificar un perfil en GenStudio para especialistas en marketing de rendimiento.
 
 ## [!DNL Personas] directrices
 
-Las pautas de personalidad individual le dan a GenStudio una imagen clara de tu [!DNL Personas].
+Las directrices de personalidad individual proporcionan a GenStudio para especialistas en marketing de rendimiento una imagen clara de su [!DNL Personas].
 
 Estas directrices detallan cada categoría de directrices y ejemplos relacionados. Los ejemplos son entradas de muestra que dan forma a la salida del contenido generado. Utilícelos para informar sobre sus propias directrices de [!DNL Personas].
 

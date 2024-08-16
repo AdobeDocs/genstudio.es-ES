@@ -1,9 +1,9 @@
 ---
 title: Solicitar revisiones y aprobaciones
 description: Solicitar una revisión.
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ¿Está listo para invitar a sus compañeros de trabajo a revisar un recurso o experiencia que haya creado? Puede invitar a las partes interesadas a que aporten comentarios sobre un borrador del contenido con el objetivo final de aprobarlo.
 
-Solo los aprobadores designados pueden asignar un estado de aprobación y agregar comentarios de revisión. Los aprobadores que hayan recibido el vínculo a la URL del borrador solo podrán ver el borrador, no asignar el estado de aprobación ni añadir comentarios. Si comparte una URL de borrador con un usuario de GenStudio de su organización que no se haya incluido en la revisión de borrador, este usuario podrá ver el borrador. No pueden dejar comentarios ni aprobar el contenido.
+Solo los aprobadores designados pueden asignar un estado de aprobación y agregar comentarios de revisión. Los aprobadores que hayan recibido el vínculo a la URL del borrador solo podrán ver el borrador, no asignar el estado de aprobación ni añadir comentarios. Si comparte un borrador de URL con un usuario de GenStudio for Performance Marketers de su organización que no se haya incluido en la revisión de borradores, este usuario podrá ver el borrador. No pueden dejar comentarios ni aprobar el contenido.
 
 ## Iniciar una solicitud de aprobación
 
@@ -23,7 +23,7 @@ Después de generar las variantes de contenido, puede solicitar su revisión y a
 
 1. Haga clic en el botón **[!UICONTROL Enviar para aprobador]** de la barra de menú superior del lienzo. La ventana emergente _Enviar para aprobación_ se abre e identifica el borrador para el que solicita una revisión. Si genera varias variantes, todo el lienzo se envía a revisión.
 
-1. Seleccione al aprobador o aprobadores a los que desee solicitar una revisión. A medida que empieza a escribir, el campo **[!UICONTROL Aprobador]** autocompleta el nombre de usuario del aprobador de la lista de usuarios de GenStudio con permisos de visualización y aprobación de GenStudio. El botón **[!UICONTROL Enviar]** se activa después de que haya escrito al menos un nombre de aprobador.
+1. Seleccione al aprobador o aprobadores a los que desee solicitar una revisión. A medida que empieza a escribir, el campo **[!UICONTROL Aprobador]** completa automáticamente el nombre de usuario del aprobador de la lista de usuarios con permisos de GenStudio para especialistas en marketing de rendimiento para ver y aprobar. El botón **[!UICONTROL Enviar]** se activa después de que haya escrito al menos un nombre de aprobador.
 
 1. Haga clic en **[!UICONTROL Enviar]**. Al hacer clic en este botón, se déclencheur el producto y las notificaciones por correo electrónico que avisan a cada aprobador designado de que tiene contenido para revisar.
 
@@ -33,7 +33,7 @@ Opcional: agregue comentarios para guiar el enfoque del aprobador a determinadas
 
 Si usted es el creador del contenido, el lienzo de borrador mostrará el botón **[!UICONTROL Administrar aprobaciones]**. Utilice este botón para abrir una ventana emergente desde la que puede eliminar o añadir aprobadores durante todo el proceso de revisión y aprobación.
 
-Los nombres de los aprobadores se muestran en esta vista con un estado [!DNL Notified] después de que se hayan iniciado las solicitudes de aprobación. Consulte [Aprobar contenido](./approve-content.md) para obtener una descripción general de las tareas de aprobación de GenStudio.
+Los nombres de los aprobadores se muestran en esta vista con un estado [!DNL Notified] después de que se hayan iniciado las solicitudes de aprobación. Consulte [Aprobar contenido](./approve-content.md) para obtener una descripción general de las tareas de aprobación de GenStudio para especialistas en marketing de rendimiento.
 
 
 

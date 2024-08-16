@@ -2,9 +2,9 @@
 title: Administración de recursos y experiencias
 description: Simplifique y mejore la administración de los recursos aprobados por la marca para usarlos y reutilizarlos en su recorrido de marketing digital.
 feature: Content, Assets, Experiences
-source-git-commit: ba7dced9e62f797cd43a0bd8d8263828ec5c3d5e
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Administración de recursos y experiencias
 
-GenStudio [!DNL Content] simplifica y mejora la administración de los recursos aprobados por la marca para su uso y reutilización en el recorrido de marketing digital.
+El Adobe GenStudio para especialistas en marketing de rendimiento [!DNL Content] simplifica y mejora la administración de los recursos aprobados por la marca para su uso y reutilización en el recorrido de marketing digital.
 
 ## Añadir recursos
 
@@ -26,11 +26,11 @@ GenStudio [!DNL Content] simplifica y mejora la administración de los recursos 
 
 1. Para mejorar la capacidad de detección, agregue detalles opcionales como _Nombre de marca_, _Personas_, _Región_ y _Palabras clave_ en la sección **Más detalles**.
 
-   Cuantos más detalles proporcione, más experimentará las sólidas capacidades de GenStudio. Seleccione uno o más detalles de la lista o introduzca uno nuevo cuando corresponda, por ejemplo, con palabras clave. Cada detalle que agregue aparecerá debajo de la lista. Haga clic **`x`** para eliminar un detalle.
+   Cuantos más detalles proporcione, más experimentará las sólidas capacidades de GenStudio para especialistas en marketing de rendimiento. Seleccione uno o más detalles de la lista o introduzca uno nuevo cuando corresponda, por ejemplo, con palabras clave. Cada detalle que agregue aparecerá debajo de la lista. Haga clic **`x`** para eliminar un detalle.
 
    Los detalles que agregue se aplicarán a todos los recursos agregados en esta acción.
 
-   Ver [detalles de metadatos](/help/user-guide/content/asset-details.md#genstudio-metadata).
+   Ver [detalles de metadatos](/help/user-guide/content/asset-details.md#system-metadata).
 
 1. Haga clic en **[!UICONTROL Agregar recursos]**.
 1. Cuando finalice la carga del recurso, haga clic en **Listo**.
@@ -59,7 +59,3 @@ Aplique filtros y utilice etiquetas de metadatos de los detalles del recurso par
 1. Seleccione un recurso para obtener una vista completa y una lista de detalles.
 
    Haga clic en **[!UICONTROL Descargar]** (flecha abajo) para usar el recurso en la estación de trabajo local.
-
-<!-- 
-There is more here, but not ready yet.
--->

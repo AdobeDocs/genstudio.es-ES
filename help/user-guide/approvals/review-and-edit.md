@@ -2,9 +2,9 @@
 title: Revisar y editar contenido
 description: Aprenda a revisar y editar contenido de forma iterativa.
 feature: Approval
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Los procesos de revisión y aprobación que implican a varios revisores pueden llevar mucho tiempo. El ciclo de revisión de contenido, revisión de contenido en respuesta a comentarios de revisión y, a continuación, revisión de contenido modificado de nuevo, se puede repetir muchas veces.
 
-Las capacidades generativas de IA de GenStudio aceleran estas fases iterativas críticas del proceso de creación y revisión de contenido. Los creadores de contenido pueden responder a las solicitudes de los revisores utilizando las funciones de solicitud para editar borradores rápidamente. Las notificaciones internas del producto notifican inmediatamente a los revisores de que el borrador se ha revisado y pueden revisar los cambios. Cuantos más revisores y ciclos de revisión requiera el desarrollo de contenido, mayores serán las ventajas que aportará GenStudio.
+Las capacidades generativas de IA de GenStudio para especialistas en marketing de rendimiento aceleran estas fases iterativas críticas del proceso de creación y revisión de contenido. Los creadores de contenido pueden responder a las solicitudes de los revisores utilizando las funciones de solicitud para editar borradores rápidamente. Las notificaciones internas del producto notifican inmediatamente a los revisores de que el borrador se ha revisado y pueden revisar los cambios. Cuantos más revisores y ciclos de revisión requiera el desarrollo de contenido, mayores serán las ventajas que ofrezca GenStudio para especialistas en marketing de rendimiento.
 
 ## Edición iterativa de borrador
 
@@ -24,7 +24,7 @@ Los creadores pueden realizar ediciones en proceso en el contenido como respuest
 
 Como aprobador designado, puede acceder al contenido que se le pide que revise y apruebe de varias formas:
 
-* **Acceda al borrador para revisarlo directamente desde el vínculo del borrador en la solicitud de aprobación**. Haga clic en el vínculo borrador en la notificación por correo electrónico de la solicitud de aprobación o en la notificación interna del producto. GenStudio abre un lienzo que muestra el recurso o la experiencia. El panel izquierdo de detalles de _Asset_ incluye un panel de _Aprobación_.
+* **Acceda al borrador para revisarlo directamente desde el vínculo del borrador en la solicitud de aprobación**. Haga clic en el vínculo borrador en la notificación por correo electrónico de la solicitud de aprobación o en la notificación interna del producto. GenStudio para especialistas en marketing de rendimiento abre un lienzo que muestra el recurso o la experiencia. El panel izquierdo de detalles de _Asset_ incluye un panel de _Aprobación_.
 
 * **Acceda al borrador para revisarlo desde la lista de solicitudes de aprobación**. Si se le pide que revise varios borradores de contenido, el correo electrónico de notificación incluye el botón **[!UICONTROL Ver todas las notificaciones]**. Haga clic en este botón para desplazarse a una página que muestre todas las solicitudes de revisión pendientes.
 
@@ -34,7 +34,7 @@ Puede aprobar el contenido si ha recibido un correo electrónico de solicitud de
 
 **Para revisar el contenido**:
 
-1. Utilice el vínculo de la notificación en producción o solicite un correo electrónico para ir al contenido y revisarlo. GenStudio muestra el lienzo de contenido.
+1. Utilice el vínculo de la notificación en producción o solicite un correo electrónico para ir al contenido y revisarlo. GenStudio para especialistas en marketing de rendimiento muestra el lienzo de contenido.
 
 1. El lienzo de recursos incluye el botón **[!UICONTROL Revisar y aprobar]** en la esquina superior derecha. Haga clic en este botón para abrir el panel _Aprobaciones_ para este recurso.
 
@@ -42,7 +42,7 @@ Puede aprobar el contenido si ha recibido un correo electrónico de solicitud de
 
 Puede enumerar los cambios sugeridos o hacer preguntas sobre el borrador desde el panel _Aprobación_ del contenido. El estado de borrador de **Necesita trabajo** notifica al creador de contenido que se solicitan cambios.
 
-Este proceso de revisión, sugerencia de ediciones al creador de contenido y, a continuación, revisión del contenido y reenvío para su aprobación es muy iterativo. En esta parte del ciclo es donde puede ver las capacidades de GenStudio para ahorrar tiempo.
+Este proceso de revisión, sugerencia de ediciones al creador de contenido y, a continuación, revisión del contenido y reenvío para su aprobación es muy iterativo. En esta parte del ciclo es donde puede ver las capacidades de GenStudio para especialistas en marketing de rendimiento que le permiten ahorrar tiempo.
 
 **Para solicitar cambios**:
 

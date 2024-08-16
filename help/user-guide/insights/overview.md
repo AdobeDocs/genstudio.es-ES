@@ -2,17 +2,17 @@
 title: Información general de  [!DNL Insights]
 description: Aprenda a optimizar experiencias en función de las métricas de rendimiento de contenido en tiempo real.
 feature: Attributes, Insights, Experiences, Assets
-source-git-commit: 423956d6fdbf5b31041d44eb434f90d55a87d7c0
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 
-# GenStudio [!DNL Insights]
+# Adobe GenStudio para especialistas en marketing de rendimiento [!DNL Insights]
 
-GenStudio [!DNL Insights] proporciona análisis avanzados y perspectivas sobre el rendimiento del contenido que pueden ayudarle a tomar decisiones basadas en datos.
+Adobe GenStudio para especialistas en marketing de rendimiento [!DNL Insights] proporciona análisis avanzados y perspectivas sobre el rendimiento del contenido que pueden ayudarle a tomar decisiones basadas en datos.
 
 En el panel [!DNL Insights], puede:
 
@@ -22,7 +22,7 @@ En el panel [!DNL Insights], puede:
 
 >[!TIP]
 >
->Consulte la [cuenta del canal Connect](connect-channel.md) para ver los pasos que permiten que GenStudio reciba datos de sus campañas de marketing, recursos y experiencias actuales.
+>Consulte la [cuenta del canal Connect](connect-channel.md) para conocer los pasos que deben seguir los especialistas en marketing de rendimiento de GenStudio para recibir datos de sus campañas de marketing, recursos y experiencias actuales.
 
 ## Tablero
 

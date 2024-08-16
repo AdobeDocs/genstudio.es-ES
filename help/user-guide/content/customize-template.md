@@ -1,11 +1,11 @@
 ---
 title: Personalizar plantillas
-description: Obtenga información sobre cómo crear una plantilla personalizada para GenStudio.
+description: Aprenda a crear una plantilla personalizada para Adobe GenStudio para especialistas en marketing de rendimiento.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: c9cf7da078e84cf7696f32ca2278aa71b7b1b7cc
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,10 @@ ht-degree: 0%
 
 # Personalizar plantillas
 
-Adapte las plantillas de HTML para GenStudio usando el lenguaje de plantilla _Handlebars_. La sintaxis de Handlebars utiliza texto normal con llaves dobles como marcadores de posición de contenido. Consulte [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) en la _Guía de idioma de Handlebars_ para aprender a preparar la plantilla.
+Adapte las plantillas de HTML para el Adobe GenStudio para los especialistas en marketing de rendimiento mediante el lenguaje de plantilla _Handlebars_. La sintaxis de Handlebars utiliza texto normal con llaves dobles como marcadores de posición de contenido. Consulte [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) en la _Guía de idioma de Handlebars_ para aprender a preparar la plantilla.
 
 <!-- This is for email. In the future, maybe use tabs to provide guidance for other template types.
--->If you do not have an HTML template ready to use in GenStudio, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
+-->If you do not have an HTML template ready to use in GenStudio for Performance Marketers, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
 
 ```html
 <!DOCTYPE html>
@@ -35,11 +35,11 @@ Ver [ejemplos de plantillas](#template-examples).
 
 >[!TIP]
 >
->En las siguientes secciones, añada marcadores de posición de contenido para campos de correo electrónico, consulte plantillas de ejemplo, ocultar elementos innecesarios de la vista previa y administrar vínculos a contenido estático. Una vez que la plantilla esté lista, puedes [cargarla en GenStudio](use-templates.md#upload-a-template) y empezar a generar correos electrónicos personalizados basados en la plantilla personalizada.
+>En las siguientes secciones, añada marcadores de posición de contenido para campos de correo electrónico, consulte plantillas de ejemplo, ocultar elementos innecesarios de la vista previa y administrar vínculos a contenido estático. Una vez que la plantilla esté lista, puede [cargarla en GenStudio para especialistas en marketing de rendimiento](use-templates.md#upload-a-template) y empezar a generar correos electrónicos personalizados basados en la plantilla personalizada.
 
 ## Marcadores de contenido
 
-Dentro del encabezado o del cuerpo de una plantilla, puede utilizar la sintaxis de Handlebars para insertar marcadores de posición de contenido donde necesite que GenStudio rellene la plantilla con contenido real. GenStudio reconoce e interpreta los marcadores de posición de contenido automáticamente en función del nombre del campo.
+Dentro del encabezado o del cuerpo de una plantilla, puede utilizar la sintaxis de Handlebars para insertar marcadores de posición de contenido donde necesite que GenStudio para que los especialistas en marketing de rendimiento rellenen la plantilla con contenido real. GenStudio para especialistas en marketing de rendimiento reconoce e interpreta los marcadores de posición de contenido automáticamente en función del nombre del campo.
 
 Por ejemplo, puede usar `{{ headline }}` para indicar dónde se debe colocar el titular del correo electrónico:
 
@@ -53,7 +53,7 @@ El número máximo de campos permitidos en una plantilla personalizada es de vei
 
 #### Nombres de campo reconocidos
 
-En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio para su rellenado en plantillas.
+En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio para la población de plantillas.
 
 | Campo | Función | Plantilla de canal |
 | -------------- | ---------------------- | -------------------- |
@@ -65,7 +65,7 @@ En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio
 | `image` | Imagen | correo electrónico (recomendado)<br>Meta ad (recomendado) |
 | `brand_logo` | Logotipo de la marca seleccionada | correo electrónico<br>Meta anuncio |
 
-GenStudio rellena automáticamente ciertos campos en las plantillas, por lo que no es necesario incluirlos en sus diseños de plantilla:
+GenStudio para especialistas en marketing de rendimiento rellena automáticamente ciertos campos en las plantillas, por lo que no es necesario incluirlos en los diseños de plantilla:
 
 * Campo `subject` (plantilla de correo electrónico)
 * Campos de `headline`, `body` y `CTA` (plantilla de anuncio meta)
@@ -106,7 +106,7 @@ _Ejemplo_: ``{{customVariable}}`` (`customVariable` es la sección editable manu
 
 ## Secciones o grupos
 
-_Las secciones_ informan a GenStudio de que los campos de esta sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección.
+_Las secciones_ informan a GenStudio para especialistas en marketing de rendimiento que los campos de esta sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección.
 
 Utilice un prefijo de su elección en el nombre del campo para indicar que un campo forma parte de una sección o grupo.
 
@@ -126,13 +126,13 @@ Una plantilla puede incluir hasta tres secciones:
 * `news_headline`
 * `news_body`
 
-GenStudio entiende que `spotlight_headline` está más relacionado con `spotlight_body` que con `news_body`.
+GenStudio para especialistas en marketing de rendimiento entiende que `spotlight_headline` está más relacionado con `spotlight_body` que con `news_body`.
 
 ## Ejemplos de plantillas
 
 +++Ejemplo: Plantilla de correo electrónico con una sección
 
-El siguiente es un ejemplo básico de una plantilla de HTML para un correo electrónico que contiene una sección. El encabezado contiene CSS en línea simple para el estilo. El cuerpo contiene `pre-header`, `headline` y `image` [marcador de posición](#content-placeholders) que GenStudio usará para insertar contenido durante el proceso de generación de correo electrónico.
+El siguiente es un ejemplo básico de una plantilla de HTML para un correo electrónico que contiene una sección. El encabezado contiene CSS en línea simple para el estilo. El cuerpo contiene `pre-header`, `headline` y `image` [marcador de posición](#content-placeholders) que GenStudio usará para que los especialistas en marketing de rendimiento inyecten contenido durante el proceso de generación de correo electrónico.
 
 ```handlebars {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
@@ -293,9 +293,9 @@ Otro ejemplo puede ser evitar el uso de códigos de seguimiento al obtener una v
 
 ## Contenido estático
 
-Las plantillas de correo electrónico y metadatos suelen vincularse a imágenes y archivos CSS alojados fuera de GenStudio. Cuando GenStudio genera miniaturas para estas plantillas o las experiencias derivadas de ellas, puede ignorar estos recursos externos si no tienen los encabezados correctos de Intercambio de recursos de origen cruzado (CORS).
+Las plantillas de correo electrónico y metadatos suelen vincularse a imágenes y archivos CSS alojados fuera de GenStudio para especialistas en marketing de rendimiento. Cuando GenStudio para especialistas en marketing de rendimiento genera miniaturas para estas plantillas o las experiencias derivadas de ellas, puede ignorar estos recursos externos si no tienen los encabezados correctos de Intercambio de recursos de origen cruzado (CORS).
 
 Para asegurarse de que estos recursos están disponibles durante el proceso de generación de miniaturas, tenga en cuenta dos opciones:
 
-1. **Usar encabezados CORS**: El servidor host debe enviar respuestas con un encabezado `Access-Control-Allow-Origin` establecido en `https://experience.adobe.com` como valor para entornos de producción. Este método permite a GenStudio acceder a los recursos e incluirlos.
+1. **Usar encabezados CORS**: El servidor host debe enviar respuestas con un encabezado `Access-Control-Allow-Origin` establecido en `https://experience.adobe.com` como valor para entornos de producción. Este método permite a GenStudio para especialistas en marketing de rendimiento acceder e incluir los recursos.
 1. **Usar URL de datos**: incruste los recursos externos directamente en la plantilla mediante URL de datos. Este método evita las restricciones CORS y garantiza que los recursos estén disponibles durante la generación de miniaturas.

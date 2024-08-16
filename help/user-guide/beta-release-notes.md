@@ -1,9 +1,9 @@
 ---
 title: Notas de la versión de Adobe GenStudio for Performance Marketers Beta
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio para especialistas en marketing de rendimiento.
-source-git-commit: cbae3aeb1b8282fb64f2a6405a7ad9e07a48dbbd
+source-git-commit: 75d966e8474687e8e88ccec6fe6a96fda030dbcf
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Notas de la versión de Adobe GenStudio for Performance Marketers Beta
 
-Estas notas destacan las correcciones y mejoras significativas de los Adobes GenStudio realizadas durante la semana que finalizó el 16 de agosto.
+Estas notas resaltan los Adobes GenStudio significativos que suponen las correcciones y mejoras realizadas por los especialistas en marketing de rendimiento durante la semana que finalizó el 16 de agosto.
 
 ## Características destacadas
 
@@ -26,8 +26,6 @@ El panel de validación [!DNL Brand] se mejoró para mejorar la experiencia del 
 * **Interfaz de extracción de marca actualizada**: La extracción de marca ahora muestra la finalización del proceso de extracción como porcentaje.
 
 * **Carga incremental de la marca durante la extracción**: Las directrices de marca ahora se cargan gradualmente en la interfaz de usuario.
-
-* **Simplificación del esquema de copia de directrices**: los campos `unique attributes` y `frequent keywords` se han eliminado del esquema de copia de directrices, lo que simplifica el proceso de configuración de las directrices.
 
 ### [!DNL Create]
 
@@ -57,19 +55,8 @@ Esta versión incluye las siguientes correcciones adicionales.
 
 Los siguientes problemas conocidos se resolverán en la versión de GenStudio for Performance Marketers GA.
 
-### Análisis
-
-* Las acciones activadas por los botones **[!UICONTROL Agregar plantillas]** y **[!UICONTROL Cargar]** no se rastrean actualmente. <!-- GS-3505 -->
-
 ### [!DNL Insights]
 
 * No se pueden reproducir vídeos de _Assets_. <!-- GS-3846 -->
 
 * Los usuarios deben iniciar sesión dos veces cuando también hayan iniciado sesión en Facebook. **Solución alternativa**: cierre la sesión de Facebook antes de iniciar sesión en [!DNL Insights].
-
-* **Los valores de gasto a nivel de campaña** no son precisos. Actualmente, los datos no son coherentes entre el Administrador de Facebook Ads y el lago de datos. <!-- GS-3202 -->
-
-### [!DNL Reviews and Approvals]
-
-* Los creadores pueden cambiar los recursos después de aprobarlos antes de publicarlos. Estos cambios no se notifican a los aprobadores.
-

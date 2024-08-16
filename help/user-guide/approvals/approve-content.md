@@ -2,9 +2,9 @@
 title: Aprobar contenido
 description: Obtenga información sobre cómo aprobar contenido.
 feature: Approval
-source-git-commit: 0d6eff35e66d3657aa4f5fda65f91f0caab4a7e1
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,5 @@ Si el borrador de contenido cumple los estándares de su organización y sus exp
 
 1. Cambiar estado de borrador de **Necesita trabajo** a **Aprobado**.
 
-Ha finalizado su trabajo como aprobador. GenStudio advierte al creador del borrador de su aprobación. Consulte [Contenido de Publish](./publish-content.md) para obtener una descripción general del proceso de guardar en [!DNL Content] o _publicación_.
+Ha finalizado su trabajo como aprobador. GenStudio para especialistas en marketing de rendimiento alerta al creador del borrador de su aprobación. Consulte [Contenido de Publish](./publish-content.md) para obtener una descripción general del proceso de guardar en [!DNL Content] o _publicación_.
 

@@ -1,20 +1,20 @@
 ---
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 6%
+source-wordcount: '124'
+ht-degree: 5%
 
 ---
-# Campos de metadatos de GenStudio
+# Campos de metadatos de GenStudio para especialistas en marketing de rendimiento
 
 <!-- copied this table right into the topic bc was having trouble with snippet injection error -->
 
 | Campo | Descripción | Puede editar | Requerido |
 | ------------- | ----------- | -------- |
 | Nombre de la campaña (nombre del proyecto) | Metadatos predeterminados capturados y almacenados con el recurso | Y | N |
-| Nombre de marca | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) se agregó a GenStudio y se publicó para su uso. | Y | N |
-| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) se agregó a GenStudio para su uso. | Y | N |
-| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md). se ha agregado a GenStudio para su uso. | Y | N |
+| Nombre de marca | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) se agregó a GenStudio para especialistas en marketing de rendimiento y se publicó para su uso. | Y | N |
+| [!DNL Products] | Se agregó(aron) [[!DNL Products]](/help/user-guide/guidelines/products.md) a GenStudio para el uso de especialistas en marketing de rendimiento. | Y | N |
+| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md). Se ha agregado a GenStudio para el uso de los especialistas en marketing de rendimiento. | Y | N |
 | Canales | Tipos de contenido en GenStudio para los que se utiliza el recurso, como correo electrónico y anuncios Meta. | Y | N |
 | Periodo de tiempo | Periodo de tiempo para el que se utiliza el recurso, como trimestre, temporada, año, etc. Ejemplo: `Winter 2023` | Y | N |
 | Región | Regiones para las que se utiliza el recurso. Ejemplos: `North America`, `APAC`, `Italy` | Y | N |

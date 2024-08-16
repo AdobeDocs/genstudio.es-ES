@@ -1,12 +1,12 @@
 ---
-title: Adición de directrices a GenStudio
-description: Obtenga información sobre cómo agregar las directrices [!DNL Brands],  [!DNL Products] y  [!DNL Personas] en el Adobe  [!DNL GenStudio].
+title: Agregar directrices al Adobe GenStudio para especialistas en marketing de rendimiento
+description: Aprenda a agregar directrices ([!DNL Brands], [!DNL Products] y [!DNL Personas]) en el Adobe GenStudio para especialistas en marketing de rendimiento.
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: b383295810d4bd1b37227cf689ee76687e940f03
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 # Adición de directrices
 
-[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) y [[!DNL Personas]](/help/user-guide/guidelines/personas.md) son directrices definidas por el usuario en GenStudio que garantizan que cualquier contenido generado por IA se personalice para alinearse con la identidad de la marca, lo que permite una personalización eficaz del contenido.
+[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) y [[!DNL Personas]](/help/user-guide/guidelines/personas.md) son directrices definidas por el usuario en GenStudio para especialistas en marketing de rendimiento que garantizan que cualquier contenido generado por IA se personalice para alinearse con la identidad de la marca, lo que permite una personalización eficaz del contenido.
 
-Consulte la [descripción general de las directrices de GenStudio](/help/user-guide/guidelines/overview.md).
+Consulte la [descripción general de las directrices](/help/user-guide/guidelines/overview.md).
 
-Añadir directrices a GenStudio es un paso importante en el proceso de creación. Las directrices informan el proceso de creación de contenido, junto con indicadores definidos por el usuario y tecnología de IA generativa de Adobe, para crear recursos impactantes.
+Añadir directrices a GenStudio para especialistas en marketing de rendimiento es un paso importante en el proceso de creación. Las directrices informan el proceso de creación de contenido, junto con indicadores definidos por el usuario y tecnología de IA generativa de Adobe, para crear recursos impactantes.
 
 ## Agregar [!DNL Brands]
 
-Para agregar una marca a GenStudio, [puedes cargar una guía de marca](#upload-brand-guidelines) o [crear manualmente una marca](#manually-add-brand) seleccionando directrices e introduciendo los detalles de tu marca. [Publish cambió la marca](#publish-brand) a [!DNL Content] para que esté disponible para usarla en futuras generaciones de contenido.
+Para agregar una marca a GenStudio para especialistas en marketing de alto rendimiento, [puedes cargar una guía de marca](#upload-brand-guidelines) o [crear manualmente una marca](#manually-add-brand) al seleccionar las directrices e introducir los detalles de tu marca. [Publish cambió la marca](#publish-brand) a [!DNL Content] para que esté disponible para usarla en futuras generaciones de contenido.
 
 En el área de navegación izquierda, haga clic en **[!DNL Brands]**. En el panel _[!DNL Brands]_, seleccione **Agregar marca**.
 
 ### Añadir marca mediante carga
 
-Puede cargar sus propios documentos de marca para rellenar una nueva marca en GenStudio.
+Puede cargar sus propios documentos de marca para rellenar una nueva marca en GenStudio para especialistas en marketing de rendimiento.
 
 Ver [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
@@ -41,13 +41,13 @@ Ver [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
 1. Seleccione **[!UICONTROL Agregar marca]**.
 
-Con la tecnología de IA generativa de Adobe, GenStudio extrae información de los documentos cargados y comienza a crear su marca. La información de la marca, como la voz de la marca, el canal y las directrices de imagen se rellenan a medida que GenStudio organiza cada directriz a partir de los documentos de la marca.
+Con la tecnología de IA generativa de Adobe, GenStudio para especialistas en marketing de rendimiento extrae información de los documentos cargados y comienza a crear su marca. Verá información de la marca, como la voz de la marca, el canal y las directrices de imagen, tal como GenStudio para especialistas en marketing de rendimiento ensambla cada directriz a partir de los documentos de la marca.
 
 Una ventana emergente le recuerda que revise el contenido extraído antes de [publicar la marca](#publish-brand).
 
 ### Añadir marca manualmente
 
-Puede agregar manualmente los detalles de la marca, en lugar de cargar documentos de marca existentes, para rellenar una nueva [marca](brands.md) en GenStudio.
+Puede agregar manualmente los detalles de la marca, en lugar de cargar los documentos de marca existentes, para rellenar una nueva [marca](brands.md) en GenStudio para especialistas en marketing de rendimiento.
 
 **Para agregar manualmente una marca**:
 
@@ -66,7 +66,7 @@ Puede agregar manualmente los detalles de la marca, en lugar de cargar documento
 
 Para ver su [!DNL Brands] creado, haga clic en la flecha hacia atrás cerca de la parte superior del panel _Marca_ para volver a la página de inicio de _[!DNL Brands]_.
 
-No tiene que [publicar](#publish-brand) su marca para que la información sea accesible. Cualquier información añadida manualmente está disponible inmediatamente después de agregarse. Para que otros miembros de su organización utilicen la información de marca en GenStudio, debe publicarla.
+No tiene que [publicar](#publish-brand) su marca para que la información sea accesible. Cualquier información añadida manualmente está disponible inmediatamente después de agregarse. Para que otros miembros de su organización utilicen la información de marca en GenStudio para especialistas en marketing de rendimiento, debe publicarla.
 
 ### marca Publish
 
@@ -94,7 +94,7 @@ En la página de inicio de _[!DNL Brands]_, puede hacer clic para **abrir una ma
 
 ## Agregar [!DNL Products]
 
-Puede agregar [!DNL Products] en GenStudio para especificar áreas de enfoque de producto individuales al crear contenido. <!-- Add Rename, display, reposition functionality -->
+Puede agregar [!DNL Products] en GenStudio para especialistas en marketing de rendimiento a fin de especificar áreas de enfoque de producto individuales al crear contenido. <!-- Add Rename, display, reposition functionality -->
 
 Ver [[!DNL Products]](products.md).
 
@@ -121,7 +121,7 @@ En el inicio de _[!DNL Products]_, puede **abrir un elemento[!DNL Product]**ya c
 
 ## Agregar [!DNL Personas]
 
-Puede agregar [!DNL Persona] en GenStudio para ayudar a dirigir el contenido que cree a su audiencia ideal.
+Puede agregar [!DNL Persona] en GenStudio para especialistas en marketing de rendimiento a fin de ayudar a dirigir el contenido que cree a su audiencia ideal.
 
 Ver [[!DNL Personas]](personas.md).
 

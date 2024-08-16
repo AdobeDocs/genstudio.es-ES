@@ -1,10 +1,10 @@
 ---
 title: Trabajo con plantillas
-description: Aprenda a utilizar las plantillas para crear experiencias atractivas en GenStudio.
+description: Aprenda a utilizar las plantillas para crear experiencias atractivas en Adobe GenStudio para los especialistas en marketing de rendimiento.
 feature: Templates, Content
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: b383295810d4bd1b37227cf689ee76687e940f03
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '459'
 ht-degree: 2%
 
 ---
@@ -17,8 +17,8 @@ Las plantillas de GenStudio son esenciales para permitir que los creadores de co
 Esta guía proporciona información detallada sobre cómo:
 
 * Preparar una [plantilla de correo electrónico](email-template.md) o plantilla de anuncio meta
-* [Personalizar plantillas](customize-template.md) para GenStudio
-* [Cargar plantillas](#upload-a-template) en GenStudio
+* [Personalizar plantillas](customize-template.md) para GenStudio para Performance Marketerstudio
+* [Cargar plantillas](#upload-a-template) en GenStudio para especialistas en marketing de rendimiento
 * [Uso de plantillas para crear experiencias](#use-a-template)
 
 ## Estructura de una plantilla
@@ -38,11 +38,11 @@ El diseño de plantilla básico incluye los siguientes elementos:
 
 >[!NOTE]
 > 
->Se recomienda incluir campos específicos en el contenido de cada canal para garantizar que GenStudio pueda generar texto para los marcadores de posición de contenido. Consulte [Nombres de campo reconocidos](customize-template.md#recognized-field-names) para ver qué campos se recomiendan para su inclusión.
+>Se recomienda incluir campos específicos en el contenido de cada canal para garantizar que GenStudio para especialistas en marketing de rendimiento pueda generar texto para los marcadores de posición de contenido. Consulte [Nombres de campo reconocidos](customize-template.md#recognized-field-names) para ver qué campos se recomiendan para su inclusión.
 
 ## Cargar una plantilla
 
-GenStudio acepta plantillas en formato de HTML.
+GenStudio para especialistas en marketing de rendimiento acepta plantillas en formato HTML.
 
 **Para agregar una plantilla**:
 
@@ -80,7 +80,6 @@ Busque y utilice una plantilla existente para crear experiencias.
 >[!TIP]
 >
 >Consulte [[!DNL Create] una experiencia de correo electrónico](/help/tutorials/create-email-experience.md) o [[!DNL Create] una experiencia de Meta ad](/help/tutorials/create-meta-ad.md) para ver tutoriales completos con plantillas.
-
 <!--  The create button in Content Template view does not work yet.
 1. Click **[!UICONTROL Create Experience]** (paintbrush) from the upper right corner to use the template.
 -->
