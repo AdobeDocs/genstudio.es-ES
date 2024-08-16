@@ -1,9 +1,9 @@
 ---
 title: Notas de la versión de Adobe GenStudio for Performance Marketers Beta
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio.
-source-git-commit: 382026b07e123a1e49813b766f69496f6a8f38eb
+source-git-commit: 5505e3fdc78e217dd1eb73ed5bffa5e43d4f3084
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '356'
 ht-degree: 2%
 
 ---
@@ -28,8 +28,6 @@ El panel de validación de marca se mejoró para mejorar la experiencia del usua
 * _Carga incremental de la marca durante la extracción_: Las directrices de marca ahora se cargan gradualmente en la interfaz de usuario.
 
 * _Simplificación del esquema de copia de directrices_: los campos `unique attributes` y `frequent keywords` se han eliminado del esquema de copia de directrices, lo que simplifica el proceso de configuración de las directrices.
-
-* _Generación de imágenes: Selección de categorías_: Los usuarios ahora pueden seleccionar las directrices de imágenes específicas para sus necesidades de regeneración de imágenes.
 
 ### Crear
 
@@ -63,22 +61,15 @@ Los siguientes problemas conocidos se resolverán en la versión de GenStudio fo
 
 * Las acciones activadas por los botones **[!UICONTROL Agregar plantillas]** y **[!UICONTROL Cargar]** no se rastrean actualmente. <!-- GS-3505 -->
 
-### Marca
-
-* Un creador puede publicar correctamente una marca, pero los miembros de la organización no pueden ver la marca. <!-- XI-2197 -->
-
-### Crear
-
-* El recorte de imágenes en los anuncios Meta es inconsistente. <!-- GS-3739 -->
-
-* Las plantillas compuestas de varios grupos de elementos de página no superan la validación de marca. <!-- GS-4037 -->
-
 ### Perspectivas
 
-* Los errores de acceso denegado se producen con el extremo `/admin/addOffer` (servicio de aprovisionamiento). **Resuelto el 12/8**. <!-- GS-4047 -->
+* No se pueden reproducir vídeos de _Assets_. <!-- GS-3846 -->
+
+* Los usuarios deben iniciar sesión dos veces cuando también hayan iniciado sesión en Facebook. **Solución alternativa**: cierre la sesión de Facebook antes de iniciar sesión en Insights.
 
 * **Los valores de gasto a nivel de campaña** no son precisos. Actualmente, los datos no son coherentes entre el Administrador de Facebook Ads y el lago de datos. <!-- GS-3202 -->
 
 ### Revisiones y aprobaciones
 
-* Los creadores pueden cambiar los recursos después de la aprobación antes de publicarlos. Estos cambios no se notifican a los aprobadores.
+* Los creadores pueden cambiar los recursos después de aprobarlos antes de publicarlos. Estos cambios no se notifican a los aprobadores.
+

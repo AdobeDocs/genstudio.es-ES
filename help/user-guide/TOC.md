@@ -4,10 +4,10 @@ breadcrumb-title: Guía del usuario
 user-guide-description: Aprenda a encontrar y generar rápidamente recursos en la marca, crear variaciones y optimizar experiencias en función de las perspectivas de rendimiento de contenido en tiempo real.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: e06a877b16fc7e4fbf3301a99574ae2026babe54
+source-git-commit: 3283f1ff0ddbc8825e084add893b322dd20066d0
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 11%
+source-wordcount: '114'
+ht-degree: 10%
 
 ---
 
@@ -52,4 +52,6 @@ ht-degree: 11%
    + [Resumen de perspectivas](insights/overview.md)
    + [Conectar cuenta de canal](insights/connect-channel.md)
    + [Columnas de datos](insights/data-columns.md)
++ Notas de la versión {#release-notes}
+   + [Notas de la versión de Beta](beta-release-notes.md)
 
