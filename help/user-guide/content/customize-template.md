@@ -3,9 +3,9 @@ title: Personalizar plantillas
 description: Aprenda a crear una plantilla personalizada para Adobe GenStudio para especialistas en marketing de rendimiento.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 44390d551e638fcff47cff5844fcfda4ed9f98f3
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,7 @@ ht-degree: 0%
 
 Adapte las plantillas de HTML para el Adobe GenStudio para los especialistas en marketing de rendimiento mediante el lenguaje de plantilla _Handlebars_. La sintaxis de Handlebars utiliza texto normal con llaves dobles como marcadores de posición de contenido. Consulte [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) en la _Guía de idioma de Handlebars_ para aprender a preparar la plantilla.
 
-<!-- This is for email. In the future, maybe use tabs to provide guidance for other template types.
--->If you do not have an HTML template ready to use in GenStudio for Performance Marketers, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
+Si no tiene una plantilla de HTML lista para usar en GenStudio para especialistas en marketing de rendimiento, puede empezar definiendo la estructura de la plantilla con las etiquetas de HTML: `DOCTYPE`, `html`, `head` y `body`. A continuación se muestra una plantilla de correo electrónico básica que incluye estilos CSS para personalizar el aspecto:
 
 ```html
 <!DOCTYPE html>
@@ -30,8 +29,6 @@ Adapte las plantillas de HTML para el Adobe GenStudio para los especialistas en 
 </body>
 </html>
 ```
-
-Ver [ejemplos de plantillas](#template-examples).
 
 >[!TIP]
 >
@@ -47,13 +44,11 @@ Por ejemplo, puede usar `{{ headline }}` para indicar dónde se debe colocar el 
 <div>{{ headline }}</div>
 ```
 
-### Nombres de campo
+### Nombres de campo reconocidos
 
 El número máximo de campos permitidos en una plantilla personalizada es de veinte.
 
-#### Nombres de campo reconocidos
-
-En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio para la población de plantillas.
+En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio para Performance Marketers para su rellenado en plantillas.
 
 | Campo | Función | Plantilla de canal |
 | -------------- | ---------------------- | -------------------- |
@@ -63,12 +58,12 @@ En la tabla siguiente se enumeran los nombres de campo reconocidos por GenStudio
 | `cta` | Llamada a la acción | correo electrónico (recomendado)<br>Meta ad |
 | `on_image_text` | En texto de imagen | Meta anuncio (recomendado) |
 | `image` | Imagen | correo electrónico (recomendado)<br>Meta ad (recomendado) |
-| `brand_logo` | Logotipo de la marca seleccionada | correo electrónico<br>Meta anuncio |
+| `brand_logo` | Logotipo de la marca seleccionada<br>Vea [nombre del campo](#brand-logo-field-name) para obtener información sobre el uso recomendado. | correo electrónico<br>Meta anuncio |
 
 GenStudio para especialistas en marketing de rendimiento rellena automáticamente ciertos campos en las plantillas, por lo que no es necesario incluirlos en los diseños de plantilla:
 
-* Campo `subject` (plantilla de correo electrónico)
-* Campos de `headline`, `body` y `CTA` (plantilla de anuncio meta)
+- Campo `subject` (plantilla de correo electrónico)
+- Campos de `headline`, `body` y `CTA` (plantilla de anuncio meta)
 
 >[!WARNING]
 >
@@ -76,55 +71,53 @@ GenStudio para especialistas en marketing de rendimiento rellena automáticament
 
 #### Nombre del campo del logotipo de marca
 
-Para añadir un logotipo de marca a la plantilla, utilice uno de los siguientes métodos para representar el logotipo predeterminado.
+Los siguientes ejemplos muestran dos métodos que representan de forma condicional el logotipo de la marca, verifican la fuente, proporcionan un logotipo predeterminado o alternativo en caso de que el logotipo de la marca no esté disponible y aplican un estilo:
 
-_Ejemplo_:
+_Ejemplo_: en la definición del HTML `img src`
 
-```bash
-<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default image>{{/if}}" alt="WKND" style="max-width: 88px; margin: 10px auto; display: block;"> 
+```html
+<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;"> 
 ```
 
-_Ejemplo_:
+_Ejemplo_: en una condición Handlebars
 
-```bash
+```handlebars
 {{#if brand_logo}}
-
-                    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-
-                {{else}}
-
-                    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-
-                {{/if}}
+    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+    {{else}}
+    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+{{/if}}
 ```
 
 #### Nombres de campo manuales
 
-Todos los demás nombres de campo se tratan como campos rellenados manualmente. Si desea que una sección pueda editarse, agregue corchetes dobles alrededor de la sección que desee editar.
+Todos los demás nombres de campo se tratan como campos rellenados manualmente. Para crear una sección editable, agregue corchetes dobles alrededor del nombre de la sección:
 
-_Ejemplo_: ``{{customVariable}}`` (`customVariable` es la sección editable manualmente)
+```handlebars
+{{customVariable}}
+```
 
 ## Secciones o grupos
 
-_Las secciones_ informan a GenStudio para especialistas en marketing de rendimiento que los campos de esta sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección.
+_Las secciones_ informan a GenStudio para especialistas en marketing de rendimiento de que los campos de esta sección requieren un alto grado de coherencia. El establecimiento de esta relación ayuda a la IA a generar contenido que coincida con los elementos creativos de la sección.
 
 Utilice un prefijo de su elección en el nombre del campo para indicar que un campo forma parte de una sección o grupo.
 
 Por ejemplo, es posible que desee resaltar el contenido que aparece en un área resaltada:
 
-* `spotlight_headline`
-* `spotlight_body`
+- `spotlight_headline`
+- `spotlight_body`
 
 Cada sección solo puede tener uno de cada tipo de campo. En el ejemplo anterior, el prefijo `spotlight` solo puede tener un campo `spotlight_headline`.
 
 Una plantilla puede incluir hasta tres secciones:
 
-* `headline`
-* `body`
-* `spotlight_headline`
-* `spotlight_body`
-* `news_headline`
-* `news_body`
+- `headline`
+- `body`
+- `spotlight_headline`
+- `spotlight_body`
+- `news_headline`
+- `news_body`
 
 GenStudio para especialistas en marketing de rendimiento entiende que `spotlight_headline` está más relacionado con `spotlight_body` que con `news_body`.
 
@@ -263,7 +256,6 @@ El siguiente es un ejemplo básico de una plantilla de publicidad Meta. El encab
     <div class="ad-body">"{{ body }}"</div>
     <a href="(https://example.com)" class="ad-cta">"{{ CTA }}"</a>
 </div>
-
 </body>
 </html>
 ```

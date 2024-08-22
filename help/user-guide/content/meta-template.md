@@ -3,9 +3,9 @@ title: Preparar una plantilla de anuncio Meta para el Adobe GenStudio de los esp
 description: Aprenda a crear una plantilla de anuncio Meta personalizada para Adobe GenStudio para especialistas en marketing de rendimiento.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 5bbc089fa7441ad8ce4cd84dd92889d1a22c0f61
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -52,18 +52,18 @@ Defina las áreas en la plantilla de correo electrónico que deben rellenarse di
 Para definir áreas de contenido generadas:
 
 * Identifique los elementos de texto de la plantilla que los especialistas en marketing de rendimiento de GenStudio deben generar automáticamente, como el titular o CTA.
-* Adapte la plantilla del HTML insertando marcadores de posición dentro de ella mediante la sintaxis Handblebars.
+* Adapte la plantilla de HTML insertando marcadores de posición dentro de ella mediante la sintaxis Handlebars.
 
 Consulte [Marcadores de posición de contenido](/help/user-guide/content/customize-template.md#content-placeholders).
 
 ## Previsualización de la plantilla
 
-Controle la visibilidad de áreas de contenido específicas mediante el uso de Ayudantes integrados. Por ejemplo, puede incluir parámetros de seguimiento en vínculos en una plantilla exportada mientras mantiene los vínculos de vista previa limpios.
+Controle la visibilidad de áreas de contenido específicas con los ayudantes integrados. Por ejemplo, incluya parámetros de seguimiento en los vínculos de una plantilla exportada mientras mantiene los vínculos de vista previa limpios.
 
 Ver [vista previa de plantilla](/help/user-guide/content/customize-template.md#template-preview).
 
 ## Cargar y utilizar plantilla
 
-Una vez que la plantilla esté diseñada, codificada, probada y vista previa, puede cargarla en GenStudio para especialistas en marketing de rendimiento para utilizarla en la generación de contenido de marketing completamente nuevo.
+Una vez que la plantilla esté diseñada, codificada, probada y vista previa, cárguela a GenStudio para que la utilicen los especialistas en marketing de rendimiento para generar contenido de marketing completamente nuevo.
 
 Consulte [Uso de plantillas](use-templates.md).

@@ -3,7 +3,7 @@ title: Preparar una plantilla de correo electrónico de Adobe GenStudio para esp
 description: Obtenga información sobre cómo crear una plantilla de correo electrónico personalizada para Adobe GenStudio para especialistas en marketing de rendimiento.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 5bbc089fa7441ad8ce4cd84dd92889d1a22c0f61
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -48,13 +48,13 @@ Defina las áreas en la plantilla de correo electrónico que deben rellenarse di
 Para definir áreas de contenido generadas:
 
 * Identifique los elementos de texto de la plantilla que los especialistas en marketing de rendimiento de GenStudio deben generar automáticamente, como el titular o CTA.
-* Adapte la plantilla del HTML insertando marcadores de posición dentro de ella mediante la sintaxis Handblebars.
+* Adapte la plantilla de HTML insertando marcadores de posición dentro de ella mediante la sintaxis Handlebars.
 
 Consulte [Marcadores de posición de contenido](/help/user-guide/content/customize-template.md#content-placeholders).
 
 ## Previsualización de la plantilla
 
-Controle la visibilidad de áreas de contenido específicas mediante el uso de Ayudantes integrados. Por ejemplo, puede incluir parámetros de seguimiento en vínculos en una plantilla exportada mientras mantiene los vínculos de vista previa limpios.
+Controle la visibilidad de áreas de contenido específicas con los ayudantes integrados. Por ejemplo, puede incluir parámetros de seguimiento en vínculos en una plantilla exportada mientras mantiene los vínculos de vista previa limpios.
 
 Ver [vista previa de plantilla](/help/user-guide/content/customize-template.md#template-preview).
 
