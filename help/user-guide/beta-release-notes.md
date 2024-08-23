@@ -1,9 +1,9 @@
 ---
 title: Notas de la versión de Adobe GenStudio for Performance Marketers Beta
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio para especialistas en marketing de rendimiento.
-source-git-commit: 72103c750a7708d97be87bed144bfe053ceeaa0f
+source-git-commit: 071871f91f0624c1bdb3be3f5ed2d9742352afea
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Los siguientes problemas conocidos están programados para su resolución en la 
 * No se pueden reproducir vídeos de _Assets_. <!-- GS-3846 -->
 
 * Los usuarios deben iniciar sesión dos veces en una cuenta de Meta Ads de canal cuando también inicien sesión en Facebook. **Solución alternativa**: cierre la sesión de Facebook antes de iniciar sesión en una cuenta de Meta Ads de canal.
+
+### Problemas conocidos resueltos
+
+* El área desplegable Preguntar ([!DNL Brands]) muestra un control de número al final de la lista ([!DNL Brands]) durante la creación del correo electrónico. (corregido el 22 de agosto) <!-- GS-4077 -->
 
 ## Versiones beta anteriores
 
