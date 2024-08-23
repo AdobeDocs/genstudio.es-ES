@@ -1,7 +1,7 @@
 ---
 title: Notas de la versión de Adobe GenStudio for Performance Marketers Beta
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio para especialistas en marketing de rendimiento.
-source-git-commit: 071871f91f0624c1bdb3be3f5ed2d9742352afea
+source-git-commit: 44cee6fa5b543372b1264745dd42ca6d3c754ec5
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -27,11 +27,11 @@ Los siguientes problemas conocidos están programados para su resolución en la 
 
 ### Problemas conocidos resueltos
 
-* El área desplegable Preguntar ([!DNL Brands]) muestra un control de número al final de la lista ([!DNL Brands]) durante la creación del correo electrónico. (corregido el 22 de agosto) <!-- GS-4077 -->
+* El menú desplegable del área Preguntar ([!DNL Brands]) muestra un control de número al final de la lista ([!DNL Brands]) durante la creación del correo electrónico. (corregido el 22 de agosto) <!-- GS-4077 -->
 
-## Versiones beta anteriores
+## Versiones anteriores de Beta
 
-Las versiones beta anteriores incluían los siguientes aspectos destacados y correcciones.
+Las versiones anteriores de Beta incluían los siguientes aspectos destacados y correcciones.
 
 ### Características destacadas
 
