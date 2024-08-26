@@ -2,9 +2,9 @@
 title: Trabajo con plantillas
 description: Aprenda a utilizar las plantillas para crear experiencias atractivas en Adobe GenStudio para los especialistas en marketing de rendimiento.
 feature: Templates, Content
-source-git-commit: b383295810d4bd1b37227cf689ee76687e940f03
+source-git-commit: 0cd877737f8ed4d38201c832d454795206505de2
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '473'
 ht-degree: 2%
 
 ---
@@ -12,12 +12,13 @@ ht-degree: 2%
 
 # Trabajo con plantillas
 
-Las plantillas de GenStudio son esenciales para permitir que los creadores de contenido produzcan rápidamente contenido de marketing coherente en la marca. El uso de plantillas reduce significativamente el tiempo y el esfuerzo necesarios para generar contenido nuevo al proporcionar un punto de partida que incluye diseños y elementos de diseño preconfigurados.
+Las plantillas de GenStudio permiten a los creadores de contenido producir rápidamente contenido de marketing coherente de la marca. El uso de plantillas reduce significativamente el tiempo y el esfuerzo necesarios para generar contenido nuevo al proporcionar un punto de partida que incluye diseños y elementos de diseño preconfigurados.
 
 Esta guía proporciona información detallada sobre cómo:
 
 * Preparar una [plantilla de correo electrónico](email-template.md) o plantilla de anuncio meta
-* [Personalizar plantillas](customize-template.md) para GenStudio para Performance Marketerstudio
+* [Personalizar plantillas](customize-template.md) para GenStudio para especialistas en marketing de rendimiento
+* Siga las instrucciones de [Crear plantillas accesibles](accessibility-for-templates.md)
 * [Cargar plantillas](#upload-a-template) en GenStudio para especialistas en marketing de rendimiento
 * [Uso de plantillas para crear experiencias](#use-a-template)
 
@@ -27,17 +28,17 @@ El diseño de plantilla básico incluye los siguientes elementos:
 
 | Elemento | Función | Plantilla de canal |
 | ------------ | ---------------------- | -------------------- |
-| Preencabezado | Entre 40 y 50 caracteres <br>Actúa como línea de asunto secundaria y mejora la línea de asunto principal <br>Visible en la bandeja de entrada junto al asunto antes de que se abra el correo electrónico | email |
+| Preencabezado | Entre 40 y 50 caracteres <br>Actúa como una línea de asunto secundaria y mejora la línea de asunto principal <br>Visible en la bandeja de entrada junto al asunto antes de que se abra el correo electrónico | email |
 | Encabezado | La sección superior del destinatario del correo electrónico ve al abrir el correo electrónico <br>Establece el tono y proporciona contexto para el contenido incluido | email |
 | Titular | El primer destinatario de contenido <br> debe ser convincente para captar el interés | Meta anuncio |
 | Cuerpo | Área de contenido principal donde se transmite el mensaje principal <br>Puede incluir texto, imágenes y otros elementos multimedia | correo electrónico<br>Meta anuncio |
 | CTA | Llamada a acción que anima al destinatario a realizar acciones específicas, como hacer clic en un vínculo o realizar una compra | correo electrónico<br>Meta anuncio |
 | Imágenes | Mejora el atractivo visual <br>Divide el texto <br>Admite el mensaje <br>Debe ser de alta calidad y atractivo | correo electrónico<br>Meta anuncio |
-| Pie de página | Contiene información adicional, como detalles de contacto, vínculos de medios sociales, exenciones de responsabilidad y opciones de cancelación de suscripción | email |
+| Pie de página | Sección de pie que contiene contenido adicional, como detalles de contacto, vínculos de medios sociales, exenciones de responsabilidad legal y opciones de cancelación de suscripción | email |
 | Superposición de texto | El texto de una imagen <br> debe admitir y mejorar el titular y el cuerpo | Meta anuncio |
 
 >[!NOTE]
-> 
+>
 >Se recomienda incluir campos específicos en el contenido de cada canal para garantizar que GenStudio para especialistas en marketing de rendimiento pueda generar texto para los marcadores de posición de contenido. Consulte [Nombres de campo reconocidos](customize-template.md#recognized-field-names) para ver qué campos se recomiendan para su inclusión.
 
 ## Cargar una plantilla
