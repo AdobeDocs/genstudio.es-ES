@@ -2,9 +2,9 @@
 title: Escribir indicadores efectivos
 description: Aprenda a escribir mensajes efectivos sobre el Adobe GenStudio para los especialistas en marketing de rendimiento.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 306b64b44e69dbcec3984d1a0b54230fe0dbe48c
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Para [correos electrónicos](/help/tutorials/create-email-experience.md), los cr
 
 >[!NOTE]
 >
->Si se agregan directrices en _Parameters_ en el área de solicitud, no necesita incluir referencias a ellas en la solicitud. GenStudio para especialistas en marketing de rendimiento aprovechará [!DNL Brands], [!DNL Products] y [!DNL Personas] en la generación de contenido.
+>Si se agregan directrices en _Parameters_ en el área de solicitud, no es necesario incluir una referencia a ellas en la solicitud. GenStudio para especialistas en marketing de rendimiento aprovecha [!DNL Brands], [!DNL Products] y [!DNL Personas] en la generación de contenido.
 
 ### Directrices
 
@@ -57,15 +57,7 @@ Las directrices de GenStudio para especialistas en marketing de rendimiento ayud
 
 ## Inténtelo de nuevo
 
-La solicitud es un proceso iterativo. Si los resultados no cumplen con sus expectativas, revise el mensaje y realice algunos cambios o agregue más detalles. Puede restringir el mensaje proporcionando una dirección URL como ejemplo o una fuente para obtener más información.
-
-```bash
-Write an email to motivate infrequent users of Photoshop to follow an in-app tutorial that teaches them to combine elements of two photos into a beautiful work of art. Highlight the generative AI capabilities of Photoshop and use references to natural imagery.
-
-Use information from https://www.adobe.com/products/photoshop.html to inspire users with the latest features.
-```
-
-O bien, puede pegar en secciones de un informe de campaña. Incluso puede solicitar que GenStudio para especialistas en marketing de rendimiento evite determinadas palabras, elementos o temáticas.
+La solicitud es un proceso iterativo. Si los resultados no cumplen con sus expectativas, revise el mensaje y realice algunos cambios o agregue más detalles. O bien, puede pegar en secciones de un informe de campaña. Incluso puede solicitar que GenStudio para especialistas en marketing de rendimiento evite determinadas palabras, elementos o temáticas.
 
 ## Prácticas recomendadas
 
