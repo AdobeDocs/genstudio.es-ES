@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 5026afb4eb71df73063559aee34971039511b31a
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para crear una experiencia de correo electrónico efectiva, se recomienda [agreg
 
 ## Elija una plantilla
 
-Para empezar a crear una nueva experiencia de correo electrónico, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido.
+Para crear una nueva experiencia de correo electrónico, utilice una plantilla disponible para proporcionar el marco de trabajo para el contenido.
 
 **Para elegir una plantilla de correo electrónico**:
 
@@ -47,6 +47,10 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
    * Haga clic en **[!UICONTROL Seleccionar del contenido]** para seleccionar los recursos (imágenes) ya publicados en [!DNL Content]. Utilice los filtros para restringir aún más los resultados de búsqueda.
    * Haga clic en **[!UICONTROL Cargar]** para examinar los archivos y elegir los recursos que desea utilizar. Además de explorar el dispositivo, también puede importar desde Microsoft OneDrive o Dropbox.
    * Arrastre y suelte los recursos en la sección _Contenido_.
+
+>[!NOTE]
+>
+>Si la plantilla de correo electrónico tiene varias secciones, seleccione [!DNL Products] y el contenido (recursos visuales) de cada sección de correo electrónico en _Correos electrónicos de varias secciones_. Los correos electrónicos de varias secciones admiten un recurso visual por sección.
 
 Cuando haya terminado de agregar parámetros, puede contraer el área de solicitud haciendo clic de nuevo en el icono _Parameters_.
 
