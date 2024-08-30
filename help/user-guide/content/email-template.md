@@ -3,9 +3,9 @@ title: Preparar una plantilla de correo electrónico de Adobe GenStudio para esp
 description: Obtenga información sobre cómo crear una plantilla de correo electrónico personalizada para Adobe GenStudio para especialistas en marketing de rendimiento.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 5bbc089fa7441ad8ce4cd84dd92889d1a22c0f61
+source-git-commit: 09431d6f5f5b00c1b84cf69667a337ce51683c1d
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Normalmente, un diseñador crea el diseño visual de una plantilla en un programa de diseño como Adobe XD. Una vez diseñada, codificada y probada una plantilla de correo electrónico, puede prepararla para su carga y uso en GenStudio para especialistas en marketing de rendimiento.
 
-Ver [Estructura de una plantilla](/help/user-guide/content/use-templates.md#anatomy-of-a-template).
+Ver [elementos de plantilla](use-templates.md#template-elements).
 
 ## Adición de directrices
 

@@ -1,10 +1,10 @@
 ---
 title: Creación de plantillas accesibles
-description: Genere plantillas que puedan llegar a todas las audiencias para utilizarlas en Adobe GenStudio para especialistas en marketing de rendimiento.
+description: Cree plantillas en Adobe GenStudio para especialistas en marketing de rendimiento que sean capaces de llegar a una mayor audiencia y proporcionar una experiencia óptima.
 feature: Templates, Content
-source-git-commit: 26d1b9c7b392e93e87ffcd9444f391c2980d1c3c
+source-git-commit: c891f876fe5a7c75487fcba6552a213533f0b609
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---

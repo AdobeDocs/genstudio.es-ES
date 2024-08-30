@@ -2,9 +2,9 @@
 title: Información general sobre el Adobe GenStudio para especialistas en marketing de rendimiento [!DNL Content]
 description: Aprenda a encontrar, editar, reutilizar y compartir recursos aprobados por la marca en un portal intuitivo.
 feature: Attributes, Content, Templates
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: c34fd3ac0925624c685ae27d56d9964896796786
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '300'
 ht-degree: 1%
 
 ---
@@ -20,45 +20,43 @@ GenStudio para especialistas en marketing de rendimiento [!DNL Content] proporci
 <tr style="border: 0;">
    <td align="center" valign="top" width="100">
       <a href="../content/manage-assets.md#search">
-      <img alt="lupa" src="../../assets/icons/icon-search.svg" width="35">
+         <img alt="lupa" src="../../assets/icons/icon-search-35.svg" width="35">
       </a>
-      <div>
+      <p>
          <a href="../content/manage-assets.md#search">
          <strong>Buscar contenido</strong>
          </a>
-      </div>
+      </p>
    </td>
    <td align="center" valign="top" width="100">
       <a href="../content/manage-assets.md">
-      <img alt="imágenes con signo más" src="../../assets/icons/icon-addContent.svg" width="35">
+         <img alt="imágenes con signo más" src="../../assets/icons/icon-addContent-35.svg" width="35">
       </a>
-      <div>
+      <p>
          <a href="../content/manage-assets.md">
          <strong>Agregar recursos</strong>
          </a>
-      </div>
+      </p>
    </td>
-<!--
    <td align="center" valign="top" width="100">
-      <a href="../content/manage-assets.md#search">
-      <img alt="sparkle and new asset" src="../../assets/icons/icon-AIVariation.svg" width="35">
+      <a href="../content/customize-template.md">
+         <img alt="tornillo de alumbrado del recurso" src="../../assets/icons/icon-template-35.svg" width="35">
       </a>
-      <div>
-         <a href="../content/manage-assets.md#search">
-         <strong>Refresh content</strong>
+      <p>
+         <a href="../content/customize-template.md">
+         <strong>Personalizar una plantilla</strong>
          </a>
-      </div>
+      </p>
    </td>
--->
    <td align="center" valign="top" width="100">
       <a href="../content/use-templates.md">
-      <img alt="tornillo de alumbrado del recurso" src="../../assets/icons/icon-template.svg" width="35">
+         <img alt="perno de alumbrado en el recurso con signo más" src="../../assets/icons/icon-addTemplate-35.svg" width="35">
       </a>
-      <div>
+      <p>
          <a href="../content/use-templates.md#upload-a-template">
          <strong>Cargar plantilla</strong>
          </a>
-      </div>
+      </p>
    </td>
 </tr>
 </table>
@@ -77,4 +75,4 @@ Al guardar los recursos aprobados, [!DNL Content] mantiene los metadatos enrique
 
 ### Trabajo con plantillas
 
-Las plantillas aceleran el proceso de creación para que pueda generar contenido coherente en varios canales. Las plantillas proporcionan un punto de partida en el proceso de creación con diseños y elementos de diseño preconfigurados.
+Las plantillas aceleran el proceso de creación para que pueda generar contenido coherente en varios canales. Cargue la plantilla personalizada para utilizarla como punto de partida en el proceso de creación con diseños y elementos de diseño preconfigurados.

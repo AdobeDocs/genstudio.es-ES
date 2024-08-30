@@ -3,9 +3,9 @@ title: Preparar una plantilla de anuncio Meta para el Adobe GenStudio de los esp
 description: Aprenda a crear una plantilla de anuncio Meta personalizada para Adobe GenStudio para especialistas en marketing de rendimiento.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 5bbc089fa7441ad8ce4cd84dd92889d1a22c0f61
+source-git-commit: 09431d6f5f5b00c1b84cf69667a337ce51683c1d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Si no se agregan directrices a GenStudio para especialistas en marketing de rend
 
 Normalmente, un diseñador crea el diseño visual de una plantilla en un programa de diseño como Adobe XD.
 
-Ver [Anatomía de una plantilla](/help/user-guide/content/use-templates.md#anatomy-of-a-template) y [ejemplos de plantilla](/help/user-guide/content/customize-template.md#template-examples).
+Vea [Elementos de plantilla](use-templates.md#template-elements) y [Ejemplos de plantilla](/help/user-guide/content/customize-template.md#template-examples).
 
 ### Especificaciones del anuncio
 

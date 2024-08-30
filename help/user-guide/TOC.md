@@ -4,9 +4,9 @@ breadcrumb-title: Guía del usuario
 user-guide-description: Aprenda a encontrar y generar rápidamente recursos en la marca, crear variaciones y optimizar experiencias en función de las perspectivas de rendimiento de contenido en tiempo real.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: 0cd877737f8ed4d38201c832d454795206505de2
+source-git-commit: 3e5b91f86af691cc723f4b2dfc194beade53b696
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '126'
 ht-degree: 10%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 10%
    + [Administración de recursos](content/manage-assets.md)
    + Plantillas {#templates}
       + [Trabajo con plantillas](content/use-templates.md)
-      + [Personalizar plantillas](content/customize-template.md)
+      + [Personalizar una plantilla](content/customize-template.md)
       + [Creación de plantillas accesibles](content/accessibility-for-templates.md)
       + [Preparar una plantilla de correo electrónico](content/email-template.md)
       + [Preparación de una plantilla de anuncio Meta](content/meta-template.md)
