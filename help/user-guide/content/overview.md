@@ -2,7 +2,7 @@
 title: Información general sobre el Adobe GenStudio para especialistas en marketing de rendimiento [!DNL Content]
 description: Aprenda a encontrar, editar, reutilizar y compartir recursos aprobados por la marca en un portal intuitivo.
 feature: Attributes, Content, Templates
-source-git-commit: c34fd3ac0925624c685ae27d56d9964896796786
+source-git-commit: 6ee651ab67a92e2eca9929c3cfc6c66fb90d785e
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 1%
@@ -20,7 +20,7 @@ GenStudio para especialistas en marketing de rendimiento [!DNL Content] proporci
 <tr style="border: 0;">
    <td align="center" valign="top" width="100">
       <a href="../content/manage-assets.md#search">
-         <img alt="lupa" src="../../assets/icons/icon-search-35.svg" width="35">
+         <img alt="lupa" src="../../assets/icons/icon-search.png" width="35">
       </a>
       <p>
          <a href="../content/manage-assets.md#search">
@@ -30,7 +30,7 @@ GenStudio para especialistas en marketing de rendimiento [!DNL Content] proporci
    </td>
    <td align="center" valign="top" width="100">
       <a href="../content/manage-assets.md">
-         <img alt="imágenes con signo más" src="../../assets/icons/icon-addContent-35.svg" width="35">
+         <img alt="imágenes con signo más" src="../../assets/icons/icon-addContent.png" width="35">
       </a>
       <p>
          <a href="../content/manage-assets.md">
@@ -40,7 +40,7 @@ GenStudio para especialistas en marketing de rendimiento [!DNL Content] proporci
    </td>
    <td align="center" valign="top" width="100">
       <a href="../content/customize-template.md">
-         <img alt="tornillo de alumbrado del recurso" src="../../assets/icons/icon-template-35.svg" width="35">
+         <img alt="tornillo de alumbrado del recurso" src="../../assets/icons/icon-template.png" width="35">
       </a>
       <p>
          <a href="../content/customize-template.md">
@@ -50,7 +50,7 @@ GenStudio para especialistas en marketing de rendimiento [!DNL Content] proporci
    </td>
    <td align="center" valign="top" width="100">
       <a href="../content/use-templates.md">
-         <img alt="perno de alumbrado en el recurso con signo más" src="../../assets/icons/icon-addTemplate-35.svg" width="35">
+         <img alt="perno de alumbrado en el recurso con signo más" src="../../assets/icons/icon-addTemplate.png" width="35">
       </a>
       <p>
          <a href="../content/use-templates.md#upload-a-template">
