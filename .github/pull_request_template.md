@@ -1,7 +1,7 @@
 ---
-source-git-commit: 57c1780d010e6c95160b4c0cc45b2c9e9b528d3c
+source-git-commit: 5637f43a059fd747f7d656852d5428784525771a
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '17'
 ht-degree: 0%
 
 ---
@@ -9,19 +9,17 @@ ht-degree: 0%
 
 Esta solicitud de extracción...
 
-## Problemas relacionados
+## Contexto adicional
 
-Proporcione vínculos a problemas o códigos relacionados:
+Vínculos a problemas o código relacionados:
 
-<!-- 
-Provide links to any issues tracking this work.
+<!-- Provide links to any issues tracking this work.
 
 If you are fixing a GitHub issue, using the [GitHub keyword format](https://help.github.com/en/articles/closing-issues-using-keywords#closing-an-issue-in-a-different-repository) closes the issue when this pull request is merged. Example: `Fixes #1234`. -->
 
-## Contexto adicional
+Capturas de pantalla:
 
-Añada cualquier otro contexto, como capturas de pantalla o resultados de pruebas que muestren una corrección.
+<!-- Add any other context, such as screenshots or test results that demonstrate a fix.
 
-<!--
 Thank you for taking the time to contribute to our documentation.
 -->
