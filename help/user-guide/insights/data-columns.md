@@ -1,26 +1,26 @@
 ---
 title: Columnas de datos de  [!DNL Insights]
-description: Comprenda lo que representa cada columna en una  [!DNL Insights] cuadrícula.
+description: Comprenda qué representa cada columna de una  [!DNL Insights] tabla en GenStudio para especialistas en marketing de rendimiento.
 feature: Attributes, Insights
 recommendations: noDisplay
-source-git-commit: 4d5de6fc053297c823be9005c628dafcecc3f7a7
+exl-id: 138ad192-b178-45c9-9293-96d89ed7f2aa
+source-git-commit: 2a3085f535b4f161bd6e8bf321eac11357c44a5a
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 3%
+source-wordcount: '282'
+ht-degree: 2%
 
 ---
 
-
 # Columnas de datos de [!DNL Insights]
 
-[!DNL Insights] muestra cuadrículas personalizables para cada vista: Canales, Experiencias, Assets y Atributos.
+[!DNL Insights] muestra tablas personalizables para cada vista: Canales, Experiencias, Assets y Atributos.
 
-Personalice la cuadrícula:
+Personalice la tabla:
 
-- Haga clic en un encabezado de columna para acceder al menú contextual con las opciones de cambio de tamaño y ordenación.
-- Haga clic en el icono de engranaje situado encima del lado derecho de la cuadrícula y abra el menú _[!UICONTROL Configurar tabla]_ para alternar las columnas visibles.
+- Haga clic en un encabezado de columna para obtener acceso al menú contextual con las opciones _Cambiar tamaño_ y _Ordenar_.
+- Haga clic en el icono de configuración (cog) en el lado derecho sobre la tabla y abra el menú _[!UICONTROL Configurar tabla]_ para alternar las columnas visibles.
 
-Las columnas disponibles incluyen:
+## Vista de tabla de canales
 
 | Columna | Descripción |
 | ----------- | ------------ |
@@ -32,5 +32,7 @@ Las columnas disponibles incluyen:
 | CTR | La tasa de pulsaciones se mide como todos los clics en el anuncio |
 | Conversión | Eventos que representan valiosas acciones del cliente hacia el final del recorrido del cliente, como compras, suscripciones o posibles clientes. |
 | Impresiones | La cantidad de veces que se mostraron anuncios de campaña a los espectadores a través de impresiones registradas. |
+| Launch | Fecha de lanzamiento de la campaña. |
 | Objetivo | El objetivo de una campaña o proyecto. Establezca el objetivo al crear la campaña o el proyecto.<br>Los tipos de objetivos incluyen: `Awareness`, `Traffic`, `Engagement`, `Leads`, `App promotion`, `Sales` |
 | Gasto | Cantidad total de dinero gastado en USD para todos los anuncios de una campaña. |
+| Reproducciones de vídeo | El número de veces que un vídeo empieza a reproducirse al hacer clic o por reproducción automática. |
