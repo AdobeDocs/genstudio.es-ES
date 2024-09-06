@@ -2,9 +2,9 @@
 title: Notas de la versión de Adobe GenStudio for Performance Marketers Beta
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio para especialistas en marketing de rendimiento.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: ca5e746850925252679facc321d7522b251cd57a
+source-git-commit: 62793ab56b635f17e037b63beb56c09ff2d45621
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,7 @@ Estas notas resaltan los Adobes GenStudio significativos que suponen las correcc
 
 ## Nuevas funciones
 
-* GenStudio ahora admite la opción de obtener una vista previa de los recursos multimedia en [!DNL Insights]. Las miniaturas de vídeo incluyen un botón **Reproducir** con la opción silenciar. <!-- GS-4398 -->
-
-* Assets ahora se puede filtrar en [!DNL Insights] por tipo `video`. <!-- GS-4398 -->
+* GenStudio ahora admite la opción de obtener una vista previa de los recursos multimedia en [!DNL Insights] vistas de tabla y galería. Las miniaturas de vídeo incluyen un botón **Reproducir** con la opción silenciar. <!-- GS-4398 -->
 
 ## Problemas conocidos
 
