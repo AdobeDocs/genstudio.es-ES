@@ -2,9 +2,9 @@
 title: Notas de la versión de Adobe GenStudio for Performance Marketers Beta
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio para especialistas en marketing de rendimiento.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: 62793ab56b635f17e037b63beb56c09ff2d45621
+source-git-commit: 2e40260db0f9972675b103c51f09acbfa83a1cb5
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,6 @@ Los siguientes problemas conocidos están programados para su resolución en la 
 * La ventana emergente _Agregar Assets_ ahora está localizada según lo esperado. <!-- GS-3834 -->
 
 * Se han resuelto los problemas con la escala de la plantilla de experiencia Meta ads. <!-- GS-4174 -->
-
-* AEM Los modelos de fragmento de contenido creados para plantillas ahora se pueden representar con precisión en el código de tiempo de la página de trabajo <!-- GS-4716 -->.
 
 * Los campos de texto del archivo de exportación CSV para correos electrónicos de varias partes ahora se ordenan según lo esperado. <!-- GS-4013 -->
 
