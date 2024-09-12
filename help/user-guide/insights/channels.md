@@ -2,13 +2,13 @@
 title: Resumen de canales
 description: Consulte una descripción general de la participación del cliente, el rendimiento, el presupuesto y los gastos para campañas de marketing en Adobe GenStudio para especialistas en marketing de rendimiento.
 feature: Insights, Channels
-source-git-commit: 2e76eadcc3281ea935dca383eb3db8c41b83e679
+exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
+source-git-commit: 13e49dd7bd36e842513baa6311373671da827926
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # Resumen de canales
 
@@ -20,9 +20,9 @@ La vista [!DNL Insights] _[!UICONTROL Canales]_ muestra una lista de campañas p
 
 La tabla [!UICONTROL Canales] está organizada mediante la campaña de anuncios basada en canales. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre las listas [!UICONTROL Cuenta], [!UICONTROL Estado] y [!UICONTROL Objetivo] para filtrar las campañas de la tabla.
 
-![Filtro de canal y tabla](../../assets/insights-channel-filter.png)
+![Filtro y tabla de canales](../../assets/insights-channels-filter.png)
 
-Al seleccionar una campaña, la ficha [!UICONTROL Experiencias] se abre para mostrar una lista de nombres de anuncios asociados con esa campaña.
+Al seleccionar una campaña, la ficha [[!UICONTROL Experiencias]](experiences.md) se abre a una lista de nombres de anuncios asociados con esa campaña, lo que le permite identificar qué experiencias han contribuido a su éxito general.
 
 ## Objetivos
 
