@@ -6,13 +6,13 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: 5026afb4eb71df73063559aee34971039511b31a
+exl-id: 34446202-da98-45ff-869a-b43496a477f8
+source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
-
 
 # Crear una experiencia de correo electrónico
 
@@ -69,16 +69,14 @@ De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones (
 
 ## Revisar correos electrónicos generados
 
-Antes de seleccionar qué enviar para su aprobación o publicación en [!DNL Content], puede editar fragmentos de correo electrónico o eliminar una variante del conjunto de correos electrónicos generados.
+Antes de seleccionar lo que se enviará para su aprobación o publicación en [!DNL Content], puede editar las secciones de correo electrónico o eliminar una variante del conjunto de correos electrónicos generados.
 
 **Para revisar las variantes generadas**:
 
-* **Para editar el nombre del borrador del correo electrónico**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
-* **Para editar manualmente un correo electrónico**, haga doble clic en cualquiera de los fragmentos de correo electrónico (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario.
-
-  La línea de asunto y el preencabezado solo requieren un solo clic para editar, mientras que el encabezado, la copia del cuerpo y la llamada a la acción requieren un doble clic.
-
-* **Para eliminar un correo electrónico**, haga clic para seleccionar el título del correo electrónico (por ejemplo, &quot;Correo electrónico 1/4&quot;) y haga clic en **[!UICONTROL Eliminar variante]**.
+* **Para [editar el nombre del borrador del correo electrónico](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
+* **Para [editar manualmente un correo electrónico](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de los campos de texto editables (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario.
+* **Para [regenerar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba una nueva solicitud y haga clic en **[!UICONTROL Generar]**.
+* **Para [eliminar un correo electrónico](/help/user-guide/create/manage-variants.md#delete-variant)**, haga clic para seleccionar el título del correo electrónico (por ejemplo, &quot;Correo electrónico 1/4&quot;) y haga clic en **[!UICONTROL Eliminar variante]**.
 
 ## Verificar alineación de marca
 
@@ -87,7 +85,7 @@ Para optimizar los mensajes de correo electrónico generados y garantizar el cum
 **Para comprobar la alineación de marca**:
 
 1. Haga clic en el icono [**[!UICONTROL [!DNL Brand] directrices para buscar una variante ]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) y vea un resumen del rendimiento de esa variante cuando se compara con su marca.
-1. Para obtener los detalles de los fragmentos y las directrices que deben mejorarse, haga clic en **[!UICONTROL Revisar]** _o_ haga clic en el icono Validación de marca en la barra de menú superior para abrir el [_Panel de validación de marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
+1. Para obtener los detalles de las secciones y directrices que deben mejorarse, haga clic en **[!UICONTROL Revisar]** _o_ haga clic en el icono Validación de marca en la barra de menú superior para abrir el [_Panel de validación de marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Desplácese por cada correo electrónico para ver cómo puede mejorar el contenido generado y alinearlo mejor con la marca.
 1. [Revisa manualmente los correos electrónicos](#revise-generated-emails) para asegurarte de que estén alineados con tu marca.

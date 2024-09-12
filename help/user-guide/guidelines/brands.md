@@ -2,13 +2,13 @@
 title: GenStudio para especialistas en marketing de rendimiento [!DNL Brands]
 description: GenStudio para especialistas en marketing de alto rendimiento [!DNL Brands] son una colección completa de recursos de marca (textos, imágenes, experiencias y mucho más) para informar la creación de contenido alineado con la marca.
 feature: Brands Service, Guidelines
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
+source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 1%
 
 ---
-
 
 # GenStudio para especialistas en marketing de rendimiento [!DNL Brands]
 
@@ -45,9 +45,9 @@ En la tabla siguiente se muestra cada categoría de ejemplos de directrices y di
 
 Cada canal tiene ciertas directrices inherentes que influyen en la composición de recursos del canal.
 
-En la tabla siguiente se muestra cada fragmento de canal, los canales para los que está disponible, la descripción del fragmento, los ejemplos de directrices y los resultados de los ejemplos.
+En la tabla siguiente se muestran las secciones de cada canal, los canales para los que está disponible, la descripción de la sección, los ejemplos de las directrices y los resultados de los ejemplos.
 
-| Fragmentos | Canales | Descripción | Prácticas recomendadas |
+| Secciones | Canales | Descripción | Prácticas recomendadas |
 | ------------------| --------- | --------- | -------- |
 | General | correo electrónico, anuncios sociales | Una segunda línea de asunto o texto de previsualización de correo electrónico | Defina el tono/emoción general para que sea coherente a lo largo del correo electrónico (directrices 2-5).<br>_Ejemplos_: &quot;Mantener un tono cordial y accesible&quot;, &quot;Evitar el lenguaje demasiado formal&quot;<br><br> |
 | Asunto | email | Un título atractivo e interesante para resumir el contenido de un correo electrónico | Proporcionar orientación específica (2-5 directrices) sobre el tono, la longitud, etc. Agregue líneas de asunto con éxito anteriormente en la sección _Ejemplos_ para obtener un resultado de mejor calidad.<br>_Ejemplo_: &quot;Alinear el asunto con el cuerpo del correo electrónico&quot; |

@@ -2,13 +2,13 @@
 title: Información general de GenStudio para especialistas en marketing de rendimiento [!DNL Create]
 description: Genere rápidamente contenido de alto rendimiento y de marca con IA generativa en Adobe GenStudio para los especialistas en marketing de rendimiento [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
+source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
-
 
 # GenStudio para especialistas en marketing de rendimiento [!DNL Create]
 
@@ -103,6 +103,12 @@ GenStudio para especialistas en marketing de rendimiento valida la marca en dist
 Solicite revisiones, realice un seguimiento de los comentarios de revisión y obtenga aprobaciones durante el proceso de creación con la funcionalidad integrada de [revisiones y aprobaciones](/help/user-guide/approvals/overview.md).
 
 Una vez que termine de generar variaciones de contenido, envíe los borradores para que los interesados los aprueben, de modo que se puedan guardar en [!DNL Content] y se puedan implementar en los esfuerzos de marketing.
+
+### Administrar variantes
+
+GenStudio para especialistas en marketing de rendimiento permite [un control exhaustivo de secciones de variantes individuales](/help/user-guide/create/manage-variants.md).
+
+Puede revisar secciones de una sola variante, volver a generar el contenido de secciones individuales y utilizar ediciones sugeridas para mejorar el mensaje, recortar y cambiar el tamaño de los recursos, y más, todo dentro del lienzo.
 
 ## Tutoriales
 

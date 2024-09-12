@@ -3,13 +3,13 @@ title: Introducción a Adobe GenStudio para especialistas en marketing de rendim
 description: Obtenga información sobre cómo configurar GenStudio para que los especialistas en marketing de rendimiento generen contenido de marketing nuevo y alineado con la marca.
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
-source-git-commit: 869a70c2ccfb965a52f93b4868994188d4d33c24
+exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
+source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 1%
 
 ---
-
 
 # Introducción a Adobe GenStudio para especialistas en marketing de rendimiento
 
@@ -19,7 +19,7 @@ El acceso de las partes interesadas a sus muchas capacidades está controlado po
 
 Si no tiene experiencia previa con herramientas generativas basadas en IA o simplemente siente curiosidad por conocer los principios básicos de GenStudio para especialistas en marketing de rendimiento, consulte [Conceptos](concepts.md) y [Escribir mensajes efectivos](effective-prompts.md).
 
-## Funciones de usuario
+## Funciones de los usuarios
 
 La creación e implementación de campañas de marketing modernas requieren la colaboración entre partes interesadas con diversas responsabilidades y conjuntos de habilidades.
 
@@ -38,7 +38,7 @@ Existen tres tipos de funciones de usuario de GenStudio para especialistas en ma
 
 ### Editores de GenStudio
 
-**Los editores** tienen los permisos básicos necesarios para crear GenStudio para los recursos de los especialistas en marketing de rendimiento [!DNL Brands], [!DNL Campaigns] y [!DNL Content]. También pueden editar y eliminar los recursos que han creado. GenStudio para especialistas en marketing de rendimiento admite la creación rápida de cientos de fragmentos de contenido. Estos usuarios pueden generar fragmentos de contenido o experiencias completas que organicen fragmentos discretos de contenido aprobado para satisfacer las necesidades de campañas de marketing específicas.
+**Los editores** tienen los permisos básicos necesarios para crear GenStudio para los recursos de los especialistas en marketing de rendimiento [!DNL Brands], [!DNL Campaigns] y [!DNL Content]. También pueden editar y eliminar los recursos que han creado. GenStudio para especialistas en marketing de rendimiento admite la creación rápida de cientos de fragmentos de contenido. Estos usuarios pueden generar secciones de contenido o experiencias completas que organicen partes discretas de contenido aprobado para satisfacer las necesidades de campañas de marketing específicas.
 
 Los editores interactúan con las tecnologías de IA generativa de GenStudio for Performance Marketers mediante _preguntar_. El área de mensajes del lienzo proporciona herramientas para colocar mensajes en el contexto de las directrices de una campaña específica. Como resultado, la calidad y el éxito del contenido generado dependen parcialmente de la calidad de las directrices de marca que su organización ha cargado y de la especificidad del mensaje.
 
