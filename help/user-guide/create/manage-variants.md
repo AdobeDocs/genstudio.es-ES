@@ -2,9 +2,9 @@
 title: Administrar variantes
 description: Personalice y mejore las variantes y los recursos generados para adaptarlos a sus necesidades de marketing digital.
 feature: Content, Assets, Experiences
-source-git-commit: a6cf07179e888599860bc699ec17a3e8e4167e7b
+source-git-commit: d300d9e68cf63cde69500c90d97999057c8d1575
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -55,30 +55,35 @@ Por ejemplo, puede volver a generar la sección de titulares de una variante de 
 
    La variante se actualiza con el texto revisado.
 
-## Recortar recursos
+<!-- ## Crop assets
 
-Puede recortar y cambiar manualmente la posición de los recursos de imagen en variantes generadas individualmente.
+You can manually crop and reposition image assets in individual generated variants.
 
-**Para recortar y cambiar la posición de imágenes en variantes**:
+**To crop and reposition images in variants**:
 
-1. Después de generar un conjunto de variantes, pase el ratón sobre una imagen dentro de una variante.
-1. Haga clic en **[!UICONTROL Aplicar recorte]**.
-1. Acerque y aleje y arrastre la imagen a la posición deseada.
-1. Haga clic en **[!UICONTROL Aplicar]**.
+1. After generating a set of variants, hover over an image within a variant.
+1. Click **[!UICONTROL Apply Crop]**.
+1. Zoom in and out and drag the image into the desired position.
+1. Click **[!UICONTROL Apply]**.
 
-   La imagen recortada se guarda automáticamente y es visible para la variante.
+   The cropped image is automatically saved and visible for the variant. -->
 
 ## Cambiar proporción de aspecto
 
 Puede cambiar rápidamente la proporción de aspecto de los anuncios Meta para adaptarse al tamaño de anuncio deseado.
 
-Las relaciones de aspecto disponibles son:
+Los tamaños y relaciones de aspecto disponibles son:
 
-* Cuadrado 1:1
-* 4:5 vertical
-* 9:16 vertical
+* Cuadrado 1:1 (Meta)
+* 4:5 vertical (Meta)
+* 9:16 vertical (Meta)
+* 250 x 980 (anuncio en pantalla)
 
-**Para cambiar la proporción de aspecto de los Meta ads generados**:
+>[!NOTE]
+>
+>Pueden estar disponibles otros tamaños y relaciones de aspecto en función de las plantillas disponibles.
+
+**Para cambiar la relación de aspecto de las variantes generadas**:
 
 1. Después de generar un conjunto de variantes, seleccione el icono de cambio de tamaño de la relación de aspecto (la flecha que señala a la esquina del cuadro) en el lado izquierdo del lienzo.
 

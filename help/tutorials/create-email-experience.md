@@ -1,15 +1,15 @@
 ---
 title: Crear una experiencia de correo electrónico
-description: Aprenda a crear experiencias de correo electrónico en el Adobe  [!DNL GenStudio].
-feature: Content, Brands Service, Guidelines, Content Generation
+description: Aprenda a crear experiencias de correo electrónico en Adobe [!DNL GenStudio] para especialistas en marketing de rendimiento.
+feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
+source-git-commit: 9624429977e21af614173c5078c6b470c8b5a147
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,7 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
    * Haga clic en **[!UICONTROL Seleccionar del contenido]** para seleccionar los recursos (imágenes) ya publicados en [!DNL Content]. Utilice los filtros para restringir aún más los resultados de búsqueda.
    * Haga clic en **[!UICONTROL Cargar]** para examinar los archivos y elegir los recursos que desea utilizar. Además de explorar el dispositivo, también puede importar desde Microsoft OneDrive o Dropbox.
    * Arrastre y suelte los recursos en la sección _Contenido_.
+1. Haga clic en **[!UICONTROL Usar]**.
 
 >[!NOTE]
 >
@@ -77,6 +78,12 @@ Antes de seleccionar lo que se enviará para su aprobación o publicación en [!
 * **Para [editar manualmente un correo electrónico](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de los campos de texto editables (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario.
 * **Para [regenerar una sección de una variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, haga clic en un campo de texto editable y use las opciones _[!UICONTROL Ediciones sugeridas]_ o escriba una nueva solicitud y haga clic en **[!UICONTROL Generar]**.
 * **Para [eliminar un correo electrónico](/help/user-guide/create/manage-variants.md#delete-variant)**, haga clic para seleccionar el título del correo electrónico (por ejemplo, &quot;Correo electrónico 1/4&quot;) y haga clic en **[!UICONTROL Eliminar variante]**.
+
+## Vista previa del dispositivo
+
+Al revisar y preparar las experiencias de correo electrónico, puede alternar entre vistas previas para escritorio y vistas móviles para garantizar la coherencia y el atractivo visual de las variantes de borrador.
+
+**Para obtener una vista previa de las variantes para equipos de escritorio y dispositivos móviles**, alterne la opción de vista previa del dispositivo (entre **escritorio** y **móvil**) en la barra de menú derecha (iconos del equipo y del teléfono) para obtener una vista previa de cómo aparecen las variantes.
 
 ## Verificar alineación de marca
 
