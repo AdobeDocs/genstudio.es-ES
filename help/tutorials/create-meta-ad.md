@@ -1,15 +1,15 @@
 ---
 title: Crear una experiencia de Meta ad
-description: Aprenda a crear una nueva experiencia de publicidad Meta en la marca, para Facebook o Instagram, con Adobe GenStudio para especialistas en marketing de rendimiento.
-feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
+description: Aprenda a crear una nueva experiencia de publicidad Meta en la marca (para Facebook o Instagram) con IA generativa.
+feature: Content, Brands Service, Guidelines, Content Generation
 role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 3827d8222bd548caf83288656d5f2af8d2248dec
+source-git-commit: 333d32757a4327d8f8a54b25cb5c08ce2b3e2771
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,6 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
    * Haga clic en **[!UICONTROL Seleccionar del contenido]** para seleccionar los recursos (imágenes) ya publicados en [!DNL Content]. Utilice los filtros para restringir aún más los resultados de búsqueda.
    * Haga clic en **[!UICONTROL Cargar]** para examinar los archivos y elegir los recursos que desea utilizar. Además de explorar el dispositivo, también puede importar desde Microsoft OneDrive o Dropbox.
    * Arrastre y suelte los recursos en la sección _Contenido_.
-1. Haga clic en **[!UICONTROL Usar]**.
 
 Cuando haya terminado de agregar parámetros, puede contraer el área de solicitud si vuelve a hacer clic en el icono _Parámetros_.
 
@@ -68,7 +67,7 @@ De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones (
 
 Al generar un anuncio Meta, puede elegir entre anuncios de Facebook o de Instagram.
 
-Cambie la opción de canal Meta ads (entre **Facebook** y **Instagram**) en la barra de menú derecha (iconos de Facebook y Instagram) para ver y administrar variantes de cada canal.
+Cambie la opción de canal Meta ads en la barra de menús superior a **Facebook** o **Instagram** para administrar los borradores generados por cada canal.
 
 Al [revisar los anuncios Meta](#revise-generated-meta-ads), puede cambiar la proporción de aspecto de los anuncios de Facebook y Instagram.
 
@@ -78,17 +77,14 @@ Antes de seleccionar qué enviar para su aprobación o publicación a [!DNL Cont
 
 **Para revisar las variantes generadas**:
 
-
-* **Para [editar el nombre del borrador del anuncio Meta](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
-* **Para [editar manualmente un Meta ad](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de las secciones de anuncios (como la línea de asunto, el encabezado o la copia del cuerpo) y edítela según sea necesario.
+* **Para editar el nombre del borrador del anuncio Meta**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
+* **Para editar manualmente un Meta ad**, haga doble clic en cualquiera de los fragmentos de anuncios (como la línea de asunto, el encabezado o la copia del cuerpo) y edítelo según sea necesario.
 
   La línea de asunto y el preencabezado solo requieren un solo clic para editar, mientras que el encabezado y la copia del cuerpo requieren un doble clic.
 
-* **Para cambiar o seleccionar la llamada a la acción**, haga clic en el botón de llamada a la acción y seleccione las opciones de texto de botón disponibles. En _[!UICONTROL Vínculo]_, escriba un vínculo para el texto de llamada a la acción.
-* **Para [cambiar el tamaño y la proporción de aspecto del anuncio](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, haga clic en el botón _[!UICONTROL Cambiar tamaño]_ (cuadro con un icono de botón en el lado izquierdo del lienzo) y seleccione un nuevo tamaño y proporción de aspecto para aplicar a todas las variantes. Las variantes se duplican y se cambia su tamaño.
-<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**.
-* **To [crop or reposition images](/help/user-guide/create/manage-variants.md#crop-assets)** hover over an image, click **[!UICONTROL Apply Crop]**, and adjust the image size and placement. -->
-* **Para [eliminar un Meta ad](/help/user-guide/create/manage-variants.md#delete-variant)**, haga clic para seleccionar el título del anuncio (por ejemplo, &quot;Meta 4&quot;) y haga clic en **[!UICONTROL Eliminar variante]**.
+* **Para cambiar o seleccionar la llamada a la acción**, haga clic en el botón de llamada a la acción y seleccione un botón disponible.
+* **Para cambiar el tamaño y la relación de aspecto**, haga clic en el botón _[!UICONTROL Cambiar tamaño]_ (un cuadro con un icono de botón a la izquierda del lienzo) y seleccione un nuevo tamaño y una nueva relación de aspecto que aplicar a todas las variantes. Las variantes se duplican y se cambia su tamaño.
+* **Para eliminar un Meta ad**, haga clic para seleccionar el título del anuncio (por ejemplo, &quot;Meta 4&quot;) y haga clic en **[!UICONTROL Eliminar variante]**.
 
 ## Verificar alineación de marca
 
@@ -97,7 +93,7 @@ Para optimizar los anuncios generados y garantizar el cumplimiento estricto de l
 **Para comprobar la alineación de marca**:
 
 1. Haga clic en el icono [**[!UICONTROL [!DNL Brand] directrices para buscar una variante ]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) y vea un resumen del rendimiento de esa variante cuando se compara con su marca.
-1. Para obtener los detalles de las secciones y directrices que deben mejorarse, haga clic en **[!UICONTROL Revisar]** _o_ haga clic en el icono Validación de marca en la barra de menú superior para abrir el [_Panel de validación de marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
+1. Para obtener los detalles de los fragmentos y las directrices que deben mejorarse, haga clic en **[!UICONTROL Revisar]** _o_ haga clic en el icono Validación de marca en la barra de menú superior para abrir el [_Panel de validación de marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Desplácese por cada anuncio para ver cómo puede mejorar el contenido generado y alinearlo mejor con la marca.
 1. [Revisa manualmente los anuncios](#revise-generated-meta-ads) para asegurarte de que tus anuncios estén alineados con tu marca.
