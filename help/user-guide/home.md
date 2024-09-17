@@ -1,20 +1,24 @@
 ---
 title: Guía del usuario de Adobe GenStudio
 description: Habilite a los especialistas en marketing y a los creativos de la sobrecarga con GenStudio para especialistas en marketing de rendimiento, la aplicación AI-First de Adobe que proporciona acceso de autoservicio al contenido en la marca con protecciones empresariales y administración para experiencias de alto rendimiento.
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: beae7802-09e6-4ca3-9ffa-b8494aea5ae4
+source-git-commit: b538268ec0238fd38c12ae8f32c0df551890d878
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '237'
+ht-degree: 1%
 
 ---
 
 # Guía del usuario de Adobe GenStudio para especialistas en marketing de rendimiento
 
-Adobe GenStudio para especialistas en marketing de rendimiento es una plataforma basada en IA que permite a las empresas generar y administrar de forma autónoma contenido de marketing que se adhiera a sus estándares de marca, cumpla con las políticas empresariales y admita sin problemas una estrategia de marketing impactante.
+Adobe GenStudio para especialistas en marketing de rendimiento es una plataforma basada en IA que le permite generar y administrar contenido de marketing que se adhiera a los estándares de su marca y cumpla con las políticas de su empresa.
 
-Con GenStudio para especialistas en marketing de rendimiento, los especialistas en marketing y los creativos pueden optimizar el proceso de creación de contenido para crear contenido de marketing atractivo, relevante desde el punto de vista cultural y adaptado a audiencias específicas, todo ello sin perder la alta calidad y la integridad de la marca.
+Al aprovechar la tecnología de IA del Adobe, GenStudio para especialistas en marketing de rendimiento proporciona un conjunto completo de herramientas que simplifican las complejidades de la creación y administración de contenido para que los creativos puedan centrarse en la innovación.
 
-Al aprovechar la tecnología de IA, GenStudio para especialistas en marketing de rendimiento proporciona un conjunto completo de herramientas que simplifican las complejidades de la creación y administración de contenido para que los creativos puedan centrarse en la innovación.
+## Novedades
+
+- [[!DNL Insights Channels]](insights/channels.md): nueva descripción general de la participación del cliente, el rendimiento, el presupuesto y los gastos para las campañas de marketing.
+- [[!DNL Insights Experiences]](insights/experiences.md): nueva descripción general sobre perspectivas relacionadas con las experiencias y el rendimiento de la publicidad.
 
 ## Exploración de funcionalidades
 
