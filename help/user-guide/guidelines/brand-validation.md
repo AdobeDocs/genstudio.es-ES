@@ -3,9 +3,9 @@ title: Validación de marca en Adobe GenStudio para especialistas en marketing d
 description: Descubra cómo funciona el sistema de validación de marca integrado en GenStudio para especialistas en marketing de rendimiento.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 333d32757a4327d8f8a54b25cb5c08ce2b3e2771
+source-git-commit: a00d4fcaabb97eae69294ddc9689179842d49512
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -32,22 +32,22 @@ Ver [Mejorar la alineación de la marca](#improve-brand-alignment).
 
 ## Panel de validación de marca
 
-El _panel de validación de marca_ proporciona información detallada sobre la validación de marca e ilustra las oportunidades de mejora para cada fragmento de variante.
+El _panel de validación de marca_ proporciona información detallada sobre la validación de marca e ilustra las oportunidades de mejora para cada sección de variante.
 
 El _panel de validación de marca_ muestra información para:
 
 * **Correo electrónico**:
-   * Fragmento de línea de asunto
-   * Fragmento de preencabezado
-   * Fragmento de encabezado
-   * Fragmento de cuerpo
-   * Fragmento CTA (llamada a la acción)
+   * Sección de línea de asunto
+   * Sección de preencabezado
+   * Sección de encabezado
+   * Sección Cuerpo
+   * Sección CTA (llamada a la acción)
    * Directrices de voz de marca
 * **Meta ad**:
-   * Fragmento de titular
-   * Fragmento de copia de cuerpo
-   * Fragmento CTA (llamada a la acción)
-   * Fragmento de texto en imagen
+   * Sección de encabezado
+   * Sección de copia de cuerpo
+   * Sección CTA (llamada a la acción)
+   * Sección de texto en la imagen
 
 Ver [Mejorar la alineación de la marca](#improve-brand-alignment).
 
@@ -66,7 +66,7 @@ En el _panel de validación de marca_ puede filtrar qué directrices se muestran
 
 ## Mejorar la alineación de marca
 
-Para maximizar la eficacia del contenido generado y mantener una identidad de marca coherente, use _Comprobación de las directrices de marca_ y el _Panel de validación de marca_. Puede modificar manualmente fragmentos específicos para alinearlos con las [directrices de marca](brands.md).
+Para maximizar la eficacia del contenido generado y mantener una identidad de marca coherente, use _Comprobación de las directrices de marca_ y el _Panel de validación de marca_. Puede modificar manualmente secciones específicas para alinearlas con las [directrices de marca](brands.md).
 
 **Para mejorar la alineación de marca de las variantes de contenido generadas**:
 
@@ -74,24 +74,24 @@ Para maximizar la eficacia del contenido generado y mantener una identidad de ma
 
    Vea un resumen del rendimiento de esa variante específica (directrices que aprueban la validación de la marca y las que necesitan revisión) cuando se compara con su marca.
 
-1. Para obtener los detalles de los fragmentos y las directrices que deben mejorarse, haga clic en **[!UICONTROL Revisar]** _o_ haga clic en el icono Validación de marca en la barra de menú superior para abrir el _Panel de validación de marca_.
+1. Para obtener los detalles de las secciones y directrices que deben mejorarse, haga clic en **[!UICONTROL Revisar]** _o_ el icono de validación de marca en la barra de menú superior para abrir el _panel de validación de marca_.
 
-   Vea todos los fragmentos y directrices de marca que requieren su atención. El fragmento resaltado en el panel corresponde al fragmento resaltado en la variante generada en el lienzo.
+   Consulte todas las secciones y directrices de marca que requieran su atención. La sección resaltada en el panel corresponde a la sección resaltada en la variante generada en el lienzo.
 
    >[!NOTE]
    >
-   > La directriz _Brand voice_ indicada en el _panel de validación de marca_ se aplica a toda la variante, no a un fragmento individual. Se resalta toda la variante de contenido para sugerir mejoras.
+   > La directriz _Brand voice_ indicada en el _panel de validación de marca_ se aplica a toda la variante, no a una sección individual. Se resalta toda la variante de contenido para sugerir mejoras.
 
-1. Revise manualmente los fragmentos de variante para lograr la alineación más sólida con su marca.
+1. Revise manualmente las secciones de variante para lograr la alineación más sólida con su marca.
 
 1. Después de hacer las revisiones necesarias, haz clic en **[!UICONTROL Volver a comprobar]** para validar los cambios y asegurarte de que estén más alineados con la identidad de tu marca.
 
-   El proceso de validación de marca se volverá a ejecutar. Si el fragmento o la guía supera la validación, aparecerá una marca de verificación verde para ese fragmento en el _panel de validación de marca_. El porcentaje del icono _Comprobación de la directriz de marca_ para la variante revisada también muestra su progreso.
+   El proceso de validación de marca se volverá a ejecutar. Si la sección o directriz supera la validación, aparecerá una marca de verificación verde para esa sección en el _panel de validación de marca_. El porcentaje del icono _Comprobación de la directriz de marca_ para la variante revisada también muestra su progreso.
 
-1. Continúe revisando los fragmentos para asegurarse de que toda la variante aprueba la validación de marca.
+1. Continúe revisando las secciones para asegurarse de que toda la variante apruebe la validación de marca.
 
    Desplácese entre las directrices del _panel de validación de marca_ con los botones **[!UICONTROL Siguiente]** y **[!UICONTROL Anterior]**.
 
-1. En la parte superior del _panel de validación de marca_, desplácese por cada variante con las flechas (por ejemplo, use la flecha para pasar de `Email 1` a `Email 2`) y continúe revisando los fragmentos para adherirse mejor a su marca.
+1. En la parte superior del _panel de validación de marca_, desplácese por cada variante con las flechas (por ejemplo, use la flecha para pasar de `Email 1` a `Email 2`) y continúe revisando las secciones para adherirse mejor a su marca.
 
    Consulte [Directrices de voz de marca](/help/user-guide/guidelines/brands.md#brand-voice-guidelines) para obtener más información sobre las directrices consideradas.

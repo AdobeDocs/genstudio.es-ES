@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo configurar GenStudio para que los 
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 333d32757a4327d8f8a54b25cb5c08ce2b3e2771
+source-git-commit: dab19da0063d6f4f4497112c4063bfc9c285e651
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Existen tres tipos de funciones de usuario de GenStudio para especialistas en ma
 
 ### Editores de GenStudio
 
-**Los editores** tienen los permisos básicos necesarios para crear GenStudio para los recursos de los especialistas en marketing de rendimiento [!DNL Brands], [!DNL Campaigns] y [!DNL Content]. También pueden editar y eliminar los recursos que han creado. GenStudio para especialistas en marketing de rendimiento admite la creación rápida de cientos de fragmentos de contenido. Estos usuarios pueden generar fragmentos de contenido o experiencias completas que organicen fragmentos discretos de contenido aprobado para satisfacer las necesidades de campañas de marketing específicas.
+**Los editores** tienen los permisos básicos necesarios para crear GenStudio para los recursos de los especialistas en marketing de rendimiento [!DNL Brands], [!DNL Campaigns] y [!DNL Content]. También pueden editar y eliminar los recursos que han creado. GenStudio para especialistas en marketing de rendimiento admite la creación rápida de cientos de fragmentos de contenido. Estos usuarios pueden generar secciones de contenido o experiencias completas que organicen partes discretas de contenido aprobado para satisfacer las necesidades de campañas de marketing específicas.
 
 Los editores interactúan con las tecnologías de IA generativa de GenStudio for Performance Marketers mediante _preguntar_. El área de mensajes del lienzo proporciona herramientas para colocar mensajes en el contexto de las directrices de una campaña específica. Como resultado, la calidad y el éxito del contenido generado dependen parcialmente de la calidad de las directrices de marca que su organización ha cargado y de la especificidad del mensaje.
 

@@ -4,13 +4,13 @@ description: Aprenda a agregar directrices ([!DNL Brands], [!DNL Products] y [!D
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
-source-git-commit: b383295810d4bd1b37227cf689ee76687e940f03
+exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
+source-git-commit: 7fd93bae4d81021d328e941710152e7d3aa20b76
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '968'
 ht-degree: 0%
 
 ---
-
 
 # Adición de directrices
 
@@ -25,6 +25,9 @@ Añadir directrices a GenStudio para especialistas en marketing de rendimiento e
 Para agregar una marca a GenStudio para especialistas en marketing de alto rendimiento, [puedes cargar una guía de marca](#upload-brand-guidelines) o [crear manualmente una marca](#manually-add-brand) al seleccionar las directrices e introducir los detalles de tu marca. [Publish cambió la marca](#publish-brand) a [!DNL Content] para que esté disponible para usarla en futuras generaciones de contenido.
 
 En el área de navegación izquierda, haga clic en **[!DNL Brands]**. En el panel _[!DNL Brands]_, seleccione **Agregar marca**.
+
+>[!TIP]
+>Cada marca opera de forma independiente sin relaciones jerárquicas. Para crear submarcas en una marca principal, incluya la información de la marca principal durante el proceso de creación.
 
 ### Añadir marca mediante carga
 

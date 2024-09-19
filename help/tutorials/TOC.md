@@ -4,7 +4,7 @@ breadcrumb-title: Tutoriales
 user-guide-description: Vea tutoriales de Experience League sobre el Adobe  [!DNL GenStudio], una solución integral para acelerar y simplificar su cadena de suministro de contenido con IA generativa y automatización inteligente.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: 1e61dfc03ea70ca1f1eb31610c8d486ab6a44611
+source-git-commit: dab19da0063d6f4f4497112c4063bfc9c285e651
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 4%
