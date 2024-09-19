@@ -2,13 +2,13 @@
 title: Creación de plantillas accesibles
 description: Cree plantillas en Adobe GenStudio para especialistas en marketing de rendimiento que sean capaces de llegar a una mayor audiencia y proporcionar una experiencia óptima.
 feature: Templates, Content
-source-git-commit: c891f876fe5a7c75487fcba6552a213533f0b609
+exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
+source-git-commit: 088049a25635f5e9469c16c6ddfe9db86afdc143
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # Creación de plantillas accesibles
 
@@ -27,6 +27,13 @@ Proporcione alternativas textuales para el contenido no textual, como las imáge
 ```
 
 ![Collage de ideas, libros, hombre con lápiz gigante, equipo](../../assets/card-create-assets.png){width="400"}
+
+## Proporciones de contraste
+
+Proporcionar un contraste adecuado entre el texto y el fondo. Utilice las siguientes relaciones de contraste mínimas:
+
+- Texto e imágenes de texto: relación de contraste de al menos 4.5:1
+- Texto e imágenes grandes de texto a gran escala: relación de contraste de al menos 3:1
 
 ## Objetivo del vínculo (solo vínculo)
 
