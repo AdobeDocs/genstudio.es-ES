@@ -3,13 +3,13 @@ title: Personalizar una plantilla
 description: Aprenda a personalizar y optimizar la plantilla para el Adobe GenStudio para los especialistas en marketing de rendimiento.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 909ac53580e672df1adf0c73e67a32f2c045dc35
+exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
+source-git-commit: 8ea0c17b60b18928540070448ad1ce0206208b00
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
 
 ---
-
 
 # Personalizar una plantilla
 
@@ -98,21 +98,21 @@ _Las secciones_ informan a GenStudio para especialistas en marketing de rendimie
 
 Utilice un prefijo de su elección en el nombre del campo para indicar que un campo forma parte de una sección o grupo. Por ejemplo, es posible que desee resaltar el contenido que aparece en un área resaltada:
 
-- `spotlight_headline`
-- `spotlight_body`
+- `pod1_headline`
+- `pod1_body`
 
-Cada sección solo puede utilizar uno de cada tipo de campo. En el ejemplo anterior, la sección `spotlight` solo puede usar un campo `spotlight_headline`.
+Cada sección solo puede utilizar uno de cada tipo de campo. En el ejemplo anterior, la sección `pod1` solo puede usar un campo `pod1_headline`.
 
 Una plantilla puede incluir hasta tres secciones:
 
 - `headline`
 - `body`
-- `spotlight_headline`
-- `spotlight_body`
-- `news_headline`
-- `news_body`
+- `pod1_headline`
+- `pod1_body`
+- `pod2_headline`
+- `pod2_body`
 
-GenStudio para especialistas en marketing de rendimiento entiende que `spotlight_headline` está más relacionado con `spotlight_body` que con `news_body`.
+GenStudio para especialistas en marketing de rendimiento entiende que `pod1_headline` está más relacionado con `pod1_body` que con `pod2_body`.
 
 ## Previsualización de plantilla
 
@@ -224,14 +224,18 @@ La siguiente es la misma plantilla de HTML en el ejemplo anterior, pero con dos 
                 width="600" height="600"
                 border="0"/></p>
         <p>{{ body }}</p>
+    <!-- Pod1 -->
         <div class="pod">
-            <h2>{{ pod1_headline }}</h2>
-            <p>This is Pod 1 content.</p>
+            <h2>{{ pod1_header }}</h2>
+            <p>{{ pod1_body }}</p>
         </div>
+        <!-- End of Pod1 -->
+    <!-- Pod2 -->
         <div class="pod">
-            <h2>{{ pod2_headline }}</h2>
-            <p>This is Pod 2 content.</p>
+            <h2>{{ pod2_header }}</h2>
+            <p>{{ pod2_body }}</p>
         </div>
+        <!-- End of Pod2 -->
     </div>
 </body>
 </html>
@@ -293,4 +297,3 @@ El siguiente es un ejemplo básico de una plantilla de publicidad Meta. El encab
 ```
 
 +++
-
