@@ -1,24 +1,24 @@
 ---
 title: Crear una experiencia de correo electrónico
-description: Aprenda a crear experiencias de correo electrónico en Adobe [!DNL GenStudio] para especialistas en marketing de rendimiento.
+description: Aprenda a crear experiencias de correo electrónico en Adobe GenStudio para el marketing de rendimiento.
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: a00d4fcaabb97eae69294ddc9689179842d49512
+source-git-commit: c0fd13e26f44c44c4d63bf285c421ef3dd5da975
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
 
 # Crear una experiencia de correo electrónico
 
-Este tutorial muestra cómo generar experiencias de correo electrónico de marca mediante GenStudio para especialistas en marketing de rendimiento [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel en el área de navegación izquierda).
+Este tutorial muestra cómo generar experiencias de correo electrónico de marca mediante GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel en el área de navegación izquierda).
 
-Para crear una experiencia de correo electrónico efectiva, se recomienda [agregar directrices a GenStudio para especialistas en marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md) y profundizar en los [conceptos básicos para crear un mensaje](/help/user-guide/effective-prompts.md) antes de comenzar.
+Para crear una experiencia de correo electrónico efectiva, se recomienda [agregar directrices a GenStudio para el marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md) y profundizar en los [conceptos básicos para crear un mensaje](/help/user-guide/effective-prompts.md) antes de comenzar.
 
 ## Elija una plantilla
 
@@ -41,7 +41,7 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
 1. Haga clic en el icono _Parameters_ para expandir el área de solicitud.
 1. En la sección _Parameters_, seleccione las directrices—[!DNL Brands], [!DNL Personas] y [!DNL Products]—para informar sobre la creación de contenido.
 
-   Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio para especialistas en marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md).
+   Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio para marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Haga clic en **[!UICONTROL Seleccionar contenido]** para agregar contenido que se utilizará en la experiencia *y* para influir en la generación de contenido.
    * Haga clic en **[!UICONTROL Seleccionar del contenido]** para seleccionar los recursos (imágenes) ya publicados en [!DNL Content]. Utilice los filtros para restringir aún más los resultados de búsqueda.

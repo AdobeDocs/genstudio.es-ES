@@ -1,13 +1,13 @@
 ---
 title: Crear una experiencia de Meta ad
-description: Aprenda a crear experiencias de publicidad Meta en la marca, para Facebook o Instagram, con Adobe GenStudio para especialistas en marketing de rendimiento.
+description: Aprenda a crear experiencias de publicidad Meta en la marca, para Facebook o Instagram, con Adobe GenStudio para marketing de rendimiento.
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: c102556fb1c95b70dc724252e4ecdc9ce10c89e7
+source-git-commit: c0fd13e26f44c44c4d63bf285c421ef3dd5da975
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Crear una experiencia de Meta ad
 
-Este tutorial muestra cómo generar experiencias de MetaAd con marca mediante GenStudio para especialistas en marketing de rendimiento [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel en el área de navegación izquierda).
+Este tutorial muestra cómo generar experiencias MetaAd con marca mediante GenStudio para marketing de rendimiento [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel en el área de navegación izquierda).
 
-Antes de empezar a generar una experiencia de anuncio Meta, es importante [incorporar directrices](/help/user-guide/guidelines/add-guidelines.md) en GenStudio para especialistas en marketing de rendimiento y familiarizarse con los conceptos básicos de [creación de un mensaje](/help/user-guide/effective-prompts.md).
+Antes de empezar a generar una experiencia de anuncio Meta, es importante [incorporar directrices](/help/user-guide/guidelines/add-guidelines.md) en GenStudio para el marketing de rendimiento y familiarizarse con los conceptos básicos de [creación de un mensaje](/help/user-guide/effective-prompts.md).
 
 ## Elija una plantilla
 
@@ -41,7 +41,7 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
 1. Haga clic en el icono _Parameters_ para expandir el área de solicitud.
 1. En la sección _Parameters_, seleccione las directrices—[!DNL Brands], [!DNL Personas] y [!DNL Products]—para informar sobre la creación de contenido.
 
-   Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio para especialistas en marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md).
+   Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio para marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Haga clic en **[!UICONTROL Seleccionar contenido]** para agregar contenido que se utilizará en la experiencia *y* para influir en la generación de contenido.
    * Haga clic en **[!UICONTROL Seleccionar del contenido]** para seleccionar los recursos (imágenes) ya publicados en [!DNL Content]. Utilice los filtros para restringir aún más los resultados de búsqueda.
@@ -125,6 +125,6 @@ Consulte [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-a
 
 ## Conectar Meta
 
-Puede conectar GenStudio para especialistas en marketing de rendimiento a Meta para recibir análisis avanzados y [información](/help/user-guide/insights/overview.md) sobre el rendimiento del contenido.
+Puede conectar GenStudio for Performance Marketing a Meta para recibir análisis avanzados y [información](/help/user-guide/insights/overview.md) sobre el rendimiento del contenido.
 
 Consulte [Conectar cuenta de canal](/help/user-guide/insights/connect-channel.md) para obtener más información.

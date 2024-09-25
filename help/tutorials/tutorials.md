@@ -1,19 +1,19 @@
 ---
 title: Adobe GenStudio para Tutorials de marketing de rendimiento
-description: Aprenda a completar un proceso completo, como la creación de una experiencia de correo electrónico, siguiendo los tutoriales de GenStudio para especialistas en marketing de rendimiento.
+description: Aprenda a completar un proceso completo, como la creación de una experiencia de correo electrónico, siguiendo los tutoriales de GenStudio for Performance Marketing.
 exl-id: f4afb6c8-67d0-4499-84e8-0ab819543b59
-source-git-commit: 333d32757a4327d8f8a54b25cb5c08ce2b3e2771
+source-git-commit: c0fd13e26f44c44c4d63bf285c421ef3dd5da975
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
-# Tutoriales de Adobe GenStudio para especialistas en marketing de rendimiento
+# Adobe GenStudio para tutoriales de marketing de rendimiento
 
-El Adobe GenStudio para tutoriales de Performance Marketers sigue flujos de trabajo básicos paso a paso que contienen vínculos a conceptos más profundos en la guía del usuario.
+El Adobe GenStudio para tutoriales de marketing de rendimiento sigue flujos de trabajo básicos paso a paso que contienen vínculos a conceptos más profundos en la guía del usuario.
 
-Los tutoriales de esta guía detallan los conceptos, los requisitos previos, las prácticas recomendadas y los pasos individuales necesarios para generar correctamente contenido de marketing de alta calidad en GenStudio para especialistas en marketing de rendimiento.
+Los tutoriales de esta guía detallan los conceptos, los requisitos previos, las prácticas recomendadas y los pasos individuales necesarios para generar correctamente contenido de marketing de alta calidad en GenStudio for Performance Marketing.
 
 <table style="table-layout:fixed">
 <td valign="top">

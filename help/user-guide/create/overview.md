@@ -1,18 +1,18 @@
 ---
-title: Información general de GenStudio para especialistas en marketing de rendimiento [!DNL Create]
-description: Genere rápidamente contenido de alto rendimiento y de marca con IA generativa en Adobe GenStudio para los especialistas en marketing de rendimiento [!DNL Create].
+title: Información general de GenStudio para marketing de rendimiento [!DNL Create]
+description: Genere rápidamente contenido de alto rendimiento que no pertenezca a la marca con IA generativa en Adobe GenStudio para el marketing de rendimiento [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: dab19da0063d6f4f4497112c4063bfc9c285e651
+source-git-commit: e99fadb7c440adbfa52759d6b392e08d0ee6d155
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 1%
 
 ---
 
-# GenStudio para especialistas en marketing de rendimiento [!DNL Create]
+# GenStudio para marketing de rendimiento [!DNL Create]
 
-GenStudio para especialistas en marketing de rendimiento [!DNL Create] aprovecha la potencia de Adobe GenAI para permitir que los especialistas en marketing y los equipos distribuidos creen experiencias de alto rendimiento y de marca.
+GenStudio for Performance Marketing [!DNL Create] aprovecha la potencia de GenAI de Adobe para permitir que los especialistas en marketing y los equipos distribuidos creen experiencias de alto rendimiento en la marca.
 
 Con [!DNL Create], puede generar contenido para los siguientes canales:
 
@@ -60,13 +60,13 @@ Junto con la potencia de [directrices](/help/user-guide/guidelines/overview.md)�
 </tr>
 </table>
 
-GenStudio para especialistas en marketing de rendimiento les permite a los especialistas en marketing **crear nuevo contenido de marketing**. En este caso de uso, use [directrices](/help/user-guide/guidelines/overview.md) definidas e imágenes de inspiración para informar la creación de contenido alineado con la marca.
-<!-- * **Re-use existing content** - In this use case, upload an existing email, ad, or image to GenStudio for Performance Marketers and use the power of Adobe generative AI technology to revise and improve existing content. 
+GenStudio for Performance Marketing permite a los especialistas en marketing **crear nuevo contenido de marketing**. En este caso de uso, use [directrices](/help/user-guide/guidelines/overview.md) definidas e imágenes de inspiración para informar la creación de contenido alineado con la marca.
+<!-- * **Re-use existing content** - In this use case, upload an existing email, ad, or image to GenStudio for Performance Marketing and use the power of Adobe generative AI technology to revise and improve existing content. 
 * **Generate variants of approved content** - In this use case, [generate variations of content that is approved by stakeholders](generate-variants.md) and published to [!DNL Content]. -->
 
 ## Funciones de [!DNL Create]
 
-[!DNL Create] integra varios componentes de GenStudio para especialistas en marketing de rendimiento a fin de ayudar a los usuarios a generar contenido.
+[!DNL Create] integra varios componentes de GenStudio para el marketing de rendimiento con el fin de ayudar a los usuarios a generar contenido.
 
 ### Borradores
 
@@ -92,11 +92,11 @@ En el área de solicitud, puede agregar _Parámetros_ como [!DNL Brands], [!DNL 
 
 Las imágenes cargadas en _Parameters_ se utilizan en variantes generadas e informan el contenido de copia (texto) generado para variantes.
 
-Estos parámetros agregados insertan [directrices](/help/user-guide/guidelines/overview.md) y recursos en el proceso de generación, lo que garantiza que el contenido se personalice para que se ajuste a la identidad completa de una marca. Se recomienda añadir directrices a su GenStudio para especialistas en marketing de rendimiento y utilizarlas durante el proceso de generación de contenido, ya que mejoran en gran medida la creación de contenido adecuado para la marca.
+Estos parámetros agregados insertan [directrices](/help/user-guide/guidelines/overview.md) y recursos en el proceso de generación, lo que garantiza que el contenido se personalice para que se ajuste a la identidad completa de una marca. Se recomienda añadir directrices a su GenStudio para el marketing de rendimiento y utilizarlas durante el proceso de generación de contenido, ya que mejoran en gran medida la creación de contenido adecuado para la marca.
 
 ### Validación de marca
 
-GenStudio para especialistas en marketing de rendimiento valida la marca en distintos aspectos de la identidad de una marca (tal como se definen en [directrices](/help/user-guide/guidelines/overview.md)). La información de [validación de marca](/help/user-guide/guidelines/brand-validation.md) está disponible para cualquier contenido generado, lo que indica su conformidad con las directrices de marca y la coherencia entre texto e imágenes. Puede utilizar esta información para revisar o mejorar la experiencia generada y alinearla mejor con su marca.
+GenStudio for Performance Marketing valida la marca en distintos aspectos de la identidad de una marca (tal como se definen en [directrices](/help/user-guide/guidelines/overview.md)). La información de [validación de marca](/help/user-guide/guidelines/brand-validation.md) está disponible para cualquier contenido generado, lo que indica su conformidad con las directrices de marca y la coherencia entre texto e imágenes. Puede utilizar esta información para revisar o mejorar la experiencia generada y alinearla mejor con su marca.
 
 ### Revisiones y aprobaciones
 
@@ -106,7 +106,7 @@ Una vez que termine de generar variaciones de contenido, envíe los borradores p
 
 ### Administrar variantes
 
-GenStudio para especialistas en marketing de rendimiento permite [un control exhaustivo de secciones de variantes individuales](/help/user-guide/create/manage-variants.md).
+GenStudio for Performance Marketing permite [un control exhaustivo de secciones de variantes individuales](/help/user-guide/create/manage-variants.md).
 
 Puede revisar secciones de una sola variante, volver a generar el contenido de secciones individuales y utilizar las ediciones sugeridas para mejorar el mensaje, el tamaño de los recursos y mucho más, todo dentro del lienzo.
 

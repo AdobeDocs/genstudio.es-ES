@@ -1,13 +1,13 @@
 ---
-title: Generar variantes de Adobe GenStudio para el contenido de los especialistas en marketing de rendimiento
-description: Obtenga información sobre cómo generar variantes del contenido creado en Adobe GenStudio para especialistas en marketing de rendimiento.
+title: Generar variantes de Adobe GenStudio para el contenido de marketing de rendimiento
+description: Obtenga información sobre cómo generar variantes del contenido creado en Adobe GenStudio para marketing de rendimiento.
 feature: Content, Brands Service, Variant Generation, Content Generation
 role: User
 level: Beginner
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: e99fadb7c440adbfa52759d6b392e08d0ee6d155
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Al generar variantes, tiene la opción de agregar [directrices](/help/user-guide
 
 ## Correo electrónico
 
-De forma predeterminada, GenStudio para especialistas en marketing de rendimiento genera cuatro variaciones de correo electrónico. Se pueden modificar o regenerar manualmente mediante una combinación de nuevos indicadores y _Parámetros_ para lograr objetivos estilísticos o la adherencia a la marca.
+De forma predeterminada, GenStudio for Performance Marketing genera cuatro variaciones de correo electrónico. Se pueden modificar o regenerar manualmente mediante una combinación de nuevos indicadores y _Parámetros_ para lograr objetivos estilísticos o la adherencia a la marca.
 
 **Para modificar las variantes de correo electrónico generadas:**
 

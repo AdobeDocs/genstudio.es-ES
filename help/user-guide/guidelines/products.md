@@ -1,22 +1,22 @@
 ---
-title: GenStudio para especialistas en marketing de rendimiento [!DNL Products]
-description: GenStudio para especialistas en marketing de rendimiento [!DNL Products] incorpora todos los aspectos de sus productos (imágenes, descripciones y propuestas de valor) para crear contenido relevante que resalte las fortalezas de los productos y mantenga la coherencia en la mensajería de productos.
+title: GenStudio para marketing de rendimiento [!DNL Products]
+description: GenStudio for Performance Marketing [!DNL Products] incorpora todos los aspectos de sus productos (imágenes, descripciones y propuestas de valor) para crear contenido relevante que resalte las fortalezas de los productos y mantenga la coherencia en los mensajes de los productos.
 feature: Products Service, Guidelines
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
+source-git-commit: 874c6f08b39b6e72d2c3d4ade5a2c78be0fcfa31
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
+# GenStudio para marketing de rendimiento [!DNL Products]
 
-# GenStudio para especialistas en marketing de rendimiento [!DNL Products]
+[!DNL Products] en GenStudio para el marketing de rendimiento aprovecha la comprensión profunda de las especificaciones del producto, las ventajas y los factores de diferenciación para generar contenido impactante.
 
-GenStudio para especialistas en marketing de rendimiento [!DNL Products] aprovecha la comprensión profunda de las especificaciones del producto, las ventajas y los factores de diferenciación para generar contenido impactante.
+[!DNL Products] engloba todos los elementos de un producto específico, como imágenes, descripciones y propuestas de valor, para crear una representación de marca coherente. Al aprovechar la tecnología avanzada de IA de Adobe, las directrices de GenStudio para marketing de rendimiento ([[!DNL Brands], [!DNL Products] y [!DNL Personas]](/help/user-guide/guidelines/overview.md)) trabajan juntas para generar contenido atractivo que muestre las ventajas de sus productos y garantice la coherencia en todos los mensajes.
 
-[!DNL Products] engloba todos los elementos de un producto específico, como imágenes, descripciones y propuestas de valor, para crear una representación de marca coherente. Al aprovechar la tecnología de IA avanzada de Adobe, las directrices de GenStudio para especialistas en marketing de rendimiento ([[!DNL Brands], [!DNL Products] y [!DNL Personas]](/help/user-guide/guidelines/overview.md)) trabajan juntas para generar contenido atractivo que muestre los puntos fuertes de sus productos y garantice la coherencia en todos los mensajes.
-
-Directrices de ![[!DNL Products] en GenStudio para especialistas en marketing de rendimiento](/help/assets/products-guidelines.png){width="650" zoomable="yes"}
+Directrices de ![[!DNL Products] en GenStudio para marketing de rendimiento](/help/assets/products-guidelines.png){width="650" zoomable="yes"}
 
 **Para ver o modificar un producto**:
 
@@ -24,11 +24,11 @@ Directrices de ![[!DNL Products] en GenStudio para especialistas en marketing de
 1. Para [ver detalles individuales o modificar un producto](add-guidelines.md#manage-products), haz clic en el menú de acción _[!DNL Products]_y selecciona **[!UICONTROL Abrir]**.
 1. Revise las directrices del producto haciendo clic en un campo de texto de categoría de directrices.
 
-Consulte [Agregar directrices](add-guidelines.md) para obtener información sobre cómo agregar o modificar un producto en GenStudio para especialistas en marketing de rendimiento.
+Consulte [Agregar directrices](add-guidelines.md) para obtener información sobre cómo agregar o modificar un producto en GenStudio for Performance Marketing.
 
 ## [!DNL Products] directrices
 
-Las directrices de producto individuales proporcionan a GenStudio para especialistas en marketing de rendimiento una imagen clara de sus productos.
+GenStudio para marketing de rendimiento obtiene una imagen clara de sus productos con la adición de directrices de productos individuales.
 
 Estas directrices detallan cada categoría de directrices y ejemplos relacionados. Los ejemplos son entradas de muestra que dan forma a la salida del contenido generado. Úselos para informar las directrices de [!DNL Products].
 

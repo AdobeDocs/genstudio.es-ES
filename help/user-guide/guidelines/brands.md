@@ -1,20 +1,20 @@
 ---
-title: GenStudio para especialistas en marketing de rendimiento [!DNL Brands]
-description: GenStudio para especialistas en marketing de alto rendimiento [!DNL Brands] son una colección completa de recursos de marca (textos, imágenes, experiencias y mucho más) para informar la creación de contenido alineado con la marca.
+title: GenStudio para marketing de rendimiento [!DNL Brands]
+description: GenStudio for Performance Marketing [!DNL Brands] es una colección completa de recursos de marca (textos de marketing, imágenes, experiencias y mucho más) para informar la creación de contenido alineado con la marca.
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: 1991e59c0badc0cdde92b863d6c8528e7ca31a38
+source-git-commit: 86f9c94956b7e4891aa237ad00428753903d2839
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 1%
 
 ---
 
-# GenStudio para especialistas en marketing de rendimiento [!DNL Brands]
+# GenStudio para marketing de rendimiento [!DNL Brands]
 
 Una marca distingue a una organización, producto, servicio o concepto de otros. Algunos aspectos de una marca son objetivos, como un logotipo, mientras que otros son subjetivos, como el tono de voz.
 
-GenStudio para especialistas en marketing de rendimiento utiliza la gran cantidad de información de marca de su marca, la asocia con la información de [!DNL Product] y [!DNL Persona], y crea una identidad de marca completa. Esta identidad de marca se utiliza para informar la creación de contenido en la marca mediante la tecnología de IA generativa de Adobe.
+GenStudio para el marketing de rendimiento utiliza la abundante información de marca de su marca, la asocia con la información de [!DNL Product] y [!DNL Persona], y crea una identidad de marca completa. Esta identidad de marca se utiliza para informar la creación de contenido en la marca mediante la tecnología de IA generativa de Adobe.
 
 **Para ver o modificar una marca**:
 
@@ -22,11 +22,11 @@ GenStudio para especialistas en marketing de rendimiento utiliza la gran cantida
 1. Para ver la información general de una marca, haga clic en para abrir una marca definida.
 1. Para ver detalles individuales o modificar una marca, haz clic en [**[!UICONTROL Directrices de voz de marca]**](#brand-voice-guidelines), [**[!UICONTROL Directrices de canal]**](#channel-guidelines), **[!UICONTROL Directrices de imagen]** o **[!UICONTROL Logotipos]** en la parte superior.
 
-Puede cargar documentos de directrices de marca (hasta tres archivos de PDF o DOC) en GenStudio para que los especialistas en marketing de rendimiento creen automáticamente una marca. Consulte [Agregar directrices](add-guidelines.md) para obtener información sobre cómo agregar una marca a GenStudio para especialistas en marketing de rendimiento, modificarla, publicarla y mucho más.
+Puede cargar documentos de directrices de marca (hasta tres archivos de PDF o DOC) en GenStudio for Performance Marketing para crear automáticamente una marca. Consulte [Agregar directrices](add-guidelines.md) para obtener información sobre cómo agregar una marca a GenStudio para marketing de rendimiento, modificarla, publicarla y mucho más.
 
 ## [!DNL Brands] directrices
 
-Las directrices proporcionan a GenStudio para especialistas en marketing de rendimiento una imagen clara del enfoque, el tono, la sensación visual y mucho más específicos de la marca.
+Las directrices proporcionan a GenStudio para marketing de rendimiento una imagen clara del enfoque, el tono, la sensación visual y mucho más específicos de la marca.
 
 Las siguientes secciones de directrices detallan cada categoría de directrices, ejemplos, directrices y posibles resultados. Los ejemplos de directrices son entradas de muestra que dan forma a la salida de resultados (ejemplos de resultados a continuación); utilícelas para informar las directrices de su propia marca.
 
@@ -72,16 +72,16 @@ You can create your own categories, like Photos, Product, or Illustration imager
 | Color and tone | Specify color or color theme, palette, color interpretation and accessibility | `Use bright and bold color palette, Ensure high contrast` |
 | Lighting   | Describe how highlights and shadows affect different objects| `Use natural light, Avoid using shadows` |
 
-![Image guidelines in GenStudio for Performance Marketers](/help/assets/image-guidelines.png){width="650" zoomable="yes"} 
+![Image guidelines in GenStudio for Performance Marketing](/help/assets/image-guidelines.png){width="650" zoomable="yes"} 
 
 ### Logos
 
 Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
-![Logo guidelines in GenStudio for Performance Marketers](/help/assets/logos.png){width="650" zoomable="yes"} -->
+![Logo guidelines in GenStudio for Performance Marketing](/help/assets/logos.png){width="650" zoomable="yes"} -->
 
 ## Validación de marca
 
-En GenStudio para especialistas en marketing de rendimiento, la validación de marca desempeña un papel crucial junto con la funcionalidad de IA generativa de [!DNL Brands], [!DNL Products] y [!DNL Personas]. Garantiza que todo el contenido se mantenga coherente con la identidad de su marca.
+En GenStudio for Performance Marketing, la validación de marca desempeña un papel crucial junto con la funcionalidad de IA generativa de [!DNL Brands], [!DNL Products] y [!DNL Personas]. Garantiza que todo el contenido se mantenga coherente con la identidad de su marca.
 
 Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md).
