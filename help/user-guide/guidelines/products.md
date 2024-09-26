@@ -3,9 +3,9 @@ title: GenStudio para marketing de rendimiento [!DNL Products]
 description: GenStudio for Performance Marketing [!DNL Products] incorpora todos los aspectos de sus productos (imágenes, descripciones y propuestas de valor) para crear contenido relevante que resalte las fortalezas de los productos y mantenga la coherencia en los mensajes de los productos.
 feature: Products Service, Guidelines
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: 874c6f08b39b6e72d2c3d4ade5a2c78be0fcfa31
+source-git-commit: 99925ffdaa2806f1d0c319f28b46aabddc1d7d87
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Consulte [Agregar directrices](add-guidelines.md) para obtener información sobr
 
 ## [!DNL Products] directrices
 
-GenStudio para marketing de rendimiento obtiene una imagen clara de sus productos con la adición de directrices de productos individuales.
+Las directrices de productos individuales proporcionan a GenStudio for Performance Marketing una imagen clara de sus productos.
 
 Estas directrices detallan cada categoría de directrices y ejemplos relacionados. Los ejemplos son entradas de muestra que dan forma a la salida del contenido generado. Úselos para informar las directrices de [!DNL Products].
 
@@ -39,4 +39,4 @@ En la tabla siguiente se muestra cada categoría de [!DNL Products] directrices 
 | Nombre del producto | Se refiere a los servicios, soluciones o bienes tangibles que una empresa ofrece a los clientes | Asegúrese de que el nombre del producto sea claro y de que permita al usuario comprender fácilmente las ofertas de productos <br><br>_Ejemplos_: &quot;Photoshop&quot; (empresa SaaS)<br>&quot;Masters of Business Administration&quot; (institución educativa)<br>&quot;Wealth Management Plan&quot; (empresa financiera)<br>&quot;Home Essentials Decor&quot; (comercio minorista) |
 | Descripción | Resumen breve y claro que resalta el producto y su propósito | Utilice un lenguaje conciso para describir con claridad el producto (1-2 frases), proporcionando un contexto claro para los usuarios potenciales. No incluya información detallada sobre las características o especificaciones.<br><br>_Ejemplo_: &quot;El producto XYZ es una herramienta de administración de proyectos versátil y basada en la nube diseñada para ayudar a los equipos a organizar tareas, realizar un seguimiento del progreso y colaborar sin problemas. Ideal para pequeñas y grandes empresas, XYZ proporciona una interfaz sencilla y fácil de usar para administrar proyectos de principio a fin&quot;. |
 | Propuesta de valor | Resumen claro (menos de 10 frases) que explica cómo el producto resuelve un problema, ofrece beneficios específicos y proporciona valor | Defina claramente los beneficios y las ventajas del producto, haciendo hincapié en la diferenciación de la competencia en un lenguaje convincente.<br><br>Proporcione propuestas de valor en formato de lista con la propiedad de valor más significativa al principio de la lista.<br><br>_Ejemplos_: &quot;Propuestas de valor para XYZ:<br><li>Centraliza las tareas de administración de proyectos en una plataforma intuitiva, lo que elimina la necesidad de varias herramientas</li><li>Aumenta la productividad del equipo hasta en un 30%</li><li>Se integra sin problemas con sus herramientas favoritas, lo que garantiza un flujo de trabajo fluido</li><li>Proporciona actualizaciones en tiempo real y funciones de colaboración, lo que permite a los equipos mantenerse alineados&quot;</li> |
-| Detalles adicionales | Captura información crucial importante para la generación de contenido personalizado | Proporcione detalles adicionales (de 1 a 3 frases) vitales para la personalización del contenido y garantice que la información contribuya directamente a la eficacia del contenido.<br><br>Céntrese en la claridad y la brevedad. |
+| Preferencias de mensajería | Resumen claro de los estilos de comunicación preferidos que describe cómo se deben comunicar los productos específicos | Defina requisitos de mensajería únicos para sus productos, centrándose en el estilo de comunicación distinto.<br><br>Proporcione preferencias de mensajería específicas en la lista (cada elemento de la lista 1-2 frases).<br><br>Limite la lista a un total de 20 frases o menos para garantizar que se resalte la información más importante.<br><br>_Ejemplo_: &quot;Preferencias de mensajería para el producto XYZ:<li>Destaca la tecnología de vanguardia y las características innovadoras del producto XYZ.</li><li>Resalte la asequibilidad y la practicidad de este producto de forma directa, centrándose en la relación calidad-precio.</li>” |

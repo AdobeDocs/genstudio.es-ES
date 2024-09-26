@@ -3,9 +3,9 @@ title: GenStudio para marketing de rendimiento [!DNL Personas]
 description: GenStudio for Performance Marketing [!DNL Personas] es una verdadera representación de los segmentos de sus clientes, que capturan sus intereses, puntos problemáticos, preferencias y características de comportamiento.
 feature: Personas Service, Guidelines
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: 86f9c94956b7e4891aa237ad00428753903d2839
+source-git-commit: 5a1da3b0b3311db01ec29099e802f2e9c6446467
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -38,5 +38,4 @@ En la tabla siguiente se muestra cada categoría de [!DNL Personas] directrices 
 | ------------------| :---------- |-------------|
 | Nombre del usuario | Representa un segmento de audiencia específico para el cual se personalizan los materiales de marketing generados | Añada un nombre de persona claro y conciso.<br><br>_Ejemplos_: &quot;CMOs of Retail&quot;, &quot;Prospective Nursing Students&quot;, &quot;New Savings Acct Clients&quot; |
 | Descripción | Resumen breve que define las características, necesidades y comportamientos clave | Utilice un lenguaje conciso para describir claramente la segmentación de audiencia personal y única (de 1 a 2 frases).<br><br>Céntrese en lo que impulsa este segmento de audiencia (necesidades, rasgos principales, etc.)<br><br>Mantenga la descripción concisa y sin datos demográficos profundos ni información adicional. |
-| Preferencias de mensajería | Borrar un resumen de los estilos de comunicación preferidos que resuenan en un perfil específico | Defina los requisitos de mensajería únicos y las motivaciones de persona, centrándose en cómo persona prefiere recibir e interactuar con las comunicaciones.<br><br>Proporcione preferencias de mensajería específicas en la lista (cada elemento de la lista 1-2 frases).<br><br>Limite la lista a un total de 10 frases o menos para garantizar que se resalte la información más importante.<br><br>_Ejemplo_: &quot;Preferencias de mensajería para un profesional experto en tecnología:<li>Prefiere una comunicación concisa y sin jergas.</li><li>Responde positivamente a perspectivas basadas en datos y consejos útiles.</li><li>Prefiere elementos visuales como infografías y gráficos para captar rápidamente información compleja.<li><li>Valora la transparencia con un enfoque honesto y directo.</li>” |
-| Detalles adicionales | Captura información crucial importante para la generación de contenido personalizado | Proporcione detalles adicionales (de 1 a 3 frases) vitales para la personalización del contenido y garantice que la información contribuya directamente a la eficacia del contenido.<br><br>Céntrese en la claridad y la brevedad. |
+| Preferencias de mensajería | Borrar un resumen de los estilos de comunicación preferidos que resuenan en un perfil específico | Defina los requisitos de mensajería únicos y las motivaciones de persona, centrándose en cómo persona prefiere recibir e interactuar con las comunicaciones.<br><br>Proporcione preferencias de mensajería específicas en la lista (cada elemento de la lista 1-2 frases).<br><br>Limite la lista a un total de 10 frases o menos para garantizar que se resalte la información más importante.<br><br>_Ejemplo_: &quot;Preferencias de mensajería para un profesional experto en tecnología:<li>Prefiere una comunicación concisa y sin jergas.</li><li>Responde positivamente a perspectivas basadas en datos y consejos útiles.</li><li>Prefiere elementos visuales como infografías y gráficos para captar rápidamente información compleja.</li><li>Valora la transparencia con un enfoque honesto y directo.</li>” |
