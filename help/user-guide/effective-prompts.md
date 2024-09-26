@@ -2,13 +2,13 @@
 title: Escribir indicadores efectivos
 description: Aprenda a escribir mensajes efectivos sobre el Adobe GenStudio para los especialistas en marketing de rendimiento.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
-source-git-commit: 306b64b44e69dbcec3984d1a0b54230fe0dbe48c
+exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
+source-git-commit: 016cd2b5415651ed3cf157244f868315234330fa
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
-
 
 # Escribir indicadores efectivos
 
@@ -54,6 +54,44 @@ Las directrices de GenStudio para especialistas en marketing de rendimiento ayud
 >[!TIP]
 >
 >Usted controla cómo y cuándo GenStudio para especialistas en marketing de rendimiento utiliza sus directrices de [!DNL Brand]. Consulte [Directrices](/help/user-guide/guidelines/overview.md) para obtener información sobre cómo configurar y administrar las directrices de marca.
+
+### Indicadores estructurados
+
+En el caso de los correos electrónicos de varias secciones, puede estructurar las solicitudes para proporcionar instrucciones específicas de la sección a fin de generar contenido variable para cada sección de un correo electrónico. Los mensajes estructurados deben hacer referencia directamente a [nombres de sección en la plantilla de correo electrónico](/help/user-guide/content/email-template.md#multi-section-emails) para que el contenido generado se pueda insertar en los marcadores de posición de contenido correspondientes.
+
+Por ejemplo, puede indicar a GenStudio for Performance Marketing que genere contenido que promocione un nuevo producto en la primera sección de un correo electrónico y que genere contenido que detalle las ventajas de ahorro del producto en la segunda sección de correo electrónico.
+
+La petición de datos estructurada debería:
+
+- Utilice una de las siguientes referencias al nombre de sección en la plantilla de correo electrónico:
+   - Pod
+   - Grupo
+   - Sección
+   - Módulo
+
+  Por ejemplo, si la plantilla usa `moduleA` o `Group-3` como nombre de sección, puede hacer referencia a esos nombres de sección en el mensaje.
+
+- Siga las reglas o la estructura recomendadas. Si la estructura de la solicitud no cumple el formato proporcionado, se aplica a *todas* las secciones de correo electrónico y sigue facilitando la generación de contenido.
+- Use nombres de sección como [definidos en su plantilla de correo electrónico](/help/user-guide/content/email-template.md#code-an-email-template). Las referencias de solicitud deben coincidir con los nombres de sección codificados en la plantilla de correo electrónico.
+- No distinguir mayúsculas de minúsculas. Por ejemplo, puede usar `Pod` o `pod` en la plantilla de correo electrónico y en la solicitud estructurada.
+- Consulte primero el símbolo del sistema genérico y, a continuación, las directivas específicas de sección.
+- Use dos puntos, un guión, una coma u otra demarcación (`,:;#$!~|@=-%&*^_`) como separación entre la referencia del nombre de sección y la directiva. Por ejemplo, puede usar lo siguiente como directiva de solicitud específica de la sección: `Pod1; Describe how to easily edit text and swap images.`
+
+El siguiente es un ejemplo de mensaje que articula la estructura de mensajes recomendada y aprovecha una plantilla de correo electrónico que utiliza el término de identificación `Pod` como en `Pod1`, `Pod2` y `Pod3`.
+
+```properties
+Create an exciting multi-pod email focusing on Creative Cloud and its powerful generative AI capabilities.
+
+Encourage customers to convert to Photoshop or use a free Photoshop trial. We want to better educate them about app features.
+
+Pod1: Focus on Adobe Photoshop and its new generative AI tools that enable creators to bring images to life in minutes.
+
+Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Generative Shape Fill, which allows you to quickly fill your vector outline and explore a variety of options that match the look and feel of your own artwork.
+
+Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
+```
+
+Consulte [Preparar una plantilla de correo electrónico](/help/user-guide/content/email-template.md#code-an-email-template).
 
 ## Inténtelo de nuevo
 

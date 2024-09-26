@@ -3,13 +3,13 @@ title: Preparar una plantilla de correo electrónico de Adobe GenStudio para esp
 description: Obtenga información sobre cómo crear una plantilla de correo electrónico personalizada para Adobe GenStudio para especialistas en marketing de rendimiento.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 09431d6f5f5b00c1b84cf69667a337ce51683c1d
+exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
+source-git-commit: 58833ed0c8e28061ab2584b7949f2a0cbd3d10cc
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
-
 
 # Preparar plantilla de correo electrónico para Adobe GenStudio para especialistas en marketing de rendimiento
 
@@ -30,6 +30,14 @@ Si no se agregan directrices a GenStudio para especialistas en marketing de rend
 Una vez diseñada una plantilla, se codifica con HTML y CSS en línea. El código debe ser limpio y adaptable para varios dispositivos.
 
 Ver [ejemplos de plantillas](/help/user-guide/content/customize-template.md#template-examples).
+
+### Correos electrónicos de varias secciones
+
+Puede usar [mensajes estructurados](/help/user-guide/effective-prompts.md#structured-prompts) durante la generación de contenido para indicar a GenStudio for Performance Marketing que genere contenido variable por sección de un correo electrónico.
+
+Por ejemplo, si las secciones de la plantilla de correo electrónico tienen el prefijo `Pod`—`Pod1` y `Pod2`, la solicitud estructurada para la generación de contenido puede incluir directivas específicas para esas secciones de correo electrónico. GenStudio for Performance Marketing hace coincidir la directiva específica de la sección del mensaje con la sección de correo electrónico relacionada y genera contenido alineado con las directivas.
+
+Consulte [Mensajes estructurados](/help/user-guide/effective-prompts.md#structured-prompts).
 
 ## Prueba de una plantilla de correo electrónico
 
