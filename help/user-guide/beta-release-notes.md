@@ -2,9 +2,9 @@
 title: Notas de la versión de Adobe GenStudio for Performance Marketing Beta
 description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio for Performance Marketing.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: c95a99d4fa8030a35b7fe3690235102e1827422f
+source-git-commit: ca83beb4d6f5bd0d79a2da69658b6e18c3252f2e
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ Estas notas destacan las correcciones y mejoras significativas de Adobe GenStudi
 * GenStudio ahora puede extraer información de personas y productos de un PDF cargado y rellenar campos relacionados. <!-- GS-3806 -->
 
 * Los usuarios ahora pueden filtrar [!DNL Content] recursos y experiencias por el nombre del usuario que cargó el recurso. <!-- GS-1808 -->
-
-* El flujo de inicio de sesión Meta ahora incluye un botón **[!UICONTROL Actualizar]** que permite a los usuarios desbloquear elementos emergentes durante el inicio de sesión.
-
-* Se ha eliminado la sección [!DNL Additional details] de la página de detalles [!DNL Persona]. <!-- GS-5133 5134 -->
 
 * Se cambió el nombre de la sección [!DNL Additional details] a [!DNL Messaging preferences] en la página de detalles [!DNL Products]. <!-- GS-5133 5134 -->
 
