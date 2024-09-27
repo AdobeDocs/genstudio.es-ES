@@ -1,176 +1,102 @@
 ---
-title: Notas de la versión de Adobe GenStudio for Performance Marketers Beta
-description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio para especialistas en marketing de rendimiento.
+title: Notas de la versión de Adobe GenStudio for Performance Marketing Beta
+description: Obtenga información sobre las últimas funciones y mejoras de Adobe GenStudio for Performance Marketing.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: 7085fa5a12a6ed36c9310f8f691969d9c1366d36
+source-git-commit: c95a99d4fa8030a35b7fe3690235102e1827422f
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# Notas de la versión de Adobe GenStudio for Performance Marketers Beta
+# Notas de la versión de Adobe GenStudio for Performance Marketing Beta
 
-Estas notas resaltan los Adobes GenStudio significativos que suponen las correcciones y mejoras realizadas por los especialistas en marketing de rendimiento durante la semana que finalizó el 19 de septiembre.
+Estas notas destacan las correcciones y mejoras significativas de Adobe GenStudio for Performance Marketing para la semana que finalizó el 27 de septiembre.
 
 ## Nuevas funciones y mejoras
 
-* **Integración con Adobe Experience Manager Assets**. Ya está disponible el acceso de solo lectura a Adobe Experience Manager Assets. <!-- GS-2432 -->
+* GenStudio ahora puede extraer información de personas y productos de un PDF cargado y rellenar campos relacionados. <!-- GS-3806 -->
 
-* **Mejoras en el flujo de trabajo de la plantilla de actualización**.  Los usuarios que actualizan plantillas ahora seleccionan el canal para el que desean utilizar la plantilla. <!-- GS-4029 -->
+* Los usuarios ahora pueden filtrar [!DNL Content] recursos y experiencias por el nombre del usuario que cargó el recurso. <!-- GS-1808 -->
 
-* **Rendimiento mejorado al crear carga de página**. Se han eliminado las dependencias no utilizadas del proceso de carga de página. <!-- GS-3630 -->
+* El flujo de inicio de sesión Meta ahora incluye un botón **[!UICONTROL Actualizar]** que permite a los usuarios desbloquear elementos emergentes durante el inicio de sesión.
 
-* **Compatibilidad con correo electrónico de varias secciones**. Los editores ahora pueden generar correos electrónicos que contengan varias secciones e imágenes. También pueden regenerar fragmentos específicos de un correo electrónico generado (por ejemplo, un titular). <!-- GS-2436 -->
+* Se ha eliminado la sección [!DNL Additional details] de la página de detalles [!DNL Persona]. <!-- GS-5133 5134 -->
 
-* **Alternar entre el escritorio y la vista móvil durante la creación**. Los usuarios ahora pueden alternar entre las vistas de escritorio y móvil para previsualizar las variantes de experiencia de correo electrónico. <!-- GS-4314 -->
+* Se cambió el nombre de la sección [!DNL Additional details] a [!DNL Messaging preferences] en la página de detalles [!DNL Products]. <!-- GS-5133 5134 -->
 
-* Ahora, el contenido genera imágenes con dimensiones de recorte relativas a las dimensiones del recurso original. <!-- GS-3150 -->
-
-* Los usuarios ahora pueden seleccionar variantes de imagen generadas y utilizar la función Ajustar recorte para recortarlas durante el flujo de trabajo de creación. <!-- GS-5538 2342 -->
-
-* La vista Detalles de una experiencia aprobada ahora muestra una imagen en miniatura y el estado de todos los recursos a los que se hace referencia en esa experiencia. <!-- GS-3783 -->
+* Se ha agregado un botón [!DNL Add persona] a la página _Agregar su primera persona_. <!-- GS-5132 -->
 
 ## Problemas conocidos
 
-Los siguientes problemas conocidos están programados para su resolución en la versión de GenStudio for Performance Marketers GA.
+Los siguientes problemas conocidos están programados para su resolución en la versión de GenStudio for Performance Marketing GA.
 
-* Los problemas de latencia intermitente afectan algunas operaciones de lienzo de [!DNL Create]. <!-- GS-5203 -->
+* Las plantillas se pueden cargar, pero no ver. **Solución alternativa**: cargue un recurso con el campo **[!UICONTROL Campañas]** rellenado. A continuación, vuelva a cargar la plantilla. <!-- GS-4815 5650-->
 
-* La generación de correo electrónico genera un correo electrónico incompleto. **Solución alternativa**: Actualice la página y vuelva a crearla. <!-- GS-5209 -->
+* Los usuarios no pueden recortar manualmente los anuncios Meta después de cambiar su tamaño. <!-- GS-5871 -->
 
-* Las plantillas se pueden cargar, pero no ver. **Solución alternativa**: cargue un recurso con el campo **[!UICONTROL Campañas]** rellenado. A continuación, vuelva a cargar la plantilla. <!-- GS-4815 -->
+* Los usuarios pueden crear un nuevo [!DNL Campaign] a partir de [!DNL Content] flujos de trabajo. <!-- GS-5650 -->
 
-* Los usuarios deben iniciar sesión dos veces en una cuenta de Meta ads de canal cuando también inician sesión en Facebook. **Solución alternativa**: cierre la sesión de Facebook antes de iniciar sesión en una cuenta de meta ads de canal. <!-- GS-4806 -->
-
-### Mejoras adicionales y problemas corregidos
-
-* Ahora, arrastrar y soltar funciona como se espera en el área de solicitud. <!-- GS-3977 -->
-
-* Se han corregido problemas con el uso del tabulador para desplazarse por los elementos de la barra de navegación izquierda. Anteriormente, se necesitaban varios clics para desplazarse de un elemento al siguiente elemento activo.  <!-- GS-2639 -->
-
-* GenStudio ahora guarda los nombres de las experiencias cuando los usuarios editan los nombres mientras se carga la experiencia. <!-- GS-5242 -->
-
-* Los usuarios ahora pueden editar correctamente un título de experiencia. Anteriormente, el texto del título tenía el valor predeterminado del texto original después de que un usuario intentara editarlo. <!-- GS-5246 -->
-* Las imágenes seleccionadas ahora se representan en el lienzo como se espera durante la creación del correo electrónico de varias partes. <!-- GS-5263 -->
-
-* Ahora se han localizado todas las cadenas de la página de detalles de experiencias de [!DNL Content]. <!-- GS-5016 -->
-
-* Los usuarios ahora pueden eliminar un producto cuya vista de detalles se haya abierto en [!DNL Products]. <!-- GS-5057 -->
-
-* Se ha mejorado el mensaje que muestra GenStudio cuando una búsqueda no arroja resultados coincidentes. <!-- GS-4544 -->
-
-* Los valores de atributo `aria-label` de los valores de filtro de búsqueda ahora se traducen según lo esperado. <!-- GS-5388 -->
-
-* Los usuarios ahora pueden eliminar correctamente los recursos duplicados en el área de solicitud del lienzo [!DNL Create].  <!-- GS-5233 -->
-
-* El filtro Cuenta ahora funciona según lo esperado con experiencias, recursos y atributos. <!-- GS-4812 -->
-
-* Se han resuelto problemas de fuentes en las plantillas de anuncios Meta para mejorar la legibilidad y accesibilidad. <!-- GS-5354 -->
-
-* Los cambios en los títulos de los borradores ahora persisten según lo esperado. Anteriormente, los títulos se revertían al nombre predeterminado después de editarlos. <!-- GS-2951 -->
-
-#### Correcciones de plantilla
-
-* La función de cambio de tamaño ahora funciona como se espera con varias imágenes en plantillas de publicidad Meta. Anteriormente, GenStudio no cambiaba el tamaño de las imágenes de todas las plantillas seleccionadas. <!-- GS-4696 -->
-
-* Al eliminar una plantilla ahora se actualiza la página [!DNL Content] según lo esperado. <!-- GS-5397 -->
-
-* Los usuarios ahora solo pueden elegir valores para [!DNL Personas], [!DNL Brands] o [!DNL Products] en el menú desplegable. Anteriormente, el cuadro de diálogo _Carga de plantilla_ permitía a los usuarios introducir cualquier nombre de [!DNL Persona], [!DNL Brand] o [!DNL Product]. <!-- GS-5072 5071-->
-
-* El botón **[!UICONTROL Atrás]** ahora está deshabilitado durante el proceso de carga de la plantilla. <!-- GS-5358 -->
-
-* Todas las cadenas de la vista de detalles de la plantilla [!DNL Create] Select ahora están localizadas. <!-- GS-5025 -->
-
-## Versiones anteriores de Beta
-
-Las versiones anteriores de Beta incluían los siguientes aspectos destacados y correcciones.
-
-### Características destacadas
-
-* El selector de contenido [!DNL Create] se ha refactorizado para mejorar la carga de recursos. <!-- GS-2586 -->
-
-* GenStudio ahora admite la opción de obtener una vista previa de los recursos multimedia en [!DNL Insights] vistas de tabla y galería. Las miniaturas de vídeo incluyen un botón **Reproducir** con la opción silenciar. <!-- GS-4398 -->
-
-* Las directrices de canal de instagram y Facebook se han combinado en las directrices de marca Meta.
-
-* [!DNL Create] Los elementos de navegación de lienzo se han optimizado. La página de aterrizaje [!DNL Create] muestra el panel de navegación izquierdo, pero los usuarios ahora usan el botón **[!UICONTROL Atrás]** para desplazarse a este espacio desde otras [!DNL Create] áreas de trabajo.
-
-* Los elementos de navegación se han mejorado para permitir el enfoque del usuario mientras realiza tareas en todo el producto, incluidas estas áreas de producto:
-
-   * Detalles de recurso, experiencia y plantilla en [!DNL Content]
-   * Detalles de experiencia, recurso y atributo en [!DNL Insights]
-   * Detalles de marca en [!DNL Brands]
-   * Detalles de producto y persona en Productos y personas
-
-* Los usuarios ya no necesitan hacer clic en el botón **[!UICONTROL Actualizar]** para ver las actualizaciones de las experiencias en [!DNL Content].
-
-* La página _Detalles de la experiencia_ ahora procesa las miniaturas de recursos externos como HTML.
-
-* Se ha mejorado la latencia de la interfaz de usuario después de agregar o eliminar Assets y Experiencias.
-
-* Las vistas previas de plantilla ahora incluyen texto predeterminado más descriptivo. Ver [Personalizar una plantilla](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/content/templates/customize-template#template-preview).
-
-* **Puntuación de validación basada en porcentajes**: La validación de marca ahora muestra la puntuación de validación de marca como un porcentaje en lugar de un valor de aprobado/suspenso. (fijo: 16/8)
-
-* **Interfaz de extracción de marca actualizada**: La extracción de marca ahora muestra la finalización del proceso de extracción como porcentaje. (fijo: 16/8)
-
-* **Carga incremental de la marca durante la extracción**: Las directrices de marca ahora se cargan gradualmente en la interfaz de usuario. (fijo: 16/8)
-
-* **Creación de correo electrónico de varias secciones**: los usuarios ahora pueden crear correos electrónicos compuestos por titulares, imágenes, cuerpos y elementos de CTA independientes. (fijo: 16/8)
-
-* **Cambio de tamaño de metadatos de publicidad**: los editores pueden cambiar el tamaño de las proporciones de aspecto de metadatos de publicidad. (fijo: 16/8)
-
-* **Cuentas limitadas de inicio de sesión de [!DNL Insights]**: el inicio de sesión de [!DNL Insights] ahora solo admite una cuenta por cliente. (fijo: 16/8)
+* Los usuarios deben iniciar sesión dos veces en una cuenta de Meta ads de canal cuando también inician sesión en Facebook. Solución alternativa: cierre la sesión de Facebook antes de iniciar sesión en una cuenta de meta ads de canal. <!-- GS-3009 -->
 
 ### Mejoras adicionales y problemas corregidos
 
-* El lienzo [!DNL Create] ahora procesa correctamente las imágenes de los anuncios Meta. (corregido el 13 de septiembre) <!-- GS-4864 -->
+* Se han resuelto problemas de latencia intermitente con algunas [!DNL Create] operaciones de lienzo. <!-- GS-5203 -->
 
-* Aunque pueden existir discrepancias entre las vistas previas del lienzo de Meta ads y las vistas exportadas, las experiencias exportadas funcionan según lo esperado. (corregido el 13 de septiembre) <!-- GS-4492 4401 -->
+* Los usuarios ya no tienen que iniciar sesión dos veces en una cuenta de Meta ads de canal cuando también inician sesión en Facebook. <!-- GS-4806 -->
 
-* Las imágenes cargadas ahora incluyen las etiquetas inteligentes esperadas. (corregido el 13 de septiembre) <!-- GS-4856 -->
+* La generación de correo electrónico ahora ya no genera un correo electrónico incompleto. <!-- GS-5209 -->
 
-* El archivo CSV de exportación de anuncios Meta ahora contiene imágenes como se espera. Anteriormente, el archivo ZIP contenía el archivo de exportación CSV y archivos NULL en lugar de imágenes. (corregido el 13 de septiembre) <!-- GS-5107 -->
+* Al crear una campaña en el flujo de trabajo de plantillas, ahora se almacenan los ID según lo esperado.  <!-- GS-4923 -->
 
-* Los usuarios ahora pueden escribir texto en el campo **[!UICONTROL Cargado por]** de la vista de detalles de la plantilla según lo esperado. Anteriormente, el icono de carga impedía que los usuarios introdujeran texto. (corregido el 13 de septiembre) <!-- GS-4887 -->
+* El selector de varios repositorios ahora enumera los repositorios en orden alfabético. <!-- GS-5553 -->
 
-* Una vez eliminada la marca, los usuarios ya no se redirigen a la Vista de detalles. (corregido el 13 de septiembre) <!-- GS-2663 -->
+* Se han resuelto los problemas con los formatos de archivo de exportación de CSV para idiomas que no son el inglés. <!-- GS-5141 -->
 
-* Los editores ya no reciben el siguiente error al enviar variantes para su revisión y aprobación: `You have no access to view comments on this Object`. (corregido el 13 de septiembre) <!-- GS-5140 -->
+* Los usuarios ahora pueden hacer clic en el botón [!DNL Create] _Trabajo reciente_ del área **[!UICONTROL Ver todos los borradores]** mientras se cargan los borradores. Anteriormente, al hacer clic en este botón antes de que se cargaran todos los borradores, solo se cargaban unos pocos, y el botón **[!UICONTROL Ver todos los borradores]** dejaba de estar disponible. <!-- GS-3938 -->
 
-* Se ha actualizado la plantilla de correo electrónico utilizada por el flujo de trabajo de revisión y aprobaciones. (corregido el 13 de septiembre) <!-- GS-5239 -->
+* El lienzo [!DNL Create] ahora muestra el botón **[!UICONTROL Ver todos los borradores]** como se espera cuando el lienzo muestra más de cuatro borradores. <!-- GS-5588 -->
 
-* GenStudio ahora muestra un mensaje de error cuando se produce un error de red durante la carga del selector de plantillas. (corregido el 13 de septiembre) <!-- GS-4682 -->
+* La búsqueda ahora funciona según lo esperado en la ficha _Atributos_. <!-- GS-5658 -->
 
-* Se han resuelto problemas al navegar desde un recurso, experiencia o tarjeta de plantilla al objeto seleccionado. (corregido el 13 de septiembre) <!-- GS-4390 -->
+* La animación Shimmer ahora se escala correctamente durante la carga de la experiencia. <!-- GS-5574 -->
 
-* La ventana emergente _Agregar Assets_ ahora está localizada cuando se abre desde Crear lienzo. (corregido el 13 de septiembre) <!-- GS-4867 -->
+* Las vistas previas de miniaturas de los correos electrónicos de varias partes ahora se representan como se espera en [!DNL Content]. <!-- GS-5258 -->
 
-* La validación de marca ahora se activa para las variantes regeneradas. Anteriormente, si un editor regeneraba las variantes de un borrador existente, la validación no se activaba. (corregido el 13 de septiembre) <!-- GS-3971 -->
+* Se ha corregido un problema relacionado con Workfront con el botón **[!UICONTROL Enviar para aprobación]**. <!-- GS-5847 -->
 
-* La ventana emergente _Agregar Assets_ ahora está localizada según lo esperado. (corregido el 5 de septiembre) <!-- GS-3834 -->
+* Se corrigieron los problemas con el reflejo de carga en la vista de trabajo reciente de [!DNL Create]. <!-- GS-5589 -->
 
-* Se han resuelto los problemas con la escala de la plantilla de experiencia Meta ads. (corregido el 5 de septiembre) <!-- GS-4174 -->
+* La introducción de un término de búsqueda ahora solo da como resultado una llamada de búsqueda según lo esperado.  <!-- GS-2999 -->
 
-* Los campos de texto del archivo de exportación CSV para correos electrónicos de varias partes ahora se ordenan según lo esperado. (corregido el 5 de septiembre) <!-- GS-4013 -->
+* Se ha corregido la representación de imágenes generadas por metadatos después de la exportación. <!-- GS-5749 -->
 
-* El campo de búsqueda [!DNL Content] ya no desaparece cuando un usuario presiona repetidamente la tecla **Retroceso** para borrar el texto del campo de búsqueda. (corregido el 5 de septiembre) <!-- GS-4543 -->
+* El símbolo `%` ahora se representa correctamente en las configuraciones regionales DEU, FRA y ESP cuando los usuarios amplían o alejan las variantes de correo electrónico en el lienzo C[!DNL Create]. <!-- GS-5007 -->
 
-* GenStudio para especialistas en marketing de rendimiento ahora carga a los usuarios como se espera cuando un colaborador agrega una mención `@` a un comentario. Anteriormente, no se cargaban los usuarios y se mostraba un error: `Unable to load users. Refresh the page`. (corregido el 29 de agosto) <!-- GS-4113 -->
 
-* GenStudio ya no muestra el mensaje **Se produjo un error** cuando un editor hace clic en **Seleccionar contenido** durante la creación del correo electrónico en el área de mensajes. <!-- GS-4879 -->
+#### Localización
 
-* El nombre de la ubicación de la fuente de página _Detalles de experiencia_ ahora especifica la fuente de Facebook o Instagram. (fijo: 16/8)
+Esta versión incluye mejoras en la localización en toda la interfaz del producto, especialmente en [!DNL Create]. Se han localizado los siguientes componentes de la interfaz: <!-- GS-5295 -->
 
-* Ahora, el recorte de imágenes y vídeos de mayor tamaño es coherente cuando el usuario navega de la vista _Información general del recurso_ a la vista _Detalle del recurso_. (fijo: 16/8)
+* Todas las cadenas en el área _Prompt_ (Título de parámetros, nombres de opciones de menú desplegable y texto de marcador de posición de solicitud) <!-- GS-5027 -->
 
-* El recuento de resultados de búsqueda de la pantalla Atributos ya no muestra `0 of` antes de que un usuario inicie sesión. (corregido el 16 de agosto) <!-- GS-3665 -->
+* Todas las cadenas en la ventana _Resize_ para los anuncios Meta generados en [!DNL Create] <!-- GS-5035 -->
 
-* Al hacer clic en el campo de recuento **[!UICONTROL [!DNL Insights]]** > **[!UICONTROL Recurso]**, ya no se borra la configuración de búsqueda y filtrado. (corregido el 16 de agosto) <!-- GS-3476 -->
+* Todas las cadenas en el área _Trabajo reciente_ en [!DNL Create] <!-- GS-5037 -->
 
-* GenStudio muestra un error cuando un usuario intenta escribir credenciales en la vista [!DNL Insights]. (corregido el 29 de agosto) <!-- GS-4689 -->
+* Las cadenas de opciones del menú desplegable Marcas, Personas y Producto en el área de Preguntar <!-- GS-5293 -->
 
-* La carga de las directrices de marca falla debido a problemas con la plataforma de almacenamiento de ACP. (corregido el 22 de agosto) <!-- GS-4369 -->
+* El **zoom para ajustar a la pantalla** cadena mostrada durante el correo electrónico y la generación del anuncio Meta <!-- GS-5063 -->
 
-* El menú desplegable del área Preguntar [!DNL Brands] muestra un control de número al final de la lista [!DNL Brands] durante la creación del correo electrónico. (corregido el 22 de agosto) <!-- GS-4077 -->
+* Formatos de fecha y hora, cadena **Borrador sin título** y mensajes de error en los nombres de los anuncios de correo electrónico y metadatos <!-- GS-5023 5022 5048-->
+
+* [!DNL Content] _Assets_ cadenas de vista de galería de fichas y símbolo de porcentaje (%) <!-- GS-4983 4984-->
+
+* El símbolo de porcentaje (%) usado en la tasa de pulsaciones de Insights > Experiencias <!-- GS-4279 -->
+
+* Se muestra un mensaje de error cuando se produce un error del sistema durante la creación de correo electrónico o Meta ads<!-- GS-5061 -->
+
+* Separador decimal para la frase &quot;Recuento de palabras por frase&quot; en la página de detalles de la experiencia de perspectivas <!-- GS-4986 -->
+
+* Cadenas en el menú Exportar para un anuncio Meta generado con una plantilla. <!-- GS-5031 -->
+
