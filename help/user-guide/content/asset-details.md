@@ -1,18 +1,18 @@
 ---
 title: Detalles del recurso
-description: Adobe GenStudio para especialistas en marketing de rendimiento almacena contenido aprobado con metadatos enriquecidos para permitir búsquedas y realizar un seguimiento del rendimiento.
+description: Adobe GenStudio for Performance Marketing almacena contenido aprobado con metadatos enriquecidos para permitir búsquedas y realizar un seguimiento del rendimiento.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 95eb7c2eaeeceedf3abe5ab16e1e7c2de7bf8117
+source-git-commit: 0d8f04ab26e8d0dd533cfc4e388dd0b0a68adb3b
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 # Detalles del recurso
 
-Adobe GenStudio para especialistas en marketing de rendimiento almacena contenido aprobado con metadatos enriquecidos para facilitar la detección y el seguimiento del rendimiento.
+Adobe GenStudio for Performance Marketing almacena contenido aprobado con metadatos enriquecidos para facilitar la detección y el seguimiento del rendimiento.
 
 Cada recurso (incluidas experiencias y plantillas) tiene _detalles_ asociados (metadatos) que ayudan a identificar, rastrear, utilizar y aprender del rendimiento del contenido.
 
@@ -30,7 +30,7 @@ Los detalles del recurso incluyen los metadatos aplicados durante el proceso de 
 
 >[!NOTE]
 >
->Assets AEM de los repositorios de la muestran metadatos diferentes. Consulte [Configuración de la visibilidad de los recursos](connect-aem-repo.md#step-4-configure-asset-visibility) para obtener información sobre cómo configurar los detalles de los recursos de AEM Assets Content Hub.
+>Assets AEM de los repositorios de la muestran metadatos diferentes. Consulte [Configurar la visibilidad de los recursos](connect-aem-repo.md#step-4-configure-asset-visibility) para obtener información sobre cómo configurar [!DNL AEM Assets Content Hub] detalles de recursos.
 
 ## Metadatos del sistema
 
@@ -40,7 +40,7 @@ Los metadatos predeterminados que se almacenan y capturan para un recurso incluy
 
 ### Etiquetas generadas
 
-Cuando almacena un recurso aprobado en [!DNL Content], GenStudio para especialistas en marketing de rendimiento utiliza las capacidades de IA y aprendizaje automático de Adobe para estudiar el recurso y aplicar etiquetas en función de las funciones del recurso. Por ejemplo, la imagen de un gato puede generar etiquetas inteligentes como `pet photography` o `cat`, así como etiquetas de color que identifican colores dominantes en la imagen. No puede editar etiquetas.
+Cuando almacena un recurso aprobado en [!DNL Content], GenStudio for Performance Marketing utiliza la IA de Adobe y las capacidades de aprendizaje automático para estudiar el recurso y aplicar etiquetas basadas en las funciones del recurso. Por ejemplo, la imagen de un gato puede generar etiquetas inteligentes como `pet photography` o `cat`, así como etiquetas de color que identifican colores dominantes en la imagen. No puede editar etiquetas.
 
 ### Metadatos de contenido generados
 
@@ -50,7 +50,7 @@ La información utilizada para generar un nuevo recurso o experiencia se convier
 
 Los metadatos definidos por el usuario añaden contexto de marketing al contenido del recurso, lo que permite a los especialistas en marketing comprender cómo utilizar el recurso y interactuar con él.
 
-Al [cargar un recurso](/help/user-guide/content/manage-assets.md#add-assets), puede definir un conjunto de detalles de recursos opcionales que existen en GenStudio para especialistas en marketing de rendimiento como metadatos. Incluir más detalles puede mejorar la identificación de recursos en las búsquedas y el filtrado.
+Al [cargar un recurso](/help/user-guide/content/manage-assets.md#add-assets), puede definir un conjunto de detalles de recurso opcionales que existen en GenStudio for Performance Marketing como metadatos. Incluir más detalles puede mejorar la identificación de recursos en las búsquedas y el filtrado.
 
 ### Detalles de metadatos
 
@@ -59,10 +59,10 @@ La siguiente tabla detalla los metadatos (detalles del recurso) que puede defini
 | Campo | Descripción |
 | ------------- | ----------- |
 | Campañas (nombre del proyecto) | Metadatos predeterminados capturados y almacenados con el recurso |
-| [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) se agregó a GenStudio para especialistas en marketing de rendimiento y se publicó para su uso |
-| [!DNL Products] | Se agregó(aron) [[!DNL Products]](/help/user-guide/guidelines/products.md) a GenStudio para el uso de especialistas en marketing de rendimiento |
-| [!DNL Personas] | Se agregó(aron) [[!DNL Personas]](/help/user-guide/guidelines/personas.md) a GenStudio para el uso de especialistas en marketing de rendimiento |
-| Canales | Tipos de contenido en GenStudio para los especialistas en marketing de rendimiento para los que se utiliza el recurso, como correo electrónico y anuncios Meta |
+| [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) se agregó a GenStudio for Performance Marketing y se publicó para su uso |
+| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) se agregó a GenStudio for Performance Marketing para su uso |
+| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) se agregó a GenStudio for Performance Marketing para su uso |
+| Canales | Tipos de contenido en GenStudio for Performance Marketing para los que se utiliza el recurso, como correo electrónico y anuncios Meta |
 | Periodo de tiempo | Periodo de tiempo para el que se utiliza el recurso, como trimestre, temporada, año, etc. Ejemplo: `Winter 2023` |
 | Región | Regiones para las que se utiliza el recurso. Ejemplos: `North America`, `APAC`, `Italy` |
 | Idioma | Idiomas para los que se utiliza el recurso. Ejemplo: `Spanish` |

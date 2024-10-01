@@ -1,18 +1,18 @@
 ---
 title: Trabajo con plantillas
-description: Descubra cómo utilizar las plantillas de forma eficaz para optimizar el proceso creativo en Adobe GenStudio para los especialistas en marketing de rendimiento.
+description: Descubra cómo utilizar las plantillas de forma eficaz para optimizar el proceso creativo en Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
-source-git-commit: 192568a65bbd5c8c2e9cfc050462eb2c3465245d
+exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
+source-git-commit: 54fd20fec553b545b2f5d64cdf9327098b16580f
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 1%
 
 ---
 
-
 # Trabajo con plantillas
 
-GenStudio para especialistas en marketing de rendimiento permite a los creadores de contenido producir rápidamente contenido de marketing coherente dentro de la marca mediante _plantillas_. Una plantilla reduce significativamente el tiempo y el esfuerzo necesarios para generar contenido nuevo al proporcionar un punto de partida que incluye diseños y elementos de diseño preconfigurados.
+GenStudio for Performance Marketing permite a los creadores de contenido producir rápidamente contenido de marketing coherente de la marca mediante _plantillas_. Una plantilla reduce significativamente el tiempo y el esfuerzo necesarios para generar contenido nuevo al proporcionar un punto de partida que incluye diseños y elementos de diseño preconfigurados.
 
 ## Elementos de plantilla
 
@@ -71,17 +71,17 @@ A continuación se muestra una lista de los elementos que se utilizan en las pla
 
 >[!TIP]
 >
->Vea los [nombres de campo reconocidos](customize-template.md#recognized-field-names) que GenStudio para especialistas en marketing de rendimiento admite para plantillas de cada tipo de canal.
+>Ver los [nombres de campo reconocidos](customize-template.md#recognized-field-names) que GenStudio for Performance Marketing admite para las plantillas de cada tipo de canal.
 
 ## Configuración de directrices de canal
 
-Se recomienda configurar [directrices de canal](../guidelines/brands.md#channel-guidelines) para cada marca antes de usar las plantillas en GenStudio para especialistas en marketing de rendimiento. Las directrices de canal influyen directamente en el tipo de contenido generado al utilizar la plantilla. Por ejemplo, puede establecer límites de caracteres en el cuerpo de un correo electrónico.
+Se recomienda configurar [directrices de canal](../guidelines/brands.md#channel-guidelines) para cada marca antes de usar las plantillas en GenStudio for Performance Marketing. Las directrices de canal influyen directamente en el tipo de contenido generado al utilizar la plantilla. Por ejemplo, puede establecer límites de caracteres en el cuerpo de un correo electrónico.
 
 ![Especificaciones del cuerpo](/help/assets/channel-email-body.png)
 
 ## Personalizar plantilla
 
-Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio para especialistas en marketing de rendimiento mediante la inserción de marcadores de posición de contenido, o campos, que la inteligencia artificial aplicada generativa utiliza para insertar contenido. GenStudio para especialistas en marketing de rendimiento reconoce ciertos campos, como el campo `body`, y cumple las directrices de canal configuradas para la marca seleccionada.
+Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio for Performance Marketing al insertar marcadores de posición de contenido, o campos, que la inteligencia artificial aplicada generativa usa para insertar contenido. GenStudio for Performance Marketing reconoce ciertos campos, como el campo `body`, y se adhiere a las directrices de canal configuradas para la marca seleccionada.
 
 >[!TIP]
 >
@@ -89,7 +89,7 @@ Usted [personaliza su plantilla](customize-template.md) para usarla en GenStudio
 
 ## Cargar una plantilla
 
-Use [Personalizar plantillas](customize-template.md) como guía al preparar una plantilla para GenStudio para especialistas en marketing de rendimiento. Consulte [directrices de accesibilidad para plantillas](accessibility-for-templates.md) para obtener instrucciones sobre cómo proporcionar una mejor experiencia a todas las audiencias.
+Use [Personalizar plantillas](customize-template.md) como guía al preparar una plantilla para GenStudio for Performance Marketing. Consulte [directrices de accesibilidad para plantillas](accessibility-for-templates.md) para obtener instrucciones sobre cómo proporcionar una mejor experiencia a todas las audiencias.
 
 **Para agregar una plantilla**:
 
@@ -122,7 +122,7 @@ Use [Personalizar plantillas](customize-template.md) como guía al preparar una 
 
 ## Creación con una plantilla
 
-Busque y utilice una plantilla existente en GenStudio para especialistas en marketing de rendimiento para crear más experiencias.
+Busque y utilice una plantilla existente en GenStudio for Performance Marketing para crear más experiencias.
 
 **Para crear una experiencia con una plantilla**:
 

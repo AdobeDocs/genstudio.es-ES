@@ -1,29 +1,29 @@
 ---
-title: Preparar una plantilla de correo electrónico de Adobe GenStudio para especialistas en marketing de rendimiento
-description: Obtenga información sobre cómo crear una plantilla de correo electrónico personalizada para Adobe GenStudio para especialistas en marketing de rendimiento.
+title: Preparar una plantilla de correo electrónico para Adobe GenStudio for Performance Marketing
+description: Obtenga información sobre cómo crear una plantilla de correo electrónico personalizada para Adobe GenStudio for Performance Marketing.
 level: Intermediate
 feature: Templates, Content
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 58833ed0c8e28061ab2584b7949f2a0cbd3d10cc
+source-git-commit: 54fd20fec553b545b2f5d64cdf9327098b16580f
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
 
 ---
 
-# Preparar plantilla de correo electrónico para Adobe GenStudio para especialistas en marketing de rendimiento
+# Preparar plantilla de correo electrónico para Adobe GenStudio for Performance Marketing
 
-Normalmente, un diseñador crea el diseño visual de una plantilla en un programa de diseño como Adobe XD. Una vez diseñada, codificada y probada una plantilla de correo electrónico, puede prepararla para su carga y uso en GenStudio para especialistas en marketing de rendimiento.
+Normalmente, un diseñador crea el diseño visual de una plantilla en un programa de diseño como Adobe XD. Una vez diseñada, codificada y probada una plantilla de correo electrónico, puede prepararla para su carga y uso en GenStudio for Performance Marketing.
 
 Ver [elementos de plantilla](use-templates.md#template-elements).
 
 ## Adición de directrices
 
-Antes de preparar una plantilla de anuncio Meta, asegúrese de haber agregado [directrices](/help/user-guide/guidelines/overview.md) a su GenStudio para especialistas en marketing de rendimiento y de haberlas rellenado con información completa para las marcas relevantes. Las [directrices de marca](/help/user-guide/guidelines/brands.md) influyen directamente en el contenido generado.
+Antes de preparar una plantilla de anuncio Meta, asegúrese de haber agregado [directrices](/help/user-guide/guidelines/overview.md) a su GenStudio for Performance Marketing y de haberlas rellenado con información exhaustiva de las marcas relevantes. Las [directrices de marca](/help/user-guide/guidelines/brands.md) influyen directamente en el contenido generado.
 
 **Ejemplo**: Si desea que el cuerpo de una plantilla de correo electrónico no tenga más de 500 caracteres, agregue ese requisito a las [directrices de canal](/help/user-guide/guidelines/brands.md#channel-guidelines) para el campo &quot;cuerpo&quot;.
 
-Si no se agregan directrices a GenStudio para especialistas en marketing de rendimiento, se utilizan los valores predeterminados.
+Si no se añaden directrices a GenStudio for Performance Marketing, se utilizan valores predeterminados.
 
 ## Codifique una plantilla de correo electrónico
 
@@ -51,11 +51,11 @@ Pruebe para asegurarse de que la plantilla de correo electrónico cumple lo sigu
 
 ## Definir áreas de contenido generadas
 
-Defina las áreas en la plantilla de correo electrónico que deben rellenarse dinámicamente con contenido de GenStudio para especialistas en marketing de rendimiento.
+Defina las áreas en la plantilla de correo electrónico que deben rellenarse dinámicamente con contenido de GenStudio for Performance Marketing.
 
 Para definir áreas de contenido generadas:
 
-* Identifique los elementos de texto de la plantilla que los especialistas en marketing de rendimiento de GenStudio deben generar automáticamente, como el titular o CTA.
+* Identifique los elementos de texto de la plantilla que GenStudio for Performance Marketing debe generar automáticamente, como el titular o CTA.
 * Adapte la plantilla de HTML insertando marcadores de posición dentro de ella mediante la sintaxis Handlebars.
 
 Consulte [Marcadores de posición de contenido](/help/user-guide/content/customize-template.md#content-placeholders).
@@ -68,6 +68,6 @@ Ver [vista previa de plantilla](/help/user-guide/content/customize-template.md#t
 
 ## Cargar y utilizar plantilla
 
-Una vez que la plantilla esté diseñada, codificada, probada y vista previa, puede cargarla en GenStudio para especialistas en marketing de rendimiento para utilizarla en la generación de contenido de marketing completamente nuevo.
+Una vez diseñada, codificada, probada y previsualizada la plantilla, puede cargarla en GenStudio for Performance Marketing para utilizarla en la generación de contenido de marketing completamente nuevo.
 
 Consulte [Uso de plantillas](use-templates.md).
