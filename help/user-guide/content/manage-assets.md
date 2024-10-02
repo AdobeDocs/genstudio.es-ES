@@ -3,9 +3,9 @@ title: Administración de recursos y experiencias
 description: Simplifique y mejore la administración de los recursos aprobados por la marca para usarlos y reutilizarlos en su recorrido de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 54fd20fec553b545b2f5d64cdf9327098b16580f
+source-git-commit: af20efaa511ed403f5160956ff98b42beb64bb34
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -59,18 +59,22 @@ Al agregar recursos a [!DNL Content], se almacenan de forma predeterminada en el
    Ver [detalles de metadatos](/help/user-guide/content/asset-details.md#system-metadata).
 
 1. Haga clic en **[!UICONTROL Agregar recursos]**.
+
 1. Cuando finalice la carga del recurso, haga clic en **Listo**.
+
 1. Para ver los nuevos recursos que has cargado, haz clic en **[!UICONTROL Actualizar]** en la notificación _Nuevos recursos disponibles_ que aparece en la parte inferior del lienzo.
 
 <!-- 
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 
-### Buscar recursos
+### Buscar contenido
 
-La interfaz de búsqueda de [!DNL Content] es rápida y adaptable, y ofrece una experiencia productiva de búsqueda en primer lugar.
+La interfaz de filtro y búsqueda es rápida y adaptable, y proporciona una experiencia productiva de búsqueda en primer lugar. Cada vista de [!DNL Content] proporciona opciones de filtro para restringir la búsqueda del recurso, la experiencia o la plantilla ideales. Para los recursos y las experiencias, puede seleccionar una campaña y directrices específicas, como el contenido creado para un producto específico.
 
-Aplique filtros y utilice etiquetas de metadatos de los detalles del recurso para reducir los resultados de búsqueda. Por ejemplo: es posible que desee encontrar un recurso de un tipo de archivo o tema en particular para que le ayude a crear una nueva experiencia para su campaña.
+Hay filtros basados en [keywords](asset-details.md#user-defined-metadata) y [atributos](/help/user-guide/insights/attributes.md) para reducir los resultados de búsqueda. Por ejemplo: es posible que desee encontrar un recurso de un tipo de archivo o tema en particular para que le ayude a crear una nueva experiencia para su campaña.
+
+Al buscar _Experiencias_, puede usar el filtro **[!UICONTROL Creado por]** para limitar la lista y mostrar únicamente las experiencias creadas por usted o por una persona específica.
 
 **Para buscar contenido para reutilizarlo**:
 
