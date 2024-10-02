@@ -1,9 +1,9 @@
 ---
 title: Escribir indicadores efectivos
-description: Aprenda a escribir mensajes efectivos sobre el Adobe GenStudio para los especialistas en marketing de rendimiento.
+description: Aprenda a escribir mensajes efectivos para Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 016cd2b5415651ed3cf157244f868315234330fa
+source-git-commit: 6a90b2b2615dbb0c2104195ff5ed2204cac72241
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Escribir indicadores efectivos
 
-La comunicación con la IA generativa es esencial para trabajar de forma eficaz en el Adobe GenStudio para los especialistas en marketing de rendimiento.
+La comunicación con la IA generativa es esencial para trabajar de forma eficaz en Adobe GenStudio for Performance Marketing.
 
-GenStudio para especialistas en marketing de rendimiento proporciona un mensaje de IA generativo cada vez que hay una oportunidad de modificar un recurso. Los componentes de un mensaje eficaz deben incluir lenguaje descriptivo, ejemplos e información que no se proporciona a través de las directrices configuradas.
+GenStudio for Performance Marketing proporciona un aviso de IA generativo cada vez que se ofrece la oportunidad de modificar un recurso. Los componentes de un mensaje eficaz deben incluir lenguaje descriptivo, ejemplos e información que no se proporciona a través de las directrices configuradas.
 
-Como práctica recomendada, proporcione a GenStudio para especialistas en marketing de rendimiento la información de su marca mediante [directrices](/help/user-guide/guidelines/overview.md), y así podrá aprovechar al máximo la IA generativa para producir experiencias de contenido alineadas con la marca.
+Como práctica recomendada, proporcione a GenStudio for Performance Marketing su información de marca mediante [directrices](/help/user-guide/guidelines/overview.md) para que pueda aprovechar al máximo la IA generativa a fin de producir experiencias de contenido alineadas con la marca.
 
 ## Lenguaje descriptivo
 
@@ -39,21 +39,21 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 ## Criterios de solicitud
 
-En GenStudio para especialistas en marketing de rendimiento [[!DNL Create]](/help/user-guide/create/overview.md), puede usar **[!UICONTROL Criterios de solicitud]** ([_Parámetros_](/help/user-guide/create/overview.md#parameters) y un símbolo del sistema) en el área de solicitud para agregar detalles mediante la selección y mejorar la interpretación de IA.
+En GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), puede usar **[!UICONTROL Criterios de solicitud]** ([_Parámetros_](/help/user-guide/create/overview.md#parameters) y un mensaje) en el área de solicitud para agregar detalles mediante la selección y mejorar la interpretación de IA.
 
 Para [correos electrónicos](/help/tutorials/create-email-experience.md), los criterios de solicitud pueden incluir la adición de [directrices](/help/user-guide/guidelines/overview.md) en _Parámetros_, la carga de un recurso para utilizarlo en las variantes de correo electrónico y una solicitud descriptiva. Para un [Meta ad](/help/tutorials/create-meta-ad.md), los criterios de solicitud pueden incluir una directriz de marca en _Parámetros_, la selección o carga de un recurso existente, la configuración relacionada con imágenes o recursos como la proporción de aspecto y un mensaje. El poder real comienza con [configurar directrices](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >
->Si se agregan directrices en _Parameters_ en el área de solicitud, no es necesario incluir una referencia a ellas en la solicitud. GenStudio para especialistas en marketing de rendimiento aprovecha [!DNL Brands], [!DNL Products] y [!DNL Personas] en la generación de contenido.
+>Si se agregan directrices en _Parameters_ en el área de solicitud, no es necesario incluir una referencia a ellas en la solicitud. GenStudio for Performance Marketing aprovecha [!DNL Brands], [!DNL Products] y [!DNL Personas] en la generación de contenido.
 
 ### Directrices
 
-Las directrices de GenStudio para especialistas en marketing de rendimiento ayudan a la IA generativa a personalizar la composición de los recursos. Cuando se le presenten criterios de solicitud, puede elegir un [[!DNL Brand]](/help/user-guide/guidelines/brands.md), un [[!DNL Persona]](/help/user-guide/guidelines/personas.md) y un [[!DNL Product]](/help/user-guide/guidelines/products.md) de entre las directrices configuradas.
+Las directrices de GenStudio for Performance Marketing ayudan a la IA generativa a personalizar la composición de los recursos. Cuando se le presenten criterios de solicitud, puede elegir un [[!DNL Brand]](/help/user-guide/guidelines/brands.md), un [[!DNL Persona]](/help/user-guide/guidelines/personas.md) y un [[!DNL Product]](/help/user-guide/guidelines/products.md) de entre las directrices configuradas.
 
 >[!TIP]
 >
->Usted controla cómo y cuándo GenStudio para especialistas en marketing de rendimiento utiliza sus directrices de [!DNL Brand]. Consulte [Directrices](/help/user-guide/guidelines/overview.md) para obtener información sobre cómo configurar y administrar las directrices de marca.
+>Usted controla cómo y cuándo GenStudio for Performance Marketing usa sus directrices de [!DNL Brand]. Consulte [Directrices](/help/user-guide/guidelines/overview.md) para obtener información sobre cómo configurar y administrar las directrices de marca.
 
 ### Indicadores estructurados
 
@@ -95,7 +95,7 @@ Consulte [Preparar una plantilla de correo electrónico](/help/user-guide/conten
 
 ## Inténtelo de nuevo
 
-La solicitud es un proceso iterativo. Si los resultados no cumplen con sus expectativas, revise el mensaje y realice algunos cambios o agregue más detalles. O bien, puede pegar en secciones de un informe de campaña. Incluso puede solicitar que GenStudio para especialistas en marketing de rendimiento evite determinadas palabras, elementos o temáticas.
+La solicitud es un proceso iterativo. Si los resultados no cumplen con sus expectativas, revise el mensaje y realice algunos cambios o agregue más detalles. O bien, puede pegar en secciones de un informe de campaña. Incluso puede solicitar que GenStudio for Performance Marketing evite determinadas palabras, elementos o temáticas.
 
 ## Prácticas recomendadas
 
@@ -103,7 +103,7 @@ Algunas prácticas recomendadas sencillas para crear indicadores eficaces:
 
 - Sea específico y proporcione detalles sobre qué hacer y qué no hacer.
 - Proporcionar contexto mediante referencias externas.
-- Aproveche GenStudio para las directrices de los especialistas en marketing de rendimiento.
+- Aproveche las directrices de GenStudio for Performance Marketing.
 - Revise y ajuste las directrices regularmente.
 - Iterar y refinar.
 - Aprenda con la experimentación.

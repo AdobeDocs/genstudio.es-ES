@@ -1,20 +1,20 @@
 ---
-title: Adobe GenStudio para conceptos de especialistas en marketing de rendimiento
-description: Conozca el Adobe GenStudio para conocer los conceptos y la terminología de los especialistas en marketing de rendimiento.
+title: Conceptos de Adobe GenStudio for Performance Marketing
+description: Aprenda los conceptos y la terminología de Adobe GenStudio for Performance Marketing.
 feature: Workflow, Generative AI
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
+source-git-commit: 6a90b2b2615dbb0c2104195ff5ed2204cac72241
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-
 # Conceptos 
 
-GenStudio para especialistas en marketing de rendimiento es un producto empresarial independiente que encarna la cadena de suministro de contenido de Adobe para optimizar las campañas de marketing. Es difícil crear contenido personalizado y aprobado por la marca a escala, monitorizar la eficacia y adaptarse rápidamente al mercado en constante cambio. GenStudio para especialistas en marketing de rendimiento reúne a Creative Cloud y Experience Cloud en una aplicación que aprovecha la IA generativa como multiplicador de rendimiento para los equipos de marketing empresarial.
+GenStudio for Performance Marketing es un producto empresarial independiente que encarna la cadena de suministro de contenido de Adobe para optimizar las campañas de marketing. Es difícil crear contenido personalizado y aprobado por la marca a escala, monitorizar la eficacia y adaptarse rápidamente al mercado en constante cambio. GenStudio for Performance Marketing reúne a Creative Cloud y Experience Cloud en una aplicación que aprovecha la IA generativa como multiplicador de rendimiento para los equipos de marketing empresarial.
 
-Con GenStudio para especialistas en marketing de rendimiento puede:
+Con GenStudio for Performance Marketing puede:
 
 - Creación de contenido de marca mediante mensajes en lenguaje natural
 - Colaboración con las partes interesadas para revisar y aprobar el contenido generado
@@ -23,13 +23,13 @@ Con GenStudio para especialistas en marketing de rendimiento puede:
 
 ## Tecnología de IA generativa
 
-GenStudio para especialistas en marketing de rendimiento aprovecha la potencia de la IA generativa para acelerar el proceso de creación de contenido y garantizar la generación de contenido de alta calidad. El ciclo de vida iterativo de los recursos creativos resulta en contenido cada vez más preciso y alineado con la marca que resuena con la audiencia de destino.
+GenStudio for Performance Marketing aprovecha el poder de la IA generativa para acelerar el proceso de creación de contenido y garantizar la generación de contenido de alta calidad. El ciclo de vida iterativo de los recursos creativos resulta en contenido cada vez más preciso y alineado con la marca que resuena con la audiencia de destino.
 
-Comience formando de forma eficaz a GenStudio para especialistas en marketing de rendimiento en la marca de su organización, las personalidades de los clientes y las descripciones de los productos a través de la potente función de directrices de marca. Consulte la [descripción general de las directrices](../user-guide/guidelines/overview.md) para obtener información sobre cómo preparar y cargar estas directrices.
+Comience formando de forma eficaz a GenStudio for Performance Marketing en la marca, las personalidades del cliente y las descripciones de los productos de su organización a través de la potente función de directrices de marca. Consulte la [descripción general de las directrices](../user-guide/guidelines/overview.md) para obtener información sobre cómo preparar y cargar estas directrices.
 
 ## Ciclo de contenido
 
-La demanda es alta para experiencias de calidad en varios canales a un ritmo más rápido. GenStudio para especialistas en marketing de rendimiento simplifica la cadena de suministro de contenido en un flujo de trabajo bien organizado para los especialistas en marketing. GenStudio para especialistas en marketing de rendimiento aprovecha la tecnología de Adobe en cada fase del ciclo de vida.
+La demanda es alta para experiencias de calidad en varios canales a un ritmo más rápido. GenStudio for Performance Marketing simplifica la cadena de suministro de contenido para convertirla en un flujo de trabajo bien organizado para los especialistas en marketing. GenStudio for Performance Marketing aprovecha la tecnología de Adobe en cada fase del ciclo de vida.
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
