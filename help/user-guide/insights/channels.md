@@ -1,11 +1,11 @@
 ---
 title: Resumen de canales
-description: Consulte una descripción general de la participación del cliente, el rendimiento, el presupuesto y los gastos para campañas de marketing en Adobe GenStudio para especialistas en marketing de rendimiento.
+description: Vea una descripción general de la participación del cliente, el rendimiento, el presupuesto y los gastos para campañas de marketing en Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 7b8850f7da22e2257d50a0b4f8535ae02f9a2665
+source-git-commit: 6cdb446786ecc1545237a0fe2fac1c5d16b58bbd
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ La vista [!DNL Insights] _[!UICONTROL Canales]_ muestra una lista de campañas p
 
 >[!TIP]
 >
->GenStudio para especialistas en marketing de rendimiento requiere que se conecte a una cuenta de canal para comenzar a recibir datos. Ver [Conectar cuenta de canal](connect-channel.md).
+>GenStudio for Performance Marketing requiere que se conecte a una cuenta de canal para comenzar a recibir datos. Ver [Conectar cuenta de canal](connect-channel.md).
 
-La tabla [!UICONTROL Canales] está organizada mediante la campaña de anuncios basada en canales. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre las listas [!UICONTROL Cuenta], [!UICONTROL Estado] y [!UICONTROL Objetivo] para filtrar las campañas de la tabla.
+La tabla _[!UICONTROL Canales]_ está organizada mediante la campaña de anuncios basada en canales. Haga clic en el icono de configuración (cog) situado encima de la parte derecha de la tabla para alternar las columnas visibles. El icono de filtro (canal) situado encima de la parte izquierda de la tabla abre el menú **[!UICONTROL Filtro]**, en el que puede seleccionar entre las listas [!UICONTROL Cuenta], [!UICONTROL Estado] y [!UICONTROL Objetivo] para filtrar las campañas de la tabla.
 
-![Filtro y tabla de canales](../../assets/insights-channels-filter.png)
+![Filtro y tabla de canales](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
 Al seleccionar una campaña, la ficha [[!UICONTROL Experiencias]](experiences.md) se abre a una lista de nombres de anuncios asociados con esa campaña, lo que le permite identificar qué experiencias han contribuido a su éxito general.
 
 ## Objetivos
 
-En el momento en que creó una campaña con Meta Ads, es posible que haya seleccionado un objetivo que se alineara con los objetivos de su empresa. Hay seis objetivos de Meta Ads visibles en GenStudio para especialistas en marketing de rendimiento:
+En el momento en que creó una campaña con anuncios Meta, es posible que haya seleccionado un objetivo que se ajuste a los objetivos de su empresa. Hay seis objetivos de anuncios Meta visibles en GenStudio for Performance Marketing:
 
 1. **Conocimiento**: Llegue a la audiencia máxima y sensibilice a su empresa.
 1. **Tráfico**: aumente el tráfico en su sitio o aplicación.
@@ -35,7 +35,7 @@ En el momento en que creó una campaña con Meta Ads, es posible que haya selecc
 1. **Promoción de aplicación**: Promocione la aplicación.
 1. **Ventas**: Céntrese en llegar a las personas que tienen más probabilidades de usar su producto.
 
-## Métricas
+## Métricas de canales
 
 Según sus objetivos de rendimiento, las métricas de Perspectivas pueden ayudarle a evaluar si está logrando su objetivo.
 
@@ -47,12 +47,13 @@ La siguiente tabla proporciona definiciones y perspectivas para métricas clave 
 
 | Métrica | Definición | Insight |
 | ----------- | ----------------------------- | -------------------------------- |
+| **[!UICONTROL Nombre de la metacampaña]** | Una lista de nombres de campaña para la cuenta del canal conectado. El estado de la campaña puede ser `Active`, `Paused`, `Deleted` o `Archived`. Filtrar campañas por estado y objetivo. | Ordene la tabla haciendo clic en el encabezado de la columna de cualquiera de las métricas clave. |
 | **[!UICONTROL Lanzamiento]** | La fecha en la que se lanzó o publicó la campaña en el mercado. | Un recuento alto de impresiones puede indicar que el anuncio está llegando a la audiencia deseada. |
-| **[!UICONTROL Impresiones]** | Las impresiones se contabilizan cada vez que el contenido se carga en pantalla, independientemente de la interacción o la visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una perspectiva de rendimiento real, considere la posibilidad de con otras métricas de participación. |
-| **[!UICONTROL Clics]** | Número de veces que los usuarios interactúan con un elemento en el que se puede hacer clic, como un vínculo o un anuncio. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
-| **[!UICONTROL CTR]** | Porcentaje (%) de usuarios que hicieron clic en un anuncio, resultado de búsqueda o vínculos dentro de un correo electrónico.<br>**Cálculo**: `clicks` dividido por `impressions` | Una alta tasa de clics indica que el contenido es muy relevante y motivador para la audiencia en cuanto a mensajería y diseño, y que se dirige de manera efectiva a los intereses de la audiencia. |
-| **[!UICONTROL CPM]** | Medición del rendimiento del coste ($) por cada mil impresiones de publicidad.<br>**Cálculo**: importe total `spent` dividido por alcance y luego multiplicado por 1000 | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
-| **[!UICONTROL CPC]** | Coste promedio ($) asociado con cada clic en una experiencia.<br>**Cálculo**: importe total `spent` dividido entre `clicks` | Unos costes medios menores pueden indicar un gasto publicitario rentable, especialmente en comparación con un aumento de las conversiones. |
-| **[!UICONTROL Se reproduce el vídeo]** | Porcentaje de espectadores que vieron un vídeo hasta el final. | Un número elevado de reproducciones de vídeo puede indicar que el vídeo está captando la atención y puede significar que la miniatura, el título o la ubicación están atrayendo efectivamente a los espectadores. Las altas tasas de finalización de la reproducción sugieren que el contenido del vídeo es convincente y relevante. |
+| **[!UICONTROL Impresiones]** | Un recuento de cada vez que se carga contenido dentro del canal, independientemente de la interacción o visualización. | Un recuento alto de impresiones puede indicar una visibilidad amplia, pero para obtener una perspectiva de rendimiento real, considere la posibilidad de con otras métricas de participación. |
+| **[!UICONTROL Clics]** | Número de veces que los usuarios interactúan dentro de la campaña de publicidad con un elemento en el que se puede hacer clic, como un vínculo o un botón de llamada a la acción. | Un alto número de clics indica un fuerte interés y participación en el contenido, que puede ser eficaz y llegar a la audiencia adecuada. |
+| **[!UICONTROL tasa de pulsaciones ]**<br>_CTR_ | Porcentaje (%) de impresiones que generaron clics de campaña dentro de un canal.<br>**Cálculo**: (`clicks` dividido entre `impressions`) x 100 = % | Una alta tasa de clics indica que el contenido es muy relevante y motivador para la audiencia en cuanto a mensajería y diseño, y que se dirige de manera efectiva a los intereses de la audiencia. |
+| **[!UICONTROL CPM ]**<br>_Costo por mil_ | Coste ($) por cada mil impresiones de publicidad de la campaña publicitaria. <br>**Cálculo**: (importe total `spent` dividido entre `impressions`) x 1000 = $ | Un valor bajo puede indicar una visibilidad rentable, especialmente cuando se asocia con una tasa de pulsaciones alta. |
+| **[!UICONTROL CPC ]**<br>_Costo por clic_ | Coste promedio ($) asociado con cada clic en una campaña publicitaria.<br>**Cálculo**: importe total `spent` dividido entre `clicks` = $ | Unos costes medios menores pueden indicar un gasto publicitario rentable, especialmente en comparación con un aumento de las conversiones. |
+| **[!UICONTROL Se reproduce el vídeo]** | Porcentaje (%) de espectadores que vieron un vídeo hasta el final. | Un número elevado de reproducciones de vídeo puede indicar que el vídeo está captando la atención y puede significar que la miniatura, el título o la ubicación están atrayendo efectivamente a los espectadores. Las altas tasas de finalización de la reproducción sugieren que el contenido del vídeo es convincente y relevante. |
 | **[!UICONTROL Presupuesto]** | Total de fondos ($) asignados a una campaña de publicidad para lograr los objetivos de la campaña. | Un presupuesto elevado significa más recursos para un mayor alcance y un impacto potencialmente mayor. |
-| **[!UICONTROL Gasto]** | La cantidad gastada del presupuesto durante un período de tiempo determinado. | Un gasto elevado en un período corto puede indicar un uso rápido, lo que podría dar lugar a un agotamiento prematuro de los recursos. Realice un seguimiento de la cantidad gastada con métricas de rendimiento clave para ayudar a monitorizar la rentabilidad general de la inversión. |
+| **[!UICONTROL Gasto]** | La cantidad ($) gastada del presupuesto durante un periodo determinado para colocar anuncios en diferentes plataformas. | Un gasto elevado en un período corto puede indicar un uso rápido, lo que podría dar lugar a un agotamiento prematuro de los recursos. Realice un seguimiento de la cantidad gastada con métricas de rendimiento clave para ayudar a monitorizar la rentabilidad general de la inversión. |

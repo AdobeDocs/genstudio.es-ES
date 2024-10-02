@@ -1,33 +1,42 @@
 ---
 title: Conectar cuenta de canal
-description: Conecte una cuenta de canal para supervisar el Adobe GenStudio de las campañas de marketing de rendimiento y el rendimiento de los recursos de los especialistas en marketing.
+description: Conecte una cuenta de canal para monitorizar las campañas de marketing y el rendimiento de los recursos de Adobe GenStudio for Performance Marketing.
 level: Intermediate
 feature: Insights, Channels
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
+source-git-commit: afccf6d60d245bc72667d5e4a0abb9af77154977
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
-
 # Conectar cuenta de publicidad de canal
 
-La primera vez que abra [!DNL Insights], es posible que vea un titular que le guiará para conectar Adobe GenStudio para especialistas en marketing de rendimiento con sus cuentas de canal. Esta conexión permite que GenStudio para especialistas en marketing de rendimiento reciba datos de sus campañas de marketing, recursos y experiencias activos. Con [!DNL Insights], tiene las herramientas para analizar los datos y tomar medidas.
-<!-- May need some assurance here that their data is safe. -->
+La primera vez que abra [!DNL Insights], verá un banner que le guiará para conectar Adobe GenStudio for Performance Marketing con sus cuentas de canal.
 
-## Meta Ads se conectan
+Esta conexión permite que GenStudio for Performance Marketing reciba datos estadísticos de sus campañas de marketing, recursos y experiencias activos. Inicialmente, GenStudio for Performance Marketing ingiere los últimos 6 meses de datos para que tenga las herramientas necesarias para analizar los datos más recientes y actuar en consecuencia.
+
+>[!BEGINSHADEBOX]
+
+**Directiva de retención e ingesta de datos**
+
+GenStudio for Performance Marketing conserva los datos del canal durante un periodo de 13 meses. Esto incluye un periodo retrospectivo inicial de 6 meses, lo que garantiza un análisis y un sistema de informes de datos históricos completos.
+
+>[!ENDSHADEBOX]
+
+## Meta ads connect
 
 >[!BEGINSHADEBOX]
 
 **Requisitos previos**:
 
-- Cuenta de facebook/Meta Ads
-- Acceso a la cuenta de Meta Ads con nivel de permiso `View performance` para acceder a informes y ver anuncios
+- Cuenta de facebook/Meta ads
+- Acceso a la cuenta de Meta ads con nivel de permiso `View performance` para acceder a informes y ver anuncios
 
 >[!ENDSHADEBOX]
 
-**Para conectar una cuenta de Meta Ads en GenStudio para especialistas en marketing de rendimiento**:
+**Para conectar una cuenta de Meta ads en GenStudio for Performance Marketing**:
 
 1. En _[!DNL Insights]_, haga clic en **[!UICONTROL Conectar una cuenta de canal]**.
 
@@ -39,13 +48,13 @@ La primera vez que abra [!DNL Insights], es posible que vea un titular que le gu
 
 1. En la ventana emergente _[!UICONTROL Volver a conectar]_ (símbolo Meta a Adobe), verifique la información de la cuenta y haga clic en **[!UICONTROL Volver a conectar]**.
 
-   La reconexión vuelve a hacer que GenStudio para especialistas en marketing de rendimiento sea visible.
+   La reconexión vuelve a hacer que GenStudio for Performance Marketing sea visible.
 
-1. En la vista _[!UICONTROL Conectar una cuenta de Meta Ads]_, selecciona una o más de tus cuentas de publicidad y haz clic en **[!UICONTROL Conectar cuenta]**.
+1. En la vista _[!UICONTROL Conectar una cuenta de Meta ads]_, selecciona una o más de tus cuentas de publicidad y haz clic en **[!UICONTROL Conectar cuenta]**.
 <!--
 >[!INFO]
 >
->You may receive an error if you previously enrolled the channel account with GenStudio for Performance Marketers.
+>You may receive an error if you previously enrolled the channel account with GenStudio for Performance Marketing.
 
 The new user experience shows a banner to connect an account. There is not option to connect yet after you have one connection.
 -->
