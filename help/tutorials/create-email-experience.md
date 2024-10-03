@@ -7,16 +7,16 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 06c8884a8e1ac4d02b73931fdc4be3625565c70a
+source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
 
 # Crear una experiencia de correo electrónico
 
-Este tutorial muestra cómo generar experiencias de correo electrónico de marca mediante GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel en el área de navegación izquierda).
+Este tutorial muestra cómo generar [experiencias de correo electrónico](/help/user-guide/create/email-experiences.md) de marca mediante GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (icono de pincel en el área de navegación izquierda).
 
 Para crear una experiencia de correo electrónico efectiva, se recomienda [agregar directrices a GenStudio para el marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md) y profundizar en los [conceptos básicos para crear un mensaje](/help/user-guide/effective-prompts.md) antes de comenzar.
 
@@ -44,8 +44,11 @@ Añadir [directrices](/help/user-guide/guidelines/overview.md) y recursos en _Pa
    Si no hay marcas, personalidades o productos disponibles en estos menús, [agregue directrices a su GenStudio para marketing de rendimiento](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Haga clic en **[!UICONTROL Seleccionar contenido]** para agregar contenido que se utilizará en la experiencia *y* para influir en la generación de contenido.
-   * Haga clic en **[!UICONTROL Seleccionar del contenido]** para seleccionar los recursos (imágenes) ya publicados en [!DNL Content]. Utilice los filtros para restringir aún más los resultados de búsqueda.
-   * Haga clic en **[!UICONTROL Cargar]** para examinar los archivos y elegir los recursos que desea utilizar. Además de explorar el dispositivo, también puede importar desde Microsoft OneDrive o Dropbox.
+   * Para seleccionar recursos (imágenes) de su repositorio [!DNL Content], haga clic en **[!UICONTROL Seleccionar contenido]**. Filtre y seleccione una o varias imágenes.
+
+     Para usar recursos de un repositorio [!DNL AEM Assets Content Hub] conectado, elija un repositorio en el menú desplegable _Ubicación_. Filtre y seleccione una o varias imágenes.
+
+   * Para cargar uno o más recursos nuevos, haga clic en **[!UICONTROL Cargar]**, examine los archivos y elija los recursos que desea utilizar. Además de explorar el dispositivo, puede importar desde Microsoft OneDrive o Dropbox. Haga clic en para seleccionar las imágenes que desee.
    * Arrastre y suelte los recursos en la sección _Contenido_.
 1. Haga clic en **[!UICONTROL Usar]**.
 
@@ -68,6 +71,8 @@ Consulte [Escribir mensajes efectivos](/help/user-guide/effective-prompts.md) pa
 
 De forma predeterminada, se generan y muestran en el lienzo cuatro variaciones (todas alimentadas por el mensaje, las directrices y el contenido añadido).
 
+El contenido generado se carga progresivamente: a medida que se generan todas las secciones de las experiencias de correo electrónico, estas aparecen en el lienzo. Consulte [Experiencias de correo electrónico](/help/user-guide/create/meta-experiences.md#progressive-loading) para saber cómo se cargan los cambios en el lienzo.
+
 ## Revisar correos electrónicos generados
 
 Antes de seleccionar lo que se enviará para su aprobación o publicación en [!DNL Content], puede editar las secciones de correo electrónico o eliminar una variante del conjunto de correos electrónicos generados.
@@ -75,15 +80,17 @@ Antes de seleccionar lo que se enviará para su aprobación o publicación en [!
 **Para revisar las variantes generadas**:
 
 * **Para [editar el nombre del borrador del correo electrónico](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
-* **Para [editar manualmente un correo electrónico](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de los campos de texto editables (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario.
+* **Para [editar manualmente un correo electrónico](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de los campos de texto editables (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario
 <!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **Para [eliminar un correo electrónico](/help/user-guide/create/manage-variants.md#delete-variant)**, haga clic para seleccionar el título del correo electrónico (por ejemplo, &quot;Correo electrónico 1/4&quot;) y haga clic en **[!UICONTROL Eliminar variante]**.
+* **Para [eliminar un correo electrónico](/help/user-guide/create/manage-variants.md#delete-variant)**, haz clic en el icono de opciones (tres puntos) de una variante y haz clic en **[!UICONTROL Eliminar]**.
+
+## Enviar comentarios de generación
+
+Para [enviar comentarios](/help/user-guide/create/manage-variants.md#generation-feedback) sobre la calidad de la salida de generación, haga clic en el icono de opciones (tres puntos) y seleccione **[!UICONTROL Buena salida]** o **[!UICONTROL Mala salida]**.
 
 ## Vista previa del dispositivo
 
-Al revisar y preparar las experiencias de correo electrónico, puede alternar entre vistas previas para escritorio y vistas móviles para garantizar la coherencia y el atractivo visual de las variantes de borrador.
-
-**Para obtener una vista previa de las variantes para equipos de escritorio y dispositivos móviles**, alterne la opción de vista previa del dispositivo (entre **escritorio** y **móvil**) en la barra de menú derecha (iconos del equipo y del teléfono) para obtener una vista previa del aspecto de las variantes.
+Al revisar y preparar experiencias por correo electrónico, puede [alternar entre vistas previas para escritorio y vistas móviles](/help/user-guide/create/manage-variants.md#preview-for-device) para garantizar la coherencia y el atractivo visual de las variantes de borrador.
 
 ## Verificar alineación de marca
 

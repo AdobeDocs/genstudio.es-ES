@@ -2,9 +2,9 @@
 title: Administrar variantes
 description: Personalice y mejore las variantes y los recursos generados para adaptarlos a sus necesidades de marketing digital.
 feature: Content, Assets, Experiences
-source-git-commit: e99fadb7c440adbfa52759d6b392e08d0ee6d155
+source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Administrar variantes
 
-El Adobe GenStudio de marketing de rendimiento [!DNL Create] le permite personalizar y mejorar variantes generadas (correos electrónicos, anuncios Meta y mucho más) para usarlas en iniciativas de marketing digital.
+Adobe GenStudio for Performance Marketing [!DNL Create] le permite personalizar y mejorar variantes generadas ([correos electrónicos](/help/user-guide/create/email-experiences.md), [anuncios Meta](/help/user-guide/create/meta-experiences.md) y más) para usarlas en iniciativas de marketing digital.
 
 Al [crear experiencias](/help/tutorials/tutorials.md), puede modificar el contenido y los recursos de variantes generadas de forma individual o en lote. La capacidad de administrar variantes en el micro nivel individual le permite administrar explícitamente cada parte del contenido generado.
 
@@ -53,20 +53,20 @@ For example, you can re-generate the headline section of one Meta ad variant to 
 1. If you want to regenerate results, click the regenerate icon adjacent to _Results_.
 1. From the _Results_ that appear, select the desired option and click **[!UICONTROL Replace]**.
 
-   The variant is updated with the revised text.
+   The variant is updated with the revised text. -->
 
-## Crop assets
+## Recortar recursos
 
-You can manually crop and reposition image assets in individual generated variants.
+Puede recortar y cambiar manualmente la posición de los recursos de imagen en variantes generadas individualmente.
 
-**To crop and reposition images in variants**:
+**Para recortar y cambiar la posición de imágenes en variantes**:
 
-1. After generating a set of variants, hover over an image within a variant.
-1. Click **[!UICONTROL Apply Crop]**.
-1. Zoom in and out and drag the image into the desired position.
-1. Click **[!UICONTROL Apply]**.
+1. Después de generar un conjunto de variantes, pase el ratón sobre una imagen dentro de una variante.
+1. Haga clic en el icono de recorte que aparece en la esquina izquierda de la imagen.
+1. Ajuste el cuadro delimitador de la imagen y arrastre la imagen a la posición deseada.
+1. Haga clic en **[!UICONTROL Aplicar]** para aplicar el recorte a una sola imagen o en **[!UICONTROL Aplicar a todas las imágenes]** para aplicar a todas las imágenes de las variantes.
 
-   The cropped image is automatically saved and visible for the variant. -->
+   La imagen recortada se guarda y es visible para las variantes.
 
 ## Cambiar proporción de aspecto
 
@@ -101,6 +101,12 @@ Las relaciones de tamaño y aspecto disponibles son:
 
 Por ejemplo, si genera cuatro variantes en una relación de aspecto de 1:1 inicialmente y luego cambia la relación de aspecto a 4:5, ahora habrá _ocho_ variantes totales disponibles en el lienzo.
 
+## Vista previa del dispositivo
+
+Al revisar y preparar las experiencias de correo electrónico, puede alternar entre vistas previas para escritorio y vistas móviles para garantizar la coherencia y el atractivo visual de las variantes de borrador.
+
+**Para obtener una vista previa de las variantes para equipos de escritorio y dispositivos móviles**, alterne la opción de vista previa del dispositivo (entre **escritorio** y **móvil**) en la barra de menú derecha (iconos del equipo y del teléfono) para obtener una vista previa del aspecto de las variantes.
+
 ## Eliminar variante
 
 Puede eliminar cualquier variante generada que no vaya a guardar ni reutilizar.
@@ -109,7 +115,7 @@ Elimine variantes innecesarias para que el lienzo de trabajo muestre solo las va
 
 **Para eliminar una variante generada**:
 
-1. Después de generar un conjunto de variantes, haga clic en el nombre encima de una variante.
+1. Después de generar un conjunto de variantes, haga clic en el icono de opciones (tres puntos) sobre una variante.
 
    La variante se realza y aparece un menú de accesos directos.
 
@@ -122,3 +128,27 @@ Elimine variantes innecesarias para que el lienzo de trabajo muestre solo las va
 Use la _[!UICONTROL comprobación de directrices de marca]_ y el _[!UICONTROL panel de validación de marca]_ para mantener una identidad de marca y una alineación coherentes de las variantes.
 
 Consulte [Validación de marca](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment).
+
+## Comentarios de generación
+
+Se pueden enviar comentarios sobre la calidad de los recursos alineados con la marca generados para mejorar el proceso de generación de contenido. La indicación de si los resultados son de alta o baja calidad ayuda a mejorar la calidad general del contenido y la seguridad del usuario en GenStudio for Performance Marketing.
+
+Los comentarios de generación se aplican a una variante individual, no al conjunto recopilado de variantes.
+
+**Para enviar comentarios de generación**:
+
+1. Después de generar un conjunto de variantes, haga clic en el icono de opciones (tres puntos) sobre una variante.
+
+   La variante se realza y aparece un menú de accesos directos.
+
+1. Seleccione **[!UICONTROL Buen resultado]** o **[!UICONTROL Mal resultado]**.
+
+   Aparecerá una ventana emergente de comentarios para recopilar más información. El contenido generado y la información del mensaje se incluyen en sus comentarios.
+
+1. Añada la siguiente información en la ventana emergente de comentarios:
+   1. Seleccione la opción _[!UICONTROL Incluir también el contenido de referencia y los datos de capa]_ para incluir esa información de referencia adicional en los comentarios recopilados.
+   1. De _[!UICONTROL ¿Qué funcionó bien?]_ o _[!UICONTROL ¿Qué ha fallado?]_, seleccione las opciones que describen qué hace que la generación de contenido sea de alta o baja calidad.
+   1. Agregue cualquier otra información útil o relacionada en el campo _[!UICONTROL Notas]_.
+1. Haga clic en **[!UICONTROL Enviar]**.
+
+   Aparecerá un banner para confirmar que ha enviado comentarios.
