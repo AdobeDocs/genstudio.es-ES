@@ -3,9 +3,9 @@ title: Información general de GenStudio para marketing de rendimiento [!DNL Cre
 description: Genere rápidamente contenido de alto rendimiento que no pertenezca a la marca con IA generativa en Adobe GenStudio para el marketing de rendimiento [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: e99fadb7c440adbfa52759d6b392e08d0ee6d155
+source-git-commit: 4b6602e833ed7245bca1abc42ea95b465a61c109
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,8 @@ GenStudio for Performance Marketing [!DNL Create] aprovecha la potencia de GenAI
 
 Con [!DNL Create], puede generar contenido para los siguientes canales:
 
-* Correos electrónicos
-* Meta ads
+* [Correos electrónicos](email-experiences.md)
+* [Meta ads](meta-experiences.md)
 <!-- * Social media images and ads
 * Display ads -->
 
@@ -68,31 +68,25 @@ GenStudio for Performance Marketing permite a los especialistas en marketing **c
 
 [!DNL Create] integra varios componentes de GenStudio para el marketing de rendimiento con el fin de ayudar a los usuarios a generar contenido.
 
-### Borradores
-
-En la sección _Trabajo reciente_ de [!DNL Create], acceda y administre todos los borradores recientes. Vea y complete su trabajo anterior para prepararlo para publicarlo en [[!DNL Content]](/help/user-guide/content/overview.md).
-
-Los borradores en curso se guardan automáticamente. Cuando vuelva a la página de inicio de [!DNL Create], la sección _Trabajo reciente_ se actualizará con los borradores más recientes. Para cada borrador, puede ver si se ha _aprobado_ o si aún está en formato _Borrador_.
-
 ### Plantillas
 
-Después de seleccionar qué canal de contenido desea producir en _¿Qué desea crear hoy?_, puede acceder a plantillas aprobadas por la marca para usarlas en la generación de contenido. Utilice plantillas para dar un salto en el proceso de creación de contenido y mantenerse alineado con una identidad de marca definida.
+Después de seleccionar qué canal desea producir en _¿Qué desea crear hoy?_, puede acceder a plantillas aprobadas por la marca para usarlas en la generación de contenido. Utilice plantillas para iniciar el proceso de creación de contenido y mantenerse alineado con una identidad de marca definida.
 
 Se han [cargado y almacenado las plantillas en [!DNL Content]](/help/user-guide/content/overview.md), y se puede acceder a ellas desde [!DNL Create].
+
+### Parámetros
+
+En el área de solicitud, puede agregar _Parámetros_ como [!DNL Brands], [!DNL Products] y [!DNL Personas] (directrices) y [!DNL Content] (recursos) para dar forma a la experiencia generada.
+
+Estos parámetros agregados insertan [directrices](/help/user-guide/guidelines/overview.md) y recursos en el proceso de generación, lo que garantiza que el contenido se personalice para que se ajuste a la identidad completa de una marca. Se recomienda añadir directrices a su GenStudio para el marketing de rendimiento y utilizarlas durante el proceso de generación de contenido, ya que mejoran en gran medida la creación de contenido adecuado para la marca.
+
+El contenido —los recursos de imagen cargados o agregados— de _Parameters_ se utilizan en variantes generadas e informan el contenido de copia (texto) generado para variantes. AEM Puede cargar recursos o seleccionar recursos que ya estén presentes en [!DNL Content] o en cualquier repositorio conectado a Content Hub, ya sea que esté conectado a un repositorio de este tipo de recursos.
 
 ### Indicadores
 
 [Crear mensajes efectivos](/help/user-guide/effective-prompts.md) es una parte importante del proceso de generación en [!DNL Create].
 
-Para crear contenido nuevo generado por IA, escriba un [mensaje descriptivo](/help/user-guide/effective-prompts.md) que describa el contexto o la experiencia que desea generar, junto con [directrices](/help/user-guide/guidelines/overview.md) y [_Parámetros_](#parameters), en el área de mensajes y haga clic en **[!UICONTROL Generar]**.
-
-### Parámetros
-
-En el área de solicitud, puede agregar _Parámetros_ como [!DNL Brands], [!DNL Products] y [!DNL Personas] (directrices) o recursos para dar forma a la experiencia generada.
-
-Las imágenes cargadas en _Parameters_ se utilizan en variantes generadas e informan el contenido de copia (texto) generado para variantes.
-
-Estos parámetros agregados insertan [directrices](/help/user-guide/guidelines/overview.md) y recursos en el proceso de generación, lo que garantiza que el contenido se personalice para que se ajuste a la identidad completa de una marca. Se recomienda añadir directrices a su GenStudio para el marketing de rendimiento y utilizarlas durante el proceso de generación de contenido, ya que mejoran en gran medida la creación de contenido adecuado para la marca.
+Para crear contenido generado por IA, escriba un [mensaje descriptivo](/help/user-guide/effective-prompts.md) que describa el contexto o la experiencia que desea generar, junto con [directrices](/help/user-guide/guidelines/overview.md) y [_Parámetros_](#parameters), en el área de mensajes y haga clic en **[!UICONTROL Generar]**.
 
 ### Validación de marca
 
@@ -103,6 +97,12 @@ GenStudio for Performance Marketing valida la marca en distintos aspectos de la 
 Solicite revisiones, realice un seguimiento de los comentarios de revisión y obtenga aprobaciones durante el proceso de creación con la funcionalidad integrada de [revisiones y aprobaciones](/help/user-guide/approvals/overview.md).
 
 Una vez que termine de generar variaciones de contenido, envíe los borradores para que los interesados los aprueben, de modo que se puedan guardar en [!DNL Content] y se puedan implementar en los esfuerzos de marketing.
+
+### Borradores
+
+En la sección _Trabajo reciente_ de [!DNL Create], acceda y administre todos los borradores recientes. Vea y complete su trabajo anterior para prepararlo para publicarlo en [[!DNL Content]](/help/user-guide/content/overview.md).
+
+Los borradores en curso se guardan automáticamente. Cuando vuelva a la página de inicio de [!DNL Create], la sección _Trabajo reciente_ se actualizará con los borradores más recientes. Para cada borrador, puede ver si se ha _aprobado_ o si aún está en formato _Borrador_.
 
 ### Administrar variantes
 

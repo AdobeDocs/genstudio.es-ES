@@ -3,7 +3,7 @@ title: Escribir indicadores efectivos
 description: Aprenda a escribir mensajes efectivos para Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 6a90b2b2615dbb0c2104195ff5ed2204cac72241
+source-git-commit: c16d9f611348d0eaf3a1d4af4948196d3a06b0a1
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 En GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), puede usar **[!UICONTROL Criterios de solicitud]** ([_Parámetros_](/help/user-guide/create/overview.md#parameters) y un mensaje) en el área de solicitud para agregar detalles mediante la selección y mejorar la interpretación de IA.
 
-Para [correos electrónicos](/help/tutorials/create-email-experience.md), los criterios de solicitud pueden incluir la adición de [directrices](/help/user-guide/guidelines/overview.md) en _Parámetros_, la carga de un recurso para utilizarlo en las variantes de correo electrónico y una solicitud descriptiva. Para un [Meta ad](/help/tutorials/create-meta-ad.md), los criterios de solicitud pueden incluir una directriz de marca en _Parámetros_, la selección o carga de un recurso existente, la configuración relacionada con imágenes o recursos como la proporción de aspecto y un mensaje. El poder real comienza con [configurar directrices](/help/user-guide/guidelines/add-guidelines.md).
+Para [correos electrónicos](/help/user-guide/create/email-experiences.md), los criterios de solicitud pueden incluir la adición de [directrices](/help/user-guide/guidelines/overview.md) en _Parámetros_, la carga de un recurso para utilizarlo en las variantes de correo electrónico y una solicitud descriptiva. Para un [Meta ad](/help/tutorials/create-meta-ad.md), los criterios de solicitud pueden incluir una directriz de marca en _Parámetros_, la selección o carga de un recurso existente, la configuración relacionada con imágenes o recursos como la proporción de aspecto y un mensaje. El poder real comienza con [configurar directrices](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Las directrices de GenStudio for Performance Marketing ayudan a la IA generativa
 
 ### Indicadores estructurados
 
-En el caso de los correos electrónicos de varias secciones, puede estructurar las solicitudes para proporcionar instrucciones específicas de la sección a fin de generar contenido variable para cada sección de un correo electrónico. Los mensajes estructurados deben hacer referencia directamente a [nombres de sección en la plantilla de correo electrónico](/help/user-guide/content/email-template.md#multi-section-emails) para que el contenido generado se pueda insertar en los marcadores de posición de contenido correspondientes.
+En el caso de los correos electrónicos de varias secciones, puede estructurar las solicitudes para proporcionar instrucciones específicas de cada sección a fin de generar contenido variable para cada sección en un [correo electrónico](/help/user-guide/create/email-experiences.md). Los mensajes estructurados deben hacer referencia directamente a [nombres de sección en la plantilla de correo electrónico](/help/user-guide/content/email-template.md#multi-section-emails) para que el contenido generado se pueda insertar en los marcadores de posición de contenido correspondientes.
 
 Por ejemplo, puede indicar a GenStudio for Performance Marketing que genere contenido que promocione un nuevo producto en la primera sección de un correo electrónico y que genere contenido que detalle las ventajas de ahorro del producto en la segunda sección de correo electrónico.
 
