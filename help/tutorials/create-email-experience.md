@@ -7,9 +7,9 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
+source-git-commit: c1cc90b4c80b6b754b34ac609e8e94b799386fad
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,8 @@ Antes de seleccionar lo que se enviará para su aprobación o publicación en [!
 * **Para [editar el nombre del borrador del correo electrónico](/help/user-guide/create/manage-variants.md#change-draft-name)**, haga clic en el título de _Borrador sin título_ en la parte superior del lienzo y escriba un nuevo título.
 * **Para [editar manualmente un correo electrónico](/help/user-guide/create/manage-variants.md#manually-edit-text)**, haga doble clic en cualquiera de los campos de texto editables (como la línea de asunto, el encabezado o la copia de cuerpo) y edítelo según sea necesario
 <!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **Para [eliminar un correo electrónico](/help/user-guide/create/manage-variants.md#delete-variant)**, haz clic en el icono de opciones (tres puntos) de una variante y haz clic en **[!UICONTROL Eliminar]**.
+* **Para [agregar o intercambiar imágenes en una variante](/help/user-guide/create/manage-variants.md#swap-image)**, haga clic en un recurso de imagen (o en el área del recurso de imagen si todavía no existe una imagen) y haga clic en **[!UICONTROL Seleccionar o intercambiar a partir del contenido]** o **[!UICONTROL Cargar nueva imagen]** para agregar o intercambiar una imagen en una variante individual.
+* **Para [eliminar un correo electrónico](/help/user-guide/create/manage-variants.md#delete-variant)**, haga clic para seleccionar el título del correo electrónico (por ejemplo, &quot;Correo electrónico 1/4&quot;) y haga clic en **[!UICONTROL Eliminar variante]**.
 
 ## Enviar comentarios de generación
 

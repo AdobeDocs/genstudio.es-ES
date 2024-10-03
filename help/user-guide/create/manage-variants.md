@@ -2,9 +2,9 @@
 title: Administrar variantes
 description: Personalice y mejore las variantes y los recursos generados para adaptarlos a sus necesidades de marketing digital.
 feature: Content, Assets, Experiences
-source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
+source-git-commit: c1cc90b4c80b6b754b34ac609e8e94b799386fad
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -97,9 +97,28 @@ Las relaciones de tamaño y aspecto disponibles son:
 
 1. Haga clic en **[!UICONTROL Duplicar y cambiar tamaño]**.
 
-[!DNL Create] crea una copia de cada variante en función de la nueva proporción de aspecto seleccionada. Todas las variantes, incluidas las de la relación de aspecto inicial, están presentes en el lienzo.
+   [!DNL Create] crea una copia de cada variante en función de la nueva proporción de aspecto seleccionada. Todas las variantes, incluidas las de la relación de aspecto inicial, están presentes en el lienzo.
 
-Por ejemplo, si genera cuatro variantes en una relación de aspecto de 1:1 inicialmente y luego cambia la relación de aspecto a 4:5, ahora habrá _ocho_ variantes totales disponibles en el lienzo.
+   Por ejemplo, si genera cuatro variantes en una relación de aspecto de 1:1 inicialmente y luego cambia la relación de aspecto a 4:5, ahora habrá _ocho_ variantes totales disponibles en el lienzo.
+
+## Intercambiar imagen
+
+Puede añadir o intercambiar imágenes en variantes generadas directamente desde el lienzo.
+
+**Para agregar o intercambiar imágenes en una variante**:
+
+1. Después de generar un conjunto de variantes, haga clic en un recurso de imagen.
+
+   Si la variante no tiene actualmente un recurso de imagen colocado, haga clic en el área del recurso de imagen.
+
+1. Para seleccionar un recurso de imagen ya publicado en [!DNL Content]:
+   1. Haga clic en **[!UICONTROL Seleccionar del contenido]**. Utilice los filtros para restringir aún más los resultados de búsqueda.
+   1. Haga clic en **[!UICONTROL Usar]**
+1. Para cargar un recurso de imagen:
+   1. Haga clic en **[!UICONTROL Cargar nueva imagen]** para examinar los archivos y elegir los recursos que desea utilizar. Además de explorar el dispositivo, puede importar desde Microsoft OneDrive o Dropbox.
+   1. Haga clic en **[!UICONTROL Agregar Assets]**.
+
+   Las imágenes se añaden o se intercambian en la variante aplicable.
 
 ## Vista previa del dispositivo
 
@@ -119,7 +138,7 @@ Elimine variantes innecesarias para que el lienzo de trabajo muestre solo las va
 
    La variante se realza y aparece un menú de accesos directos.
 
-1. Seleccione **[!UICONTROL Eliminar]** de las opciones de menú disponibles.
+1. Seleccione **[!UICONTROL Eliminar]** de las opciones disponibles.
 
    Se elimina la variante.
 
