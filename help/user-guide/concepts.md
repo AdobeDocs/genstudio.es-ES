@@ -3,7 +3,7 @@ title: Conceptos de Adobe GenStudio for Performance Marketing
 description: Aprenda los conceptos y la terminología de Adobe GenStudio for Performance Marketing.
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 6a90b2b2615dbb0c2104195ff5ed2204cac72241
+source-git-commit: 9016841b6a788fe5ca50f3e9c0d774a248a6c793
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -25,7 +25,9 @@ Con GenStudio for Performance Marketing puede:
 
 GenStudio for Performance Marketing aprovecha el poder de la IA generativa para acelerar el proceso de creación de contenido y garantizar la generación de contenido de alta calidad. El ciclo de vida iterativo de los recursos creativos resulta en contenido cada vez más preciso y alineado con la marca que resuena con la audiencia de destino.
 
-Comience formando de forma eficaz a GenStudio for Performance Marketing en la marca, las personalidades del cliente y las descripciones de los productos de su organización a través de la potente función de directrices de marca. Consulte la [descripción general de las directrices](../user-guide/guidelines/overview.md) para obtener información sobre cómo preparar y cargar estas directrices.
+Comience formando de forma eficaz a GenStudio for Performance Marketing en la marca, las personalidades del cliente y las descripciones de los productos de su organización a través de la potente función de directrices de marca.
+
+Consulte la [descripción general de las directrices](../user-guide/guidelines/overview.md) para obtener información sobre cómo preparar y cargar estas directrices.
 
 ## Ciclo de contenido
 
@@ -34,7 +36,7 @@ La demanda es alta para experiencias de calidad en varios canales a un ritmo má
 <table style="table-layout:fixed">
 <tr style="border: 0;">
     <td style="width: 120px;">
-       <img alt="calendario" src="../assets/csc-workflow-planning.svg" width="100">
+       <img alt="calendario" src="../assets/csc-workflow-planning.png" width="100">
     </td>
     <td>
         <p>Haga una lluvia de ideas, defina directrices y cree una estrategia en torno al contenido para atraer a su audiencia.</p>
@@ -42,7 +44,7 @@ La demanda es alta para experiencias de calidad en varios canales a un ritmo má
 </tr>
 <tr style="border: 0;">
     <td style="width: 120px;">
-        <img alt="pincel y lienzo" src="../assets/csc-creation-production.svg" width="100">
+        <img alt="pincel y lienzo" src="../assets/csc-creation-production.png" width="100">
     </td>
     <td>
         <p>Produzca el contenido en función del plan. Colabore en tiempo real, reciba comentarios, realice ediciones y apruebe contenido.</p>
@@ -50,7 +52,7 @@ La demanda es alta para experiencias de calidad en varios canales a un ritmo má
 </tr>
 <tr style="border: 0;">
     <td style="width: 120px;">
-        <img alt="imágenes y mucho más" src="../assets/csc-content-mgmt.svg" width="100">
+        <img alt="imágenes y mucho más" src="../assets/csc-content-mgmt.png" width="100">
     </td>
     <td>
         <p>Almacene, comparta y busque recursos creativos en el repositorio centralizado. Reutilice y revitalice contenido en función del rendimiento.</p>
@@ -58,7 +60,7 @@ La demanda es alta para experiencias de calidad en varios canales a un ritmo má
 </tr>
 <tr style="border: 0;">
     <td style="width: 120px;">
-        <img alt="avión de papel" src="../assets/csc-delivery-activation.svg" width="100">
+        <img alt="avión de papel" src="../assets/csc-delivery-activation.png" width="100">
     </td>
     <td>
         <p>Active el contenido y publíquelo en varios canales de marketing.</P>
@@ -66,7 +68,7 @@ La demanda es alta para experiencias de calidad en varios canales a un ritmo má
 </tr>
 <tr style="border: 0;">
     <td style="width: 120px;">
-        <img alt="gráfico" src="../assets/csc-reporting-insights.svg" width="100">
+        <img alt="gráfico" src="../assets/csc-reporting-insights.png" width="100">
     </td>
     <td>
         <p>Recopile datos y obtenga perspectivas para la optimización del rendimiento de los recursos.</p>
