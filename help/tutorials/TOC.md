@@ -1,5 +1,5 @@
 ---
-user-guide-title: Adobe GenStudio para tutoriales de marketing de rendimiento
+user-guide-title: Tutoriales de Adobe GenStudio for Performance Marketing
 breadcrumb-title: Tutoriales
 user-guide-description: Aprenda a completar un proceso completo, como la creación de una experiencia de correo electrónico, siguiendo los tutoriales de GenStudio for Performance Marketing.
 feature-set: GenStudio
@@ -7,7 +7,7 @@ feature: Generative AI
 source-git-commit: 1b0121a7006799cc5b2c2168fcb55a9a5ac10601
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
