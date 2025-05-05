@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Aprobar contenido
 
-Los aprobadores reciben notificaciones internas del producto, por correo electrónico y, si está activado, notificaciones al Slack cuando sea necesario revisarlas y aprobarlas. Las notificaciones proporcionan un vínculo al lienzo que muestra el contenido en revisión. Consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) para obtener información sobre cómo administrar las notificaciones.
+Los aprobadores reciben notificaciones internas del producto, por correo electrónico y, si está activado, notificaciones al Slack cuando sea necesario revisarlas y aprobarlas. Las notificaciones proporcionan un vínculo al lienzo que muestra el contenido en revisión. Consulte [Preferencias y notificaciones de la cuenta](https://experienceleague.adobe.com/es/docs/core-services/interface/features/account-preferences) para obtener información sobre cómo administrar las notificaciones.
 
 Si el borrador de contenido cumple los estándares de su organización y sus expectativas, está listo para aprobarlo.
 
