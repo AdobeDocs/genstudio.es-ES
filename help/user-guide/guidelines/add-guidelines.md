@@ -85,11 +85,11 @@ Antes de publicar su marca, haga clic en las secciones _Directrices de voz de ma
 
 Cuando se publique la marca, aparecerá un banner que confirma que la marca está lista para usar: &quot;*Marca publicada y disponible para usar*&quot;.
 
-La marca publicada ya está disponible para su uso en _[!DNL Create]_o_[!DNL Content]_.
+La marca publicada ya está disponible para su uso en _[!DNL Create]_&#x200B;o_[!DNL Content]_.
 
 ### Administrar [!DNL Brands]
 
-En la página de inicio de _[!DNL Brands]_, puede hacer clic para **abrir una marca ya creada**para editarla o revisarla, o **cambiar el nombre**o **eliminar una marca**de la lista del menú de acción de [!DNL Brands]:
+En la página de inicio de _[!DNL Brands]_, puede hacer clic para **abrir una marca ya creada**&#x200B;para editarla o revisarla, o **cambiar el nombre**&#x200B;o **eliminar una marca**&#x200B;de la lista del menú de acción de [!DNL Brands]:
 
 * Haga clic en un mosaico de marca para abrir una marca.
 * Seleccione **[!UICONTROL Cambiar nombre]** en el menú de acciones [!DNL Brands] para cambiar el nombre de una persona existente.
@@ -159,11 +159,11 @@ Haz clic en _Preferencias de mensajería_ e introduce los detalles de mensajerí
 
 ### Administrar [!DNL Products]
 
-En el inicio de _[!DNL Products]_, puede **abrir un elemento[!DNL Product]**ya creado para editarlo o revisarlo, o **eliminar un producto**de la lista:
+En el inicio de _[!DNL Products]_, puede **abrir un elemento[!DNL Product]**&#x200B;ya creado para editarlo o revisarlo, o **eliminar un producto**&#x200B;de la lista:
 
 * Seleccione **[!UICONTROL Abrir]** del menú de acciones [!DNL Products] para revisar un producto existente.
 * Seleccione **[!UICONTROL Eliminar]** del menú de acción [!DNL Products] para **eliminar** un producto.
-* 
+* &#x200B;
    * Seleccione **[!UICONTROL Rename]** del menú de acción [!DNL Products] para **Rename** un producto.
 
 ## Agregar [!DNL Personas]
@@ -230,7 +230,7 @@ Puede agregar manualmente los detalles de la persona, en lugar de cargar documen
 
 ### Administrar [!DNL Personas]
 
-En la página de inicio de _[!DNL Personas]_, puedes **abrir un elemento[!DNL Persona]**ya creado para editarlo o revisarlo, o **eliminar un elemento personal**de la lista:
+En la página de inicio de _[!DNL Personas]_, puedes **abrir un elemento[!DNL Persona]**&#x200B;ya creado para editarlo o revisarlo, o **eliminar un elemento personal**&#x200B;de la lista:
 
 * Seleccione **[!UICONTROL Abrir]** en el menú de acciones de [!DNL Personas] para revisar un perfil existente.
 * Seleccione **[!UICONTROL Eliminar]** del menú de acción [!DNL Personas] para **eliminar** una persona.

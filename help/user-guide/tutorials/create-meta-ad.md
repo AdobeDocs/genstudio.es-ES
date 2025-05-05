@@ -26,7 +26,7 @@ Para empezar a generar una nueva experiencia de publicidad de metadatos, utilice
 
 **Para elegir una plantilla Meta ad**:
 
-1. En _[!DNL Create]_, haga clic en **[!UICONTROL Meta ads]**en_ &quot;¿Qué desea crear hoy?&quot;_sección.
+1. En _[!DNL Create]_, haga clic en **[!UICONTROL Meta ads]**&#x200B;en_ &quot;¿Qué desea crear hoy?&quot;_sección.
 1. Utilice la opción de búsqueda, adyacente a _Filter_, para encontrar una plantilla de anuncio Meta específica.
 1. Haga clic para seleccionar una plantilla y luego haga clic en **[!UICONTROL Usar]**.
 
@@ -101,7 +101,7 @@ Para optimizar los anuncios generados y garantizar el cumplimiento estricto de l
 
 **Para comprobar la alineación de marca**:
 
-1. Haga clic en el icono [**[!UICONTROL [!DNL Brand] directrices para buscar una variante ]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) y vea un resumen del rendimiento de esa variante cuando se compara con su marca.
+1. Haga clic en el icono [**[!UICONTROL [!DNL Brand] directrices para buscar una variante &#x200B;]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) y vea un resumen del rendimiento de esa variante cuando se compara con su marca.
 1. Para obtener los detalles de las secciones y directrices que deben mejorarse, haga clic en **[!UICONTROL Revisar]** _o_ haga clic en el icono Validación de marca en la barra de menú superior para abrir el [_Panel de validación de marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Desplácese por cada anuncio para ver cómo puede mejorar el contenido generado y alinearlo mejor con la marca.
