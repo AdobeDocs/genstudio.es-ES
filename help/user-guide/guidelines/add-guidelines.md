@@ -85,7 +85,7 @@ Antes de publicar su marca, haga clic en las secciones _Directrices de voz de ma
 
 Cuando se publique la marca, aparecerá un banner que confirma que la marca está lista para usar: &quot;*Marca publicada y disponible para usar*&quot;.
 
-La marca publicada ya está disponible para su uso en _[!DNL Create]_&#x200B;o_[!DNL Content]_.
+La marca publicada ya está disponible para su uso en _[!DNL Create]_&#x200B;o&#x200B;_[!DNL Content]_.
 
 ### Administrar [!DNL Brands]
 

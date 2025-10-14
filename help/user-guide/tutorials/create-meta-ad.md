@@ -115,7 +115,7 @@ Utilice el panel Aprobaciones, al que se puede acceder desde la barra de menú s
 
 **Para obtener revisiones y aprobaciones**:
 
-1. [Inicie una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncio Meta ](/help/user-guide/approvals/approve-content.md).
+1. [Inicie una solicitud de aprobación](/help/user-guide/approvals/request-review.md) para solicitar una [aprobación de las experiencias de anuncio Meta &#x200B;](/help/user-guide/approvals/approve-content.md).
 1. [Quitar o agregar revisores](/help/user-guide/approvals/review-and-edit.md#manage-approvals) durante el proceso de revisión.
 1. [Acceda al contenido para revisarlo](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) y vea las solicitudes de revisión.
 1. Edite los borradores por comentarios de revisión y [publique sus experiencias de anuncio Meta](#publish-and-export-experience).
